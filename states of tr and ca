@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-31T11:39:33.930Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="bXZin68zD30SGHURlIfM" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-31T11:40:56.110Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="pF0jEt36oSCJvwtBe9V4" version="21.5.2" type="github">
   <diagram name="Page-1" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -79,6 +79,9 @@
         <mxCell id="PDgRGRFjjHxiZpXskr0o-26" value="Travel Request changes to Approved and Booked." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="PDgRGRFjjHxiZpXskr0o-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PDgRGRFjjHxiZpXskr0o-28" target="PDgRGRFjjHxiZpXskr0o-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PDgRGRFjjHxiZpXskr0o-28" value="Notification triggered to Finance for settling cash advance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
@@ -108,6 +111,15 @@
         </mxCell>
         <mxCell id="PDgRGRFjjHxiZpXskr0o-35" value="Both Approved" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1200" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDgRGRFjjHxiZpXskr0o-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PDgRGRFjjHxiZpXskr0o-39" target="PDgRGRFjjHxiZpXskr0o-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PDgRGRFjjHxiZpXskr0o-39" value="Finance Settles cash advance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PDgRGRFjjHxiZpXskr0o-41" value="Cash Advance changed to Paid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1240" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
