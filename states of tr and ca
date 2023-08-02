@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T02:06:04.619Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3coWLYvDyEJvSeF64kJa" version="21.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-02T02:11:33.777Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="jGLEqw690NXFbg-6Zb2t" version="21.6.6" type="github" pages="2">
   <diagram name="Page-1" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -427,11 +427,28 @@
         <mxCell id="5E1hq01stFiq-L5-yYS3-103" value="User allocates" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2610" y="440" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5E1hq01stFiq-L5-yYS3-104" target="5E1hq01stFiq-L5-yYS3-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5E1hq01stFiq-L5-yYS3-104" value="Travel Request Form Section 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2880" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5E1hq01stFiq-L5-yYS3-106" value="Opens Up" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2810" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5E1hq01stFiq-L5-yYS3-107">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3150" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-107" value="Travel Itinerary" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3090" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-109" value="User Builds" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3020" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-115" value="1)Type of Travel (Domestic/International).&lt;br&gt;2) Source&lt;br&gt;3) Destination&amp;nbsp;&lt;br&gt;4) Date of Travel&lt;br&gt;5) Approximate Time of travel&lt;br&gt;6) Hotel Required&lt;br&gt;7) Airport Transfer&lt;br&gt;8) Visa Required&lt;br&gt;9) Need full day cab with dates" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3000" y="120" width="310" height="240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
