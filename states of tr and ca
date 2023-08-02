@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T08:57:55.727Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ek3RGJsBopRu7IXTIhES" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-02T09:20:02.386Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YtHYnT7KjOoNSLgSdyRX" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -152,6 +152,9 @@
         <mxCell id="wpgUa3xG9AhQwJHzo5_C-23" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Control Passed To&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1320" y="1640" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wpgUa3xG9AhQwJHzo5_C-24" target="wpgUa3xG9AhQwJHzo5_C-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wpgUa3xG9AhQwJHzo5_C-24" value="Company Details Form 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1590" y="1647" width="120" height="60" as="geometry" />
         </mxCell>
@@ -265,6 +268,71 @@
         </mxCell>
         <mxCell id="wpgUa3xG9AhQwJHzo5_C-64" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2530" y="410" width="60" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wpgUa3xG9AhQwJHzo5_C-66" target="wpgUa3xG9AhQwJHzo5_C-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-66" value="Company Name, Size, Uploads Logo, HQ Location, Default Currency, Email ID" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="1647" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-68" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;User enters&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="1640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wpgUa3xG9AhQwJHzo5_C-75" target="wpgUa3xG9AhQwJHzo5_C-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wpgUa3xG9AhQwJHzo5_C-75" target="wpgUa3xG9AhQwJHzo5_C-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-75" value="Next" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="1647" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-77" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;User Clcks&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="1647" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wpgUa3xG9AhQwJHzo5_C-78" target="wpgUa3xG9AhQwJHzo5_C-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-78" value="Company Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="1424" width="80" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-80" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Save&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="1570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wpgUa3xG9AhQwJHzo5_C-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2210" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-81" value="Is Logo Available?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="1280" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-85" value="Azure Blob Storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="1272" width="80" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-86" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="1290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wpgUa3xG9AhQwJHzo5_C-87" target="wpgUa3xG9AhQwJHzo5_C-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wpgUa3xG9AhQwJHzo5_C-87" target="wpgUa3xG9AhQwJHzo5_C-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-87" value="Was the company information already present in the Company Container?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="1560" width="240" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-89" value="Extract all company specific information from all Onboarding Containers." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2460" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-91" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2460" y="1490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-92" value="Extract all company specific information from all Onboarding Containers." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2720" y="1645" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-94" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;No&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="1675" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
