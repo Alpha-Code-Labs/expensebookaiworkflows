@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T09:47:19.880Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3gUWy3GJtEXdsaoggxaf" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-02T09:50:52.168Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8bcPg6K2GG5Ve2yl_sP0" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -434,6 +434,9 @@
         <mxCell id="wpgUa3xG9AhQwJHzo5_C-140" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wpgUa3xG9AhQwJHzo5_C-133" target="wpgUa3xG9AhQwJHzo5_C-139">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-164" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wpgUa3xG9AhQwJHzo5_C-133" target="wpgUa3xG9AhQwJHzo5_C-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wpgUa3xG9AhQwJHzo5_C-133" value="Is extracted data available?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4080" y="1601" width="120" height="152" as="geometry" />
         </mxCell>
@@ -475,6 +478,11 @@
         <mxCell id="wpgUa3xG9AhQwJHzo5_C-155" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wpgUa3xG9AhQwJHzo5_C-153" target="wpgUa3xG9AhQwJHzo5_C-154">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-159" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wpgUa3xG9AhQwJHzo5_C-153">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4280" y="2396" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="wpgUa3xG9AhQwJHzo5_C-153" value="Enters Values or Skips?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4080" y="2320" width="120" height="152" as="geometry" />
         </mxCell>
@@ -486,6 +494,30 @@
         </mxCell>
         <mxCell id="wpgUa3xG9AhQwJHzo5_C-157" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Save&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4140" y="2500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-160" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Skips&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4210" y="2360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-161" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4200" y="2033.5" as="sourcePoint" />
+            <mxPoint x="4280" y="2033.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4200" y="2033.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-162" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;No&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4210" y="2000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-163" value="Departments. Amount field next to them and currency field next to the amounts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4280" y="1647" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-165" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4200" y="1645" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-166" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Display List of&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4210" y="1690" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
