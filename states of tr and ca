@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T01:52:41.792Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="am17QxUFddYstXjZNwXG" version="21.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-02T02:06:04.619Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3coWLYvDyEJvSeF64kJa" version="21.6.6" type="github" pages="2">
   <diagram name="Page-1" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -379,6 +379,9 @@
         <mxCell id="5E1hq01stFiq-L5-yYS3-85" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Query and retrieves cost centre record for the company&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1830" y="384" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5E1hq01stFiq-L5-yYS3-88" target="5E1hq01stFiq-L5-yYS3-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5E1hq01stFiq-L5-yYS3-88" value="Travel Microservices" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
           <mxGeometry x="2080" y="440" width="120" height="80" as="geometry" />
         </mxCell>
@@ -387,6 +390,48 @@
         </mxCell>
         <mxCell id="5E1hq01stFiq-L5-yYS3-90" value="Cost centre data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2000" y="430" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5E1hq01stFiq-L5-yYS3-91" target="5E1hq01stFiq-L5-yYS3-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5E1hq01stFiq-L5-yYS3-91" target="5E1hq01stFiq-L5-yYS3-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-91" value="Is Data Available?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="410" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-93" value="Skip section 2&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-95" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5E1hq01stFiq-L5-yYS3-96" target="5E1hq01stFiq-L5-yYS3-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-96" value="Paying entity for the trip. Can be multiple entries" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2480" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-98" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2410" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-100" value="User selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2410" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5E1hq01stFiq-L5-yYS3-101" target="5E1hq01stFiq-L5-yYS3-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-101" value="% of trip paid by the entity." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-103" value="User allocates" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2610" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-104" value="Travel Request Form Section 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2880" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-106" value="Opens Up" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2810" y="440" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
