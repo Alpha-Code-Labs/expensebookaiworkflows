@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T05:50:58.583Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YCIPT2jWQDHdCYnOaZUi" version="21.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-02T06:10:43.976Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="u_I1-0geFhScMA1sISSW" version="21.6.6" type="github" pages="2">
   <diagram name="Page-1" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -677,6 +677,9 @@
         <mxCell id="5E1hq01stFiq-L5-yYS3-213" value="Display&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5730" y="655" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-220" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5E1hq01stFiq-L5-yYS3-214" target="5E1hq01stFiq-L5-yYS3-218">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="5E1hq01stFiq-L5-yYS3-214" value="Name of Line Manager / Managers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5840" y="825" width="120" height="60" as="geometry" />
         </mxCell>
@@ -685,6 +688,63 @@
         </mxCell>
         <mxCell id="5E1hq01stFiq-L5-yYS3-217" value="Retrieve respective names from HR data and display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5720" y="905" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-222" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5E1hq01stFiq-L5-yYS3-218" target="5E1hq01stFiq-L5-yYS3-221">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-218" value="Enter other approvers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6040" y="825" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-219" value="Prompt user to&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5930" y="800" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-224" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5E1hq01stFiq-L5-yYS3-221" target="5E1hq01stFiq-L5-yYS3-223">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-231" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5E1hq01stFiq-L5-yYS3-221" target="5E1hq01stFiq-L5-yYS3-230">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-221" value="Does user want to enter other approvers?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6240" y="785" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-228" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5E1hq01stFiq-L5-yYS3-223" target="5E1hq01stFiq-L5-yYS3-227">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-223" value="Other Employees" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6240" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-225" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6240" y="745" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-226" value="User searches" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6280" y="742.5" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-227" value="Other Employees" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6240" y="537" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-229" value="User Selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6280" y="615" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-237" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5E1hq01stFiq-L5-yYS3-230" target="5E1hq01stFiq-L5-yYS3-235">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-230" value="Save or Finish?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6440" y="785" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-232" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6370" y="820" width="70" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-233" value="Prompts user to click save or next" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6320" y="880" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-234" value="Save" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6440" y="935" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-235" value="Travel Request Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="6470" y="975" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-236" value="State of Travel Request is Draft" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6520" y="935" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
