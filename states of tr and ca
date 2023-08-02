@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T09:20:02.386Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YtHYnT7KjOoNSLgSdyRX" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-02T09:21:48.636Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8ixAosEaLdxJOeIY00cO" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -322,17 +322,26 @@
         <mxCell id="wpgUa3xG9AhQwJHzo5_C-87" value="Was the company information already present in the Company Container?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2400" y="1560" width="240" height="230" as="geometry" />
         </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wpgUa3xG9AhQwJHzo5_C-89" target="wpgUa3xG9AhQwJHzo5_C-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wpgUa3xG9AhQwJHzo5_C-89" value="Extract all company specific information from all Onboarding Containers." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2460" y="1380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wpgUa3xG9AhQwJHzo5_C-91" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2460" y="1490" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wpgUa3xG9AhQwJHzo5_C-92" value="Extract all company specific information from all Onboarding Containers." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2720" y="1645" width="120" height="60" as="geometry" />
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-92" value="Groups" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2800" y="1645" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wpgUa3xG9AhQwJHzo5_C-94" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;No&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2650" y="1675" width="60" height="30" as="geometry" />
+          <mxGeometry x="2650" y="1640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-95" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Prompt user to create&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="1688" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-97" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Prompt user to create&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2720" y="1370" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
