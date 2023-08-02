@@ -1,125 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T07:09:24.640Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="FLw66FRVJvLkdePBj4-Z" version="21.6.6" type="github" pages="2">
-  <diagram name="Page-1" id="rFkXG90PlkhB10zQ6A_P">
+<mxfile host="app.diagrams.net" modified="2023-08-02T08:17:08.801Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_XS5OJfhpjfjLo7Vwxoi" version="21.6.6" type="github" pages="4">
+  <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-1" value="Travel Request + Cash Advance&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="zfuStcMUcWu0ZeCy-kGs-1" value="&lt;h1&gt;HR Integration&lt;/h1&gt;&lt;div&gt;Through SFT or API call&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="460" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-2" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="310" as="sourcePoint" />
-            <mxPoint x="320" y="310" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-4" value="Saved" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PDgRGRFjjHxiZpXskr0o-5" target="PDgRGRFjjHxiZpXskr0o-7" edge="1">
+        <mxCell id="zfuStcMUcWu0ZeCy-kGs-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zfuStcMUcWu0ZeCy-kGs-2" target="zfuStcMUcWu0ZeCy-kGs-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PDgRGRFjjHxiZpXskr0o-5" target="PDgRGRFjjHxiZpXskr0o-18" edge="1">
+        <mxCell id="zfuStcMUcWu0ZeCy-kGs-2" value="Customer&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zfuStcMUcWu0ZeCy-kGs-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zfuStcMUcWu0ZeCy-kGs-3" target="zfuStcMUcWu0ZeCy-kGs-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PDgRGRFjjHxiZpXskr0o-5" target="PDgRGRFjjHxiZpXskr0o-30" edge="1">
+        <mxCell id="zfuStcMUcWu0ZeCy-kGs-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zfuStcMUcWu0ZeCy-kGs-3" target="zfuStcMUcWu0ZeCy-kGs-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-5" value="Approval Required?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="820" y="440" width="80" height="80" as="geometry" />
+        <mxCell id="zfuStcMUcWu0ZeCy-kGs-3" value="Is Open to API or SFT?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PDgRGRFjjHxiZpXskr0o-7" target="PDgRGRFjjHxiZpXskr0o-21" edge="1">
+        <mxCell id="GU3aihqtrbLSqrkLHBtJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zfuStcMUcWu0ZeCy-kGs-5" target="GU3aihqtrbLSqrkLHBtJ-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-7" value="Travel request changes to Pending Booking" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="800" y="640" width="120" height="60" as="geometry" />
+        <mxCell id="zfuStcMUcWu0ZeCy-kGs-5" value="Customer transfers file through SFT&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-10" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="860" y="550" width="60" height="30" as="geometry" />
+        <mxCell id="zfuStcMUcWu0ZeCy-kGs-7" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;SFT&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="190" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="PDgRGRFjjHxiZpXskr0o-11" target="PDgRGRFjjHxiZpXskr0o-14" edge="1">
+        <mxCell id="GU3aihqtrbLSqrkLHBtJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" edge="1" parent="1" source="zfuStcMUcWu0ZeCy-kGs-8" target="GU3aihqtrbLSqrkLHBtJ-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-11" value="Both Status is Draft" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="zfuStcMUcWu0ZeCy-kGs-8" value="Customer sends direct feed to our application" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-12" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="309.5" as="sourcePoint" />
-            <mxPoint x="560" y="309.5" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="zfuStcMUcWu0ZeCy-kGs-10" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;API Integration&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="290" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PDgRGRFjjHxiZpXskr0o-14" target="PDgRGRFjjHxiZpXskr0o-5" edge="1">
+        <mxCell id="GU3aihqtrbLSqrkLHBtJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GU3aihqtrbLSqrkLHBtJ-1" target="GU3aihqtrbLSqrkLHBtJ-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-14" value="Submitted" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="800" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="GU3aihqtrbLSqrkLHBtJ-1" value="Travel Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="400" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-18" value="Cash Advance changes to Pending Settlement" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="630" y="640" width="120" height="60" as="geometry" />
+        <mxCell id="GU3aihqtrbLSqrkLHBtJ-4" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Data&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="340" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-20" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="680" y="550" width="60" height="30" as="geometry" />
+        <mxCell id="GU3aihqtrbLSqrkLHBtJ-5" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Data&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="200" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PDgRGRFjjHxiZpXskr0o-21" target="PDgRGRFjjHxiZpXskr0o-23" edge="1">
+        <mxCell id="GU3aihqtrbLSqrkLHBtJ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GU3aihqtrbLSqrkLHBtJ-6" target="GU3aihqtrbLSqrkLHBtJ-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-21" value="Tickets Booked" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="800" y="760" width="120" height="60" as="geometry" />
+        <mxCell id="GU3aihqtrbLSqrkLHBtJ-6" value="Every employee is tagged with Employee Role" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="418" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PDgRGRFjjHxiZpXskr0o-23" target="PDgRGRFjjHxiZpXskr0o-26" edge="1">
+        <mxCell id="GU3aihqtrbLSqrkLHBtJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.062;entryY=0.583;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GU3aihqtrbLSqrkLHBtJ-8" target="GU3aihqtrbLSqrkLHBtJ-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="PDgRGRFjjHxiZpXskr0o-23" target="PDgRGRFjjHxiZpXskr0o-28" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="GU3aihqtrbLSqrkLHBtJ-8" value="Every employee in Manager fields are saved with Employee Manager Role" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="418" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-23" value="Tickets Uploaded" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="800" y="880" width="120" height="60" as="geometry" />
+        <mxCell id="GU3aihqtrbLSqrkLHBtJ-10" value="HR &amp;amp; Company structure Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="392" width="80" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-26" value="Travel Request changes to Approved and Booked." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="800" y="1000" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PDgRGRFjjHxiZpXskr0o-28" target="PDgRGRFjjHxiZpXskr0o-39" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-28" value="Notification triggered to Finance for settling cash advance" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="1000" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PDgRGRFjjHxiZpXskr0o-30" target="PDgRGRFjjHxiZpXskr0o-35" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-30" value="Travel request + Cash Advance changes to Pending Approval" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="450" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-32" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="910" y="440" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="PDgRGRFjjHxiZpXskr0o-35" target="PDgRGRFjjHxiZpXskr0o-7" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1260" y="685" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.2;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="PDgRGRFjjHxiZpXskr0o-35" target="PDgRGRFjjHxiZpXskr0o-18" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1260" y="540" />
-              <mxPoint x="654" y="540" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-35" value="Both Approved" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1200" y="450" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="PDgRGRFjjHxiZpXskr0o-39" target="PDgRGRFjjHxiZpXskr0o-41" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-39" value="Finance Settles cash advance" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="1120" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PDgRGRFjjHxiZpXskr0o-41" value="Cash Advance changed to Paid" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="1240" width="120" height="60" as="geometry" />
+        <mxCell id="GU3aihqtrbLSqrkLHBtJ-12" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Save&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="418" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -594,9 +543,6 @@
         <mxCell id="5E1hq01stFiq-L5-yYS3-169" value="Next" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4830" y="610" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5E1hq01stFiq-L5-yYS3-179" value="Opens Up" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="4220" y="810" width="60" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="5E1hq01stFiq-L5-yYS3-180" value="Opens Up" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4900" y="690" width="60" height="30" as="geometry" />
         </mxCell>
@@ -887,11 +833,19 @@
         <mxCell id="5E1hq01stFiq-L5-yYS3-284" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5E1hq01stFiq-L5-yYS3-280" target="5E1hq01stFiq-L5-yYS3-283">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-299" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5E1hq01stFiq-L5-yYS3-280">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="8220" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="5E1hq01stFiq-L5-yYS3-280" value="Exceptions?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="7920" y="420" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="5E1hq01stFiq-L5-yYS3-282" value="Are there any" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="7920" y="580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-297" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.525;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5E1hq01stFiq-L5-yYS3-283" target="5E1hq01stFiq-L5-yYS3-290">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5E1hq01stFiq-L5-yYS3-283" value="Collate Exception Messages" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="7920" y="290" width="120" height="60" as="geometry" />
@@ -920,12 +874,40 @@
         <mxCell id="5E1hq01stFiq-L5-yYS3-293" value="Prompt user if he wants to raise a cash advance for this trip" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="8300" y="885" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5E1hq01stFiq-L5-yYS3-294" value="Collate Exception Messages" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5E1hq01stFiq-L5-yYS3-294" value="Go to Travel Request with Cash Advance Flow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="8450" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5E1hq01stFiq-L5-yYS3-296" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="8430" y="975" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-298" value="Send Exception Messages" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8100" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-300" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8040" y="497" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-301" value="Send No Exception Messages" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8100" y="455" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HXjSIG_r0KH7b3QcrOJd" name="Travel request standalone">
+    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JA8dKl2Ae6XyQhxBteov-1" value="&lt;h1&gt;Travel Request without a Cash Advance. Till Trip is Formed&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="360" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rBVu4u0U3kYbfC9j1m00" name="Page-4">
+    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
