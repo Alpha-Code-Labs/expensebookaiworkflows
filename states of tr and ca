@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T09:51:34.377Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="QX2Rc25ZXc2YbVSBvKaI" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-02T09:55:18.417Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="fv8DxSjn6LyMdsC2WuaZ" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -510,7 +510,12 @@
         <mxCell id="wpgUa3xG9AhQwJHzo5_C-162" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;No&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4210" y="2000" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wpgUa3xG9AhQwJHzo5_C-163" value="Departments. Amount field next to them and currency field next to the amounts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-170" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wpgUa3xG9AhQwJHzo5_C-163" target="wpgUa3xG9AhQwJHzo5_C-169">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4440" y="1703" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-163" value="Departments" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4280" y="1647" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="wpgUa3xG9AhQwJHzo5_C-165" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -518,6 +523,41 @@
         </mxCell>
         <mxCell id="wpgUa3xG9AhQwJHzo5_C-166" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Display List of&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4210" y="1690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-173" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wpgUa3xG9AhQwJHzo5_C-169" target="wpgUa3xG9AhQwJHzo5_C-172">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-169" value="Budgets along with Currency" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4520" y="1647" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-171" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Prompt user to enter&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4430" y="1687" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-175" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wpgUa3xG9AhQwJHzo5_C-172" target="wpgUa3xG9AhQwJHzo5_C-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-172" value="User selection?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4720" y="1601" width="120" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-174" value="Budgets along with Currency" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4720" y="1800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-176" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4720" y="1753" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-177" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;User Enters&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4790" y="1760" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-178" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="wpgUa3xG9AhQwJHzo5_C-179">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4780" y="1860" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-179" value="Budget Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="4740" y="1948" width="80" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="wpgUa3xG9AhQwJHzo5_C-180" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Save&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4780" y="1888" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
