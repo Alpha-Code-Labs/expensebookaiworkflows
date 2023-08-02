@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T06:10:43.976Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="u_I1-0geFhScMA1sISSW" version="21.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-08-02T06:14:24.129Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="9vJDReVf08f__b3r_fD1" version="21.6.6" type="github" pages="2">
   <diagram name="Page-1" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -662,11 +662,21 @@
         <mxCell id="5E1hq01stFiq-L5-yYS3-204" value="Does HR data have Line Manager" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5640" y="580" width="120" height="140" as="geometry" />
         </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-238" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5E1hq01stFiq-L5-yYS3-205">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6500" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="5E1hq01stFiq-L5-yYS3-205" value="No Action Required" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5640" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5E1hq01stFiq-L5-yYS3-207" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5630" y="535" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-241" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5E1hq01stFiq-L5-yYS3-210">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5900" y="490" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="5E1hq01stFiq-L5-yYS3-210" value="Name of Line Manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5840" y="620" width="120" height="60" as="geometry" />
@@ -728,7 +738,12 @@
         <mxCell id="5E1hq01stFiq-L5-yYS3-237" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5E1hq01stFiq-L5-yYS3-230" target="5E1hq01stFiq-L5-yYS3-235">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5E1hq01stFiq-L5-yYS3-230" value="Save or Finish?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5E1hq01stFiq-L5-yYS3-243" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5E1hq01stFiq-L5-yYS3-230">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6640" y="855" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-230" value="Save or Next?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="6440" y="785" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="5E1hq01stFiq-L5-yYS3-232" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -745,6 +760,18 @@
         </mxCell>
         <mxCell id="5E1hq01stFiq-L5-yYS3-236" value="State of Travel Request is Draft" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="6520" y="935" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-239" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="5E1hq01stFiq-L5-yYS3-230">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6500" y="490" as="sourcePoint" />
+            <mxPoint x="6130" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-240" value="Prompts user to click save or next" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5950" y="455" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5E1hq01stFiq-L5-yYS3-244" value="Next" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="6570" y="800" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
