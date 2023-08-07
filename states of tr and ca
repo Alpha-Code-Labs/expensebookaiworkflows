@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T07:05:37.913Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xq_tc08T28JJ3mv_RE-d" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-07T07:13:30.001Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YhGwD1B1yDE4fei3OT1W" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -820,6 +820,9 @@
         <mxCell id="7qUQd4WKhpizBam9dH9h-190" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="6970" y="2136" width="60" height="28" as="geometry" />
         </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-198" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qUQd4WKhpizBam9dH9h-191" target="7qUQd4WKhpizBam9dH9h-197">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7qUQd4WKhpizBam9dH9h-191" value="Section 2&lt;br&gt;Travel and Expense Allocation form" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="7200" y="1800" width="120" height="60" as="geometry" />
         </mxCell>
@@ -828,6 +831,39 @@
         </mxCell>
         <mxCell id="7qUQd4WKhpizBam9dH9h-195" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Opens Up&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4570" y="1637" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-200" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qUQd4WKhpizBam9dH9h-197" target="7qUQd4WKhpizBam9dH9h-199">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-197" value="Is Header available flag set to Y?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7400" y="1760" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-204" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qUQd4WKhpizBam9dH9h-199" target="7qUQd4WKhpizBam9dH9h-201">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-199" value="Display all headers that have been extracted" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="7400" y="1580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-207" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qUQd4WKhpizBam9dH9h-201" target="7qUQd4WKhpizBam9dH9h-206">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-201" value="Select entities on which travel and related expenes will be allocated in the company" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="7600" y="1560" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-202" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4120" y="1637" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-203" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7390" y="1688" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-205" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Ask user to&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7530" y="1577" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-206" value="Select entities on which non travel&amp;nbsp; related expenes will be allocated in the company" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="7800" y="1560" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-208" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Ask user to&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7730" y="1577" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
