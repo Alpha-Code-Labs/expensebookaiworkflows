@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T14:02:14.566Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="fVWBy_vLq6CJVbugg8_B" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-07T14:06:40.170Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="S0yPu05GI1DUTjLElFbk" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1620,6 +1620,14 @@
         <mxCell id="HyB0zZJgAV1OK17omLKk-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HyB0zZJgAV1OK17omLKk-98" target="HyB0zZJgAV1OK17omLKk-101">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HyB0zZJgAV1OK17omLKk-98" target="HyB0zZJgAV1OK17omLKk-117">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="13060" y="1270" />
+              <mxPoint x="14070" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="HyB0zZJgAV1OK17omLKk-98" value="Yes or No" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="13000" y="1358" width="120" height="140" as="geometry" />
         </mxCell>
@@ -1683,6 +1691,14 @@
         <mxCell id="HyB0zZJgAV1OK17omLKk-119" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Prompt user&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="13910" y="1401" width="120" height="23" as="geometry" />
         </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HyB0zZJgAV1OK17omLKk-120">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="14280" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HyB0zZJgAV1OK17omLKk-120" target="HyB0zZJgAV1OK17omLKk-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HyB0zZJgAV1OK17omLKk-120" value="Yes or No" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="14220" y="1358" width="120" height="140" as="geometry" />
         </mxCell>
@@ -1691,6 +1707,21 @@
         </mxCell>
         <mxCell id="HyB0zZJgAV1OK17omLKk-123" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Save - pre-defined expense categories to&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3680" y="460" width="60" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-127" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;No&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="12970" y="1305.5" width="120" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-128" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;No&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="14180" y="1307" width="120" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-129" value="Extracted expense categories to user" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="14440" y="1397.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-131" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Display&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="14330" y="1400" width="120" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-132" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="14330" y="1434" width="120" height="23" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
