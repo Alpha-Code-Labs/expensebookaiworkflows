@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T10:01:16.573Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4O0fcxWD3ajDyE6HmObV" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-07T13:24:43.088Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="QTOsgP1KWiHVxVXe-uXT" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -462,8 +462,8 @@
         <mxCell id="7qUQd4WKhpizBam9dH9h-76" value="Responsibility Centre Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="3200" y="1400" width="80" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="7qUQd4WKhpizBam9dH9h-77" value="Extract headers where values are available and save in Memory. Return Header available flag set to Y" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3350" y="1390" width="120" height="88" as="geometry" />
+        <mxCell id="7qUQd4WKhpizBam9dH9h-77" value="Extract headers where values are available and save in Memory. Also extract department values. Return Header available flag set to Y" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3350" y="1360" width="120" height="118" as="geometry" />
         </mxCell>
         <mxCell id="7qUQd4WKhpizBam9dH9h-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qUQd4WKhpizBam9dH9h-79" target="7qUQd4WKhpizBam9dH9h-83">
           <mxGeometry relative="1" as="geometry" />
@@ -1410,6 +1410,11 @@
         <mxCell id="HyB0zZJgAV1OK17omLKk-13" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;User Clicks&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10930" y="1893.5" width="120" height="23" as="geometry" />
         </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HyB0zZJgAV1OK17omLKk-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="11360" y="1428" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="HyB0zZJgAV1OK17omLKk-14" value="Section 4 - Other Data&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="10960" y="1398" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1421,6 +1426,80 @@
         </mxCell>
         <mxCell id="HyB0zZJgAV1OK17omLKk-20" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Opens&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="10380" y="943.5" width="120" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HyB0zZJgAV1OK17omLKk-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="11570" y="1428" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-25" value="Is Header available flag set to Y?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="11360" y="1358" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-28" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Prompt User&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="11460" y="1398" width="120" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HyB0zZJgAV1OK17omLKk-29" target="HyB0zZJgAV1OK17omLKk-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-29" value="Does header data contain Department Data?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="11570" y="1358" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-30" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="11460" y="1430.5" width="120" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HyB0zZJgAV1OK17omLKk-31" target="HyB0zZJgAV1OK17omLKk-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-31" value="&amp;nbsp;Extracted Department values to user" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="11800" y="1398" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-33" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="11680" y="1434.5" width="120" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-34" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Display&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="11680" y="1401" width="120" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HyB0zZJgAV1OK17omLKk-35" target="HyB0zZJgAV1OK17omLKk-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-35" value="Textboxes besides Department values" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="12000" y="1397.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-37" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Open&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="11900" y="1394" width="120" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HyB0zZJgAV1OK17omLKk-38" target="HyB0zZJgAV1OK17omLKk-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-38" value="To enter budget values&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="12210" y="1398" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-40" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Ask user&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="12110" y="1398" width="120" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HyB0zZJgAV1OK17omLKk-41" target="HyB0zZJgAV1OK17omLKk-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-41" value="To select currency from a drop down" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="12400" y="1397.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-43" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Ask user&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="12300" y="1401" width="120" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HyB0zZJgAV1OK17omLKk-44" target="HyB0zZJgAV1OK17omLKk-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-44" value="Next" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="12600" y="1397.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-47" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;User clicks&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="12500" y="1398.5" width="120" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-48" value="Department Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="12620" y="1556.5" width="80" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-50" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Send data to be saved&amp;nbsp; in Department Container. Fire and Forget.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="12530" y="1485" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
