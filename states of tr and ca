@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T14:15:04.572Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ko1CXXx_Vv7s4_BWHnAu" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-07T14:17:54.312Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="bAJMEMJCIsISbTskSu7B" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1337,7 +1337,7 @@
         <mxCell id="GG8FjjV20ZwtDXedzOrY-200" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GG8FjjV20ZwtDXedzOrY-195" target="GG8FjjV20ZwtDXedzOrY-199">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GG8FjjV20ZwtDXedzOrY-195" value="T&amp;amp;E Policies" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-195" value="T&amp;amp;E Policies or uploads excel sheet, after downloading" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="10760" y="2000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GG8FjjV20ZwtDXedzOrY-197" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;User taken to setup , without Groups&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -1797,11 +1797,44 @@
         <mxCell id="HyB0zZJgAV1OK17omLKk-153" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Display&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="15540" y="1391" width="120" height="23" as="geometry" />
         </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-159" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HyB0zZJgAV1OK17omLKk-155" target="HyB0zZJgAV1OK17omLKk-158">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="HyB0zZJgAV1OK17omLKk-155" value="Employee names on key stoke" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="15850" y="1397" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HyB0zZJgAV1OK17omLKk-157" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Display&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="15740" y="1400" width="120" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HyB0zZJgAV1OK17omLKk-158" target="HyB0zZJgAV1OK17omLKk-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-158" value="Multiple Selects" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="16050" y="1397" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-161" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Allow&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="15950" y="1397" width="120" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-166" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HyB0zZJgAV1OK17omLKk-162" target="HyB0zZJgAV1OK17omLKk-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-162" value="Multiple Selects" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="16240" y="1397" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-164" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Allow&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="16140" y="1401" width="120" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-169" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HyB0zZJgAV1OK17omLKk-165" target="HyB0zZJgAV1OK17omLKk-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-165" value="Next" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="16440" y="1397" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-167" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;User clicks&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="16340" y="1397" width="120" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="HyB0zZJgAV1OK17omLKk-168" value="Onboarding Finished Message" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="16440" y="1553" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
