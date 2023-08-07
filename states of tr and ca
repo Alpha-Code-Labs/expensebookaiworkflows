@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T08:34:36.931Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="-KZc678EPfToZz5a0jti" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-07T08:51:36.710Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8jfBTItZDtjf5-SRYD_G" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1239,6 +1239,9 @@
         <mxCell id="GG8FjjV20ZwtDXedzOrY-83" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Send Data to&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="9810" y="1555" width="110" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GG8FjjV20ZwtDXedzOrY-84" target="GG8FjjV20ZwtDXedzOrY-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GG8FjjV20ZwtDXedzOrY-84" value="Next. After setting up T&amp;amp;E Policies" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="9840" y="1436" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1286,6 +1289,29 @@
         </mxCell>
         <mxCell id="GG8FjjV20ZwtDXedzOrY-103" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;No&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="9770" y="972" width="70" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GG8FjjV20ZwtDXedzOrY-106">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="10280" y="1466" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-106" value="Section 4 . Setting up Other Data." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="10080" y="1436" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-108" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Opens&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="9980" y="1435" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GG8FjjV20ZwtDXedzOrY-112" target="GG8FjjV20ZwtDXedzOrY-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-112" value="Is Header available flag set to Y?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10280" y="1396" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-113" value="Does data have department values?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10480" y="1396" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-115" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10400" y="1440" width="70" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
