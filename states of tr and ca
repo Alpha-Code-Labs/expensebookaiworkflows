@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T07:46:10.077Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="uN3lDWKeFXNoKVm4OQd3" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-07T08:03:38.053Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="FZLSH8JrocztjpgKt7fG" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -849,11 +849,15 @@
         <mxCell id="7qUQd4WKhpizBam9dH9h-199" value="Display all headers that have been extracted" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="7400" y="1580" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7qUQd4WKhpizBam9dH9h-207" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qUQd4WKhpizBam9dH9h-201" target="7qUQd4WKhpizBam9dH9h-206">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7qUQd4WKhpizBam9dH9h-207" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qUQd4WKhpizBam9dH9h-201" target="GG8FjjV20ZwtDXedzOrY-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7800" y="1610" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="7qUQd4WKhpizBam9dH9h-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7qUQd4WKhpizBam9dH9h-201" target="7qUQd4WKhpizBam9dH9h-220">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7qUQd4WKhpizBam9dH9h-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7qUQd4WKhpizBam9dH9h-220">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7820" y="1416" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7qUQd4WKhpizBam9dH9h-201" value="Select entities on which travel and related expenes will be allocated in the company" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="7600" y="1560" width="120" height="100" as="geometry" />
@@ -867,15 +871,6 @@
         <mxCell id="7qUQd4WKhpizBam9dH9h-205" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Ask user to&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="7530" y="1577" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7qUQd4WKhpizBam9dH9h-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qUQd4WKhpizBam9dH9h-206" target="7qUQd4WKhpizBam9dH9h-251">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7qUQd4WKhpizBam9dH9h-206" value="Select entities on which non travel&amp;nbsp; related expenes will be allocated in the company" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="7800" y="1560" width="120" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="7qUQd4WKhpizBam9dH9h-208" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Ask user to&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="7730" y="1577" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="7qUQd4WKhpizBam9dH9h-211" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;No&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="7530" y="1800" width="60" height="30" as="geometry" />
         </mxCell>
@@ -886,21 +881,10 @@
           <mxGeometry x="7600" y="1780" width="120" height="100" as="geometry" />
         </mxCell>
         <mxCell id="7qUQd4WKhpizBam9dH9h-220" value="Travel &amp;amp; Expense Allocation Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="7620" y="1350" width="80" height="96" as="geometry" />
+          <mxGeometry x="7780" y="1206" width="80" height="96" as="geometry" />
         </mxCell>
         <mxCell id="7qUQd4WKhpizBam9dH9h-222" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Send data to be saved&amp;nbsp; in Travel and Expense Allocation Container. Fire and Forget.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="7540" y="1476" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7qUQd4WKhpizBam9dH9h-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7qUQd4WKhpizBam9dH9h-224">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="7860" y="1560" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="7qUQd4WKhpizBam9dH9h-224" value="Non Travel Expense Allocation Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="7820" y="1350" width="80" height="96" as="geometry" />
-        </mxCell>
-        <mxCell id="7qUQd4WKhpizBam9dH9h-225" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Send data to be saved&amp;nbsp; in Non Travel Expense Allocation Container. Fire and Forget.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="7740" y="1476" width="110" height="30" as="geometry" />
+          <mxGeometry x="7700" y="1332" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7qUQd4WKhpizBam9dH9h-230" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qUQd4WKhpizBam9dH9h-226" target="7qUQd4WKhpizBam9dH9h-229">
           <mxGeometry relative="1" as="geometry" />
@@ -991,9 +975,6 @@
         <mxCell id="7qUQd4WKhpizBam9dH9h-251" value="Section 3&lt;br&gt;Setting up T&amp;amp;E Policy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="8600" y="1580" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7qUQd4WKhpizBam9dH9h-253" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Opens Up&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="8210" y="1570" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="7qUQd4WKhpizBam9dH9h-255" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="7930" y="1830" width="60" height="30" as="geometry" />
         </mxCell>
@@ -1001,7 +982,7 @@
           <mxGeometry x="8170" y="1800" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7qUQd4WKhpizBam9dH9h-258" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Clicks Let me Continue&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="8330" y="1860" width="60" height="30" as="geometry" />
+          <mxGeometry x="8440" y="1860" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7qUQd4WKhpizBam9dH9h-259" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Opens Up&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="8330" y="1900" width="60" height="30" as="geometry" />
@@ -1011,6 +992,115 @@
         </mxCell>
         <mxCell id="7qUQd4WKhpizBam9dH9h-263" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Opens Up&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="8340" y="2126" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GG8FjjV20ZwtDXedzOrY-9" target="GG8FjjV20ZwtDXedzOrY-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-9" value="Select entities on which non travel&amp;nbsp; related expenes will be allocated in the company" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="8080" y="1180" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GG8FjjV20ZwtDXedzOrY-12" target="GG8FjjV20ZwtDXedzOrY-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GG8FjjV20ZwtDXedzOrY-12" target="GG8FjjV20ZwtDXedzOrY-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-12" value="Skip or Next" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="7760" y="1540" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-13" value="Next" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="7760" y="1416" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-15" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;User clicks&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7750" y="1496" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GG8FjjV20ZwtDXedzOrY-16" target="GG8FjjV20ZwtDXedzOrY-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-16" value="Skip" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="7920" y="1570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-18" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;User clicks&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7860" y="1570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GG8FjjV20ZwtDXedzOrY-19" target="GG8FjjV20ZwtDXedzOrY-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.892;entryY=0.407;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GG8FjjV20ZwtDXedzOrY-22" target="7qUQd4WKhpizBam9dH9h-229">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="8230" y="1410" />
+              <mxPoint x="8230" y="1900" />
+              <mxPoint x="7907" y="1900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-19" value="Your system is setup with out any way to allocate travel and their related expenses ." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="8080" y="1560" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-21" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Display Message&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8030" y="1540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GG8FjjV20ZwtDXedzOrY-22" target="GG8FjjV20ZwtDXedzOrY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-22" value="Are you sure you want to continue" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="8080" y="1340" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-25" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;No&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8230" y="1600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-27" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8080" y="1302" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="GG8FjjV20ZwtDXedzOrY-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="8370" y="1050" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-29" value="Non Travel Expense Allocation Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="8330" y="840" width="80" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-30" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Send data to be saved&amp;nbsp; in Non Travel Expense Allocation Container. Fire and Forget.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8390" y="972" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GG8FjjV20ZwtDXedzOrY-32" target="GG8FjjV20ZwtDXedzOrY-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GG8FjjV20ZwtDXedzOrY-32" target="GG8FjjV20ZwtDXedzOrY-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-32" value="Skip or Next" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="8310" y="1160" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-33" value="Next" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="8310" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-34" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;User clicks&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8300" y="1130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GG8FjjV20ZwtDXedzOrY-37" target="GG8FjjV20ZwtDXedzOrY-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-37" value="Skip" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="8310" y="1360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GG8FjjV20ZwtDXedzOrY-38" target="7qUQd4WKhpizBam9dH9h-229">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="8370" y="1890" />
+              <mxPoint x="7890" y="1890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-38" value="Your system is setup with out any way to allocate travel and their related expenses ." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="8310" y="1485" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-39" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Display Message&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8370" y="1446" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GG8FjjV20ZwtDXedzOrY-41" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;User clicks&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8300" y="1310" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1839,7 +1929,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="JA8dKl2Ae6XyQhxBteov-1" value="&lt;h1&gt;Travel Request without a Cash Advance. Till Trip is Formed&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JA8dKl2Ae6XyQhxBteov-1" value="&lt;h1&gt;Travel Request without a Cash Advance. Till Trip is Formed&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="80" width="360" height="70" as="geometry" />
         </mxCell>
       </root>
