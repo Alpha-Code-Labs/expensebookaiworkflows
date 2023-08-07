@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T07:13:30.001Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YhGwD1B1yDE4fei3OT1W" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-07T07:38:47.141Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="pT71VgPJwmfiKL0oJB5p" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -575,8 +575,8 @@
         <mxCell id="7qUQd4WKhpizBam9dH9h-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qUQd4WKhpizBam9dH9h-113" target="7qUQd4WKhpizBam9dH9h-110">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7qUQd4WKhpizBam9dH9h-113" value="Employee Names in memory.Return employee name available flag as Y" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4400" y="1960" width="120" height="60" as="geometry" />
+        <mxCell id="7qUQd4WKhpizBam9dH9h-113" value="Employee Names in memory.Return employee name available flag as Y and DIY flag set to Y" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4400" y="1940" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7qUQd4WKhpizBam9dH9h-116" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Send data to be saved in HR and Company Structure Container. Fire and Forget&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4350" y="2060" width="110" height="30" as="geometry" />
@@ -835,6 +835,11 @@
         <mxCell id="7qUQd4WKhpizBam9dH9h-200" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qUQd4WKhpizBam9dH9h-197" target="7qUQd4WKhpizBam9dH9h-199">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-210" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qUQd4WKhpizBam9dH9h-197">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7600" y="1830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7qUQd4WKhpizBam9dH9h-197" value="Is Header available flag set to Y?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="7400" y="1760" width="120" height="140" as="geometry" />
         </mxCell>
@@ -847,6 +852,9 @@
         <mxCell id="7qUQd4WKhpizBam9dH9h-207" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qUQd4WKhpizBam9dH9h-201" target="7qUQd4WKhpizBam9dH9h-206">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7qUQd4WKhpizBam9dH9h-201" target="7qUQd4WKhpizBam9dH9h-220">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7qUQd4WKhpizBam9dH9h-201" value="Select entities on which travel and related expenes will be allocated in the company" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="7600" y="1560" width="120" height="100" as="geometry" />
         </mxCell>
@@ -854,7 +862,7 @@
           <mxGeometry x="4120" y="1637" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7qUQd4WKhpizBam9dH9h-203" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="7390" y="1688" width="60" height="30" as="geometry" />
+          <mxGeometry x="7470" y="1680" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7qUQd4WKhpizBam9dH9h-205" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Ask user to&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="7530" y="1577" width="60" height="30" as="geometry" />
@@ -864,6 +872,80 @@
         </mxCell>
         <mxCell id="7qUQd4WKhpizBam9dH9h-208" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Ask user to&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="7730" y="1577" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-211" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;No&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7530" y="1800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-227" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qUQd4WKhpizBam9dH9h-212" target="7qUQd4WKhpizBam9dH9h-226">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-212" value="Your system is setup with out any way to allocate travel and their related expenses and Non travel expenses." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="7600" y="1780" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-220" value="Travel &amp;amp; Expense Allocation Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="7620" y="1350" width="80" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-222" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Send data to be saved&amp;nbsp; in Travel and Expense Allocation Container. Fire and Forget.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7540" y="1476" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7qUQd4WKhpizBam9dH9h-224">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="7860" y="1560" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-224" value="Non Travel Expense Allocation Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="7820" y="1350" width="80" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-225" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Send data to be saved&amp;nbsp; in Non Travel Expense Allocation Container. Fire and Forget.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7740" y="1476" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-230" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qUQd4WKhpizBam9dH9h-226" target="7qUQd4WKhpizBam9dH9h-229">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-226" value="Are you sure you want to continue" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="7800" y="1760" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-233" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qUQd4WKhpizBam9dH9h-229" target="7qUQd4WKhpizBam9dH9h-232">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-236" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qUQd4WKhpizBam9dH9h-229" target="7qUQd4WKhpizBam9dH9h-235">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-229" value="Is DIY flag set to Y" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="7800" y="1960" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-231" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;No&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7800" y="1910" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-239" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7qUQd4WKhpizBam9dH9h-232" target="7qUQd4WKhpizBam9dH9h-238">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-232" value="We recommend you go back to the HR data step and reupload the data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="8000" y="1980" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-234" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7930" y="2000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-244" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qUQd4WKhpizBam9dH9h-235" target="7qUQd4WKhpizBam9dH9h-243">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-235" value="We recommend you talk to your company and raise an issue. Since your data is integrated via API." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="7800" y="2160" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-237" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;No&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7800" y="2106" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-238" value="User clicks OK&amp;nbsp;&lt;br&gt;or Let me Continue" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8200" y="1960" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-240" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;User Selection&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8130" y="2000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-242" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;User Selection&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8040" y="2170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qUQd4WKhpizBam9dH9h-243" value="User clicks OK&amp;nbsp;&lt;br&gt;or Let me Continue" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8200" y="2140" width="120" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
