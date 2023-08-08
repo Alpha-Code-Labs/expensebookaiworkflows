@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T13:23:47.856Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nC5VwtqLgUkJr0R4llk4" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-08T13:25:28.672Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ZdaJbhz5aXM_DyPrgUrq" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2853,11 +2853,32 @@
         <mxCell id="7-IA2zKgTeMJ1F_WPTiz-163" value="Ask User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2120" y="-3310" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7-IA2zKgTeMJ1F_WPTiz-164" target="7-IA2zKgTeMJ1F_WPTiz-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-171" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-IA2zKgTeMJ1F_WPTiz-164" target="7-IA2zKgTeMJ1F_WPTiz-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7-IA2zKgTeMJ1F_WPTiz-164" value="Yes or No" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="2120" y="-3090" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="7-IA2zKgTeMJ1F_WPTiz-166" value="User Selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2110" y="-3140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-167" value="Go to Travel request with cash advance" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2390" y="-3060" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-169" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="-3050" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-170" value="Dash Board Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="-2870" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-172" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="-2920" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-173" value="Control Pass to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="-2920" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
