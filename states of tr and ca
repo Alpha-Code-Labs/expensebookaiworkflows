@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T11:10:24.175Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="EoreKsGpIviQqaw-7J-z" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-08T11:12:15.478Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5RmppwV9EwGgc11A2Ls2" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2196,11 +2196,20 @@
         <mxCell id="quSBrwQ9e3XdaZ6jTVIu-55" value="Display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-3390" y="-4120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-56" value="Extracted headers with values, text box in the side indicating % allocated" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-56" target="quSBrwQ9e3XdaZ6jTVIu-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-56" value="values and assigns %. If only one paying entity then auto fill 100%" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-3120" y="-4120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="quSBrwQ9e3XdaZ6jTVIu-58" value="User selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-3190" y="-4120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-59" value="Add more lines. If 2 or more lines are added then no auto fill. Give user option to select how much % for each line" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-2920" y="-4150" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-61" value="User can&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2990" y="-4120" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
