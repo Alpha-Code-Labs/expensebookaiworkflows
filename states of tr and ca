@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T11:16:25.379Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="E3X6dE84_rk0tzdPjO0t" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-08T11:17:32.150Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="s6FLx9yv9bCM6tFHVh8t" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2235,11 +2235,20 @@
         <mxCell id="quSBrwQ9e3XdaZ6jTVIu-70" value="User Selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4370" y="-4020" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-72" target="quSBrwQ9e3XdaZ6jTVIu-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="quSBrwQ9e3XdaZ6jTVIu-72" value="Next" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-2720" y="-4120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="quSBrwQ9e3XdaZ6jTVIu-74" value="User Clicks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2790" y="-4120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-75" value="Section 2 Build Your itinerary&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-2520" y="-4120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-77" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2590" y="-4120" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
