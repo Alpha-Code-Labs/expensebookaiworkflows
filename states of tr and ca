@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T11:27:41.459Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ZeKvYzUKUQ0y_-lrlYMc" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-08T11:29:13.667Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="CHS1exHvj6nPMvfgit3z" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2309,11 +2309,29 @@
         <mxCell id="w_Hx4pwWh7QytvlZG9yg-15" value="User Selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1360" y="-4130" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="w_Hx4pwWh7QytvlZG9yg-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w_Hx4pwWh7QytvlZG9yg-16" target="w_Hx4pwWh7QytvlZG9yg-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="w_Hx4pwWh7QytvlZG9yg-16" value="Page with upload button" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-1080" y="-4120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w_Hx4pwWh7QytvlZG9yg-18" value="Open&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1150" y="-4130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w_Hx4pwWh7QytvlZG9yg-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w_Hx4pwWh7QytvlZG9yg-19" target="w_Hx4pwWh7QytvlZG9yg-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w_Hx4pwWh7QytvlZG9yg-19" value="As many documents as he wants&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="-4120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w_Hx4pwWh7QytvlZG9yg-20" value="User uploads" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-950" y="-4130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w_Hx4pwWh7QytvlZG9yg-23" value="Next" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="-4120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w_Hx4pwWh7QytvlZG9yg-25" value="User Clicks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="-4130" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
