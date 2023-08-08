@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T07:09:38.372Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="MdJgp9gPziDKDKvfgC8t" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-08T07:35:20.154Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ql8V1R-F3Rpkr2tCykSP" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1869,8 +1869,59 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5E1hq01stFiq-L5-yYS3-1" value="&lt;h1&gt;Travel Request without a Cash Advance. Till Trip is Formed&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-6900" y="-4560" width="360" height="70" as="geometry" />
+        <mxCell id="5E1hq01stFiq-L5-yYS3-1" value="&lt;h1&gt;Travel Request without a Cash Advance. Till Control passed to Approval&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-6890" y="-4650" width="830" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0gFxR5qSOYaK_aH0MgbS-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0gFxR5qSOYaK_aH0MgbS-1" target="0gFxR5qSOYaK_aH0MgbS-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0gFxR5qSOYaK_aH0MgbS-1" value="Any Role" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-6890" y="-4120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gFxR5qSOYaK_aH0MgbS-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0gFxR5qSOYaK_aH0MgbS-2" target="0gFxR5qSOYaK_aH0MgbS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0gFxR5qSOYaK_aH0MgbS-2" value="&amp;nbsp;Dashboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-6760" y="-4120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gFxR5qSOYaK_aH0MgbS-4" value="User is on" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6850" y="-4120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlEEDsho0jT1UbvFZfkC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" edge="1" parent="1" source="0gFxR5qSOYaK_aH0MgbS-5" target="HlEEDsho0jT1UbvFZfkC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HlEEDsho0jT1UbvFZfkC-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" edge="1" parent="1" source="0gFxR5qSOYaK_aH0MgbS-5" target="HlEEDsho0jT1UbvFZfkC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0gFxR5qSOYaK_aH0MgbS-5" value="Create Travel Request" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-6560" y="-4120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0gFxR5qSOYaK_aH0MgbS-7" value="User clicks on" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6630" y="-4120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlEEDsho0jT1UbvFZfkC-1" value="Onboarding Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-6360" y="-4330" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HlEEDsho0jT1UbvFZfkC-3" value="Control passed to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6470" y="-4220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HlEEDsho0jT1UbvFZfkC-5" value="Policy Validation Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-6280" y="-4120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HlEEDsho0jT1UbvFZfkC-7" value="Control passed to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6360" y="-4130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-BwLeETjTQDQXViSXrMm-1" value="HR &amp;amp; Company Structure Microservice" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-6340" y="-4520" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-BwLeETjTQDQXViSXrMm-3" value="Fetch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6370" y="-4390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-BwLeETjTQDQXViSXrMm-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.492;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HlEEDsho0jT1UbvFZfkC-1" target="-BwLeETjTQDQXViSXrMm-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-6310" y="-4330" as="sourcePoint" />
+            <mxPoint x="-6260" y="-4380" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
