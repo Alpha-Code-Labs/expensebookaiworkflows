@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T11:01:30.601Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="yXPr0cjh1Bdrs-99Rlfs" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-08T11:10:24.175Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="EoreKsGpIviQqaw-7J-z" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2079,11 +2079,13 @@
         <mxCell id="quSBrwQ9e3XdaZ6jTVIu-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-19" target="quSBrwQ9e3XdaZ6jTVIu-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-19" target="quSBrwQ9e3XdaZ6jTVIu-34">
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-19" target="quSBrwQ9e3XdaZ6jTVIu-42">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4130" y="-4210" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-5150" y="-4240" />
               <mxPoint x="-4130" y="-4240" />
+              <mxPoint x="-4130" y="-4125" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -2105,8 +2107,9 @@
         <mxCell id="quSBrwQ9e3XdaZ6jTVIu-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-25" target="quSBrwQ9e3XdaZ6jTVIu-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-25" target="quSBrwQ9e3XdaZ6jTVIu-34">
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.429;entryY=0.036;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-25" target="quSBrwQ9e3XdaZ6jTVIu-42">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4100" y="-4200" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-4730" y="-4180" />
               <mxPoint x="-4100" y="-4180" />
@@ -2128,20 +2131,16 @@
         <mxCell id="quSBrwQ9e3XdaZ6jTVIu-30" value="Display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4650" y="-4130" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-31" target="quSBrwQ9e3XdaZ6jTVIu-34">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4160" y="-4090" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="quSBrwQ9e3XdaZ6jTVIu-31" value="User to select as many employees as he wants" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-4360" y="-4120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="quSBrwQ9e3XdaZ6jTVIu-33" value="Allow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4430" y="-4120" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-34" value="Section 1 Travel Allocation Section" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-4160" y="-4120" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-36" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4230" y="-4120" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="quSBrwQ9e3XdaZ6jTVIu-37" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4650" y="-4080" width="60" height="30" as="geometry" />
@@ -2151,6 +2150,57 @@
         </mxCell>
         <mxCell id="quSBrwQ9e3XdaZ6jTVIu-41" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5080" y="-4265" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-42" target="quSBrwQ9e3XdaZ6jTVIu-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-42" value="Is Allocation Header &lt;br&gt;flag set to Y" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4160" y="-4160" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-43" target="quSBrwQ9e3XdaZ6jTVIu-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-43" value="Section 1 - Travel Allocation Section" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3920" y="-4120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-45" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4010" y="-4120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-46" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4010" y="-4080" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-47" target="quSBrwQ9e3XdaZ6jTVIu-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-47" value="Please allocate the travel to entity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3720" y="-4120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-49" value="Display Message" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3790" y="-4120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-50" target="quSBrwQ9e3XdaZ6jTVIu-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-50" value="Travel Allocation Form" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3520" y="-4120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-52" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3590" y="-4120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-53" target="quSBrwQ9e3XdaZ6jTVIu-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-53" value="Extracted headers with values, text box in the side indicating % allocated" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3320" y="-4120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-55" value="Display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3390" y="-4120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-56" value="Extracted headers with values, text box in the side indicating % allocated" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3120" y="-4120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-58" value="User selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3190" y="-4120" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
