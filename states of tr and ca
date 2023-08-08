@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T11:52:11.538Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="2Vbx9sz1zLx6_KSBtbUu" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-08T12:00:04.727Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ER-i0u8vwZPCs_fL9Zuv" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2434,11 +2434,59 @@
         <mxCell id="7-IA2zKgTeMJ1F_WPTiz-20" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be Draft" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-600" y="-4010" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-IA2zKgTeMJ1F_WPTiz-22" target="7-IA2zKgTeMJ1F_WPTiz-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7-IA2zKgTeMJ1F_WPTiz-22" value="Is Approval Flow available Flag Y?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-270" y="-4160" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="7-IA2zKgTeMJ1F_WPTiz-24" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-340" y="-4080" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-IA2zKgTeMJ1F_WPTiz-25" target="7-IA2zKgTeMJ1F_WPTiz-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-25" value="Section 4 - Approval Information" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="-4120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-27" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-4080" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-28" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-4130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-IA2zKgTeMJ1F_WPTiz-29" target="7-IA2zKgTeMJ1F_WPTiz-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-29" value="Approval rule setup for the company eg) L1 + L2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-4120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-31" value="Display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-4120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-IA2zKgTeMJ1F_WPTiz-33" target="7-IA2zKgTeMJ1F_WPTiz-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-33" value="Please select approvers." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-4120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-35" value="Prompt User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-4120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-IA2zKgTeMJ1F_WPTiz-38" target="7-IA2zKgTeMJ1F_WPTiz-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-38" value="Search employees who will approve.Searchable field. Real time fetching of employee names" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-4150" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-40" value="User can&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-4130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-41" value="Select as many approvers as he wants to.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="800" y="-4120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-43" value="User can&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="-4130" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
