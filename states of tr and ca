@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T12:00:04.727Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ER-i0u8vwZPCs_fL9Zuv" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-08T12:02:19.827Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="1_8gBuhtXQzrka_rn7lk" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2357,6 +2357,14 @@
         <mxCell id="7-IA2zKgTeMJ1F_WPTiz-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="w_Hx4pwWh7QytvlZG9yg-29" target="7-IA2zKgTeMJ1F_WPTiz-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w_Hx4pwWh7QytvlZG9yg-29" target="7-IA2zKgTeMJ1F_WPTiz-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-410" y="-4180" />
+              <mxPoint x="1070" y="-4180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="w_Hx4pwWh7QytvlZG9yg-29" value="Is T&amp;amp;E Policy Setup flag Y?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-480" y="-4160" width="140" height="140" as="geometry" />
         </mxCell>
@@ -2437,6 +2445,14 @@
         <mxCell id="7-IA2zKgTeMJ1F_WPTiz-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-IA2zKgTeMJ1F_WPTiz-22" target="7-IA2zKgTeMJ1F_WPTiz-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.429;entryY=0.071;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7-IA2zKgTeMJ1F_WPTiz-22" target="7-IA2zKgTeMJ1F_WPTiz-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-200" y="-4220" />
+              <mxPoint x="1060" y="-4220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7-IA2zKgTeMJ1F_WPTiz-22" value="Is Approval Flow available Flag Y?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-270" y="-4160" width="140" height="140" as="geometry" />
         </mxCell>
@@ -2482,11 +2498,42 @@
         <mxCell id="7-IA2zKgTeMJ1F_WPTiz-40" value="User can&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="-4130" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-IA2zKgTeMJ1F_WPTiz-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="-4090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7-IA2zKgTeMJ1F_WPTiz-41" value="Select as many approvers as he wants to.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="800" y="-4120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7-IA2zKgTeMJ1F_WPTiz-43" value="User can&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="-4130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-46" value="User selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="-4130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-47" value="Next or Save&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-4160" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="7-IA2zKgTeMJ1F_WPTiz-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="-4020" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-49" value="Travel Request Container&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="-3940" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-50" value="Save" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-4010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-51" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be Draft" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="-4010" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-53" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="-4210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-55" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="-4250" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
