@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T11:12:15.478Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5RmppwV9EwGgc11A2Ls2" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-08T11:15:49.195Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Yg3oW5DrEMN0ochLDg5m" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2022,6 +2022,11 @@
         <mxCell id="quSBrwQ9e3XdaZ6jTVIu-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JvOC3UN01sBmJl9JZQJc-17" target="quSBrwQ9e3XdaZ6jTVIu-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JvOC3UN01sBmJl9JZQJc-17" target="quSBrwQ9e3XdaZ6jTVIu-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5340" y="-3720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JvOC3UN01sBmJl9JZQJc-17" value="Employee for whom the travel request is being raised.Searchable field. Real time fetching of employee names" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-5700" y="-3780" width="180" height="110" as="geometry" />
         </mxCell>
@@ -2131,10 +2136,8 @@
         <mxCell id="quSBrwQ9e3XdaZ6jTVIu-30" value="Display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4650" y="-4130" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-31">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-4160" y="-4090" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-31" target="quSBrwQ9e3XdaZ6jTVIu-68">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="quSBrwQ9e3XdaZ6jTVIu-31" value="User to select as many employees as he wants" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-4360" y="-4120" width="120" height="60" as="geometry" />
@@ -2210,6 +2213,24 @@
         </mxCell>
         <mxCell id="quSBrwQ9e3XdaZ6jTVIu-61" value="User can&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2990" y="-4120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-62" value="Self" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5460" y="-4120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-65" target="quSBrwQ9e3XdaZ6jTVIu-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-65" value="User selects Next" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-5340" y="-3755" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-68" target="quSBrwQ9e3XdaZ6jTVIu-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-68" value="Next" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4360" y="-3960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-70" value="User Selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4370" y="-4020" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
