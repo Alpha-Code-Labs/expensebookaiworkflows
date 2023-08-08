@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T14:49:25.427Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="HeyG9doWsmUoVF35Opi_" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-08T07:00:27.251Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Y8MllzlghJqyKNpNGU8_" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1355,8 +1355,10 @@
         <mxCell id="GG8FjjV20ZwtDXedzOrY-199" value="User clicks Next or Skip" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="10960" y="1960" width="120" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="HyB0zZJgAV1OK17omLKk-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GG8FjjV20ZwtDXedzOrY-201" target="HyB0zZJgAV1OK17omLKk-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="HyB0zZJgAV1OK17omLKk-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GG8FjjV20ZwtDXedzOrY-201">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="11220" y="2130" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="HyB0zZJgAV1OK17omLKk-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GG8FjjV20ZwtDXedzOrY-201">
           <mxGeometry relative="1" as="geometry">
@@ -1380,25 +1382,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HyB0zZJgAV1OK17omLKk-1" value="Policy Validation Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="11160" y="2154" width="120" height="80" as="geometry" />
+          <mxGeometry x="11160" y="2288" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HyB0zZJgAV1OK17omLKk-3" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Call to&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="11110" y="2090" width="120" height="23" as="geometry" />
+          <mxGeometry x="11110" y="2245.5" width="120" height="23" as="geometry" />
         </mxCell>
         <mxCell id="HyB0zZJgAV1OK17omLKk-4" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Asynchronous Rabbit MQ&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="11230" y="2091.5" width="120" height="23" as="geometry" />
+          <mxGeometry x="11230" y="2247" width="120" height="23" as="geometry" />
         </mxCell>
         <mxCell id="HyB0zZJgAV1OK17omLKk-5" value="Groups Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="11180" y="2320" width="80" height="96" as="geometry" />
+          <mxGeometry x="11180" y="2454" width="80" height="96" as="geometry" />
         </mxCell>
         <mxCell id="HyB0zZJgAV1OK17omLKk-7" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Send data to be saved&amp;nbsp; in Groups Container. Fire and Forget.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="11080" y="2268" width="110" height="30" as="geometry" />
+          <mxGeometry x="11080" y="2402" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HyB0zZJgAV1OK17omLKk-8" value="T&amp;amp;E Policy Engine Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="11380" y="2146" width="80" height="96" as="geometry" />
+          <mxGeometry x="11380" y="2280" width="80" height="96" as="geometry" />
         </mxCell>
         <mxCell id="HyB0zZJgAV1OK17omLKk-10" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Send data to be saved&amp;nbsp; inT&amp;amp;E Policy Engine Container. Fire and Forget.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="11270" y="2250" width="110" height="30" as="geometry" />
+          <mxGeometry x="11270" y="2384" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HyB0zZJgAV1OK17omLKk-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HyB0zZJgAV1OK17omLKk-11" target="HyB0zZJgAV1OK17omLKk-14">
           <mxGeometry relative="1" as="geometry" />
@@ -1850,16 +1852,25 @@
         <mxCell id="HyB0zZJgAV1OK17omLKk-176" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Send data to be saved&amp;nbsp; in Multicurrency Container. Fire and Forget.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="13720" y="1667.5" width="110" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="8nQI55uoM_meG-vHjMgj-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8nQI55uoM_meG-vHjMgj-1" target="HyB0zZJgAV1OK17omLKk-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8nQI55uoM_meG-vHjMgj-1" value="HR&amp;amp;Company structure Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="11180" y="2128" width="80" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="8nQI55uoM_meG-vHjMgj-3" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Send data to be saved in HR&amp;amp;Company structure container. tag respective emloyees with the groups.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="11070" y="2098" width="110" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="FRC775TvR3owQnubv1xu" name="Travel request standalone">
-    <mxGraphModel dx="954" dy="5297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+  <diagram id="FRC775TvR3owQnubv1xu" name="Travel Microservices">
+    <mxGraphModel dx="4254" dy="5297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5E1hq01stFiq-L5-yYS3-1" value="&lt;h1&gt;Travel Request without a Cash Advance. Till Trip is Formed&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="80" width="360" height="70" as="geometry" />
+          <mxGeometry x="-10" y="-4330" width="360" height="70" as="geometry" />
         </mxCell>
         <mxCell id="5E1hq01stFiq-L5-yYS3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5E1hq01stFiq-L5-yYS3-2" edge="1">
           <mxGeometry relative="1" as="geometry">
