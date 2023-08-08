@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T12:08:24.750Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="uykU0M6CglNte2nNdJgs" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-08T12:20:44.256Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="pLFZU4VxF9MQ2gcRrs-a" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2538,6 +2538,9 @@
         <mxCell id="7-IA2zKgTeMJ1F_WPTiz-55" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-200" y="-4250" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-IA2zKgTeMJ1F_WPTiz-56" target="7-IA2zKgTeMJ1F_WPTiz-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7-IA2zKgTeMJ1F_WPTiz-56" value="Section 5 - Confirmation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="1240" y="-4120" width="120" height="60" as="geometry" />
         </mxCell>
@@ -2603,6 +2606,110 @@
         </mxCell>
         <mxCell id="7-IA2zKgTeMJ1F_WPTiz-74" value="Extract employee data with profile and return data set" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5995" y="-3970" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-IA2zKgTeMJ1F_WPTiz-76" target="7-IA2zKgTeMJ1F_WPTiz-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-76" value="All entered data along with profile preferences extracted earlier." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="-4120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-78" value="Display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="-4120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-IA2zKgTeMJ1F_WPTiz-79" target="7-IA2zKgTeMJ1F_WPTiz-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-79" value="Edit fields where applicable" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="-4120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-81" value="User Can" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="-4120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7-IA2zKgTeMJ1F_WPTiz-82" target="7-IA2zKgTeMJ1F_WPTiz-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-82" value="Submit for Approval or Save&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="-4160" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-84" value="User selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="-4120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="7-IA2zKgTeMJ1F_WPTiz-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1910" y="-4020" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-86" value="Travel Request Container&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="-3940" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-87" value="Save" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="-4010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-88" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be Draft" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1920" y="-4010" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-IA2zKgTeMJ1F_WPTiz-90" target="7-IA2zKgTeMJ1F_WPTiz-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-107" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-IA2zKgTeMJ1F_WPTiz-90" target="7-IA2zKgTeMJ1F_WPTiz-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-90" value="Is T&amp;amp;E Policy Setup flag Y?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="-4160" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-92" value="Submit For Approval" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="-4120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-93" value="Notification Microservice&amp;nbsp;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="-4335" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-95" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="-4210" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-96" value="Asynchronous Rabbit MQ Call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="-4210" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-97" value="Policy Validation Microservice&amp;nbsp;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="-4130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-99" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2250" y="-4090" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-100" value="Synchronous Request Response API Call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="-4140" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-102" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.125;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.033;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7-IA2zKgTeMJ1F_WPTiz-99" target="7-IA2zKgTeMJ1F_WPTiz-97">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2360" y="-4070" as="sourcePoint" />
+            <mxPoint x="2410" y="-4120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-103" value="Policy Validation Flow&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="-4130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-104" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.017;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="7-IA2zKgTeMJ1F_WPTiz-103">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2520" y="-4080" as="sourcePoint" />
+            <mxPoint x="2570" y="-4130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-105" value="Sends back violation messages with color coding" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="-4050" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-IA2zKgTeMJ1F_WPTiz-106" target="7-IA2zKgTeMJ1F_WPTiz-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-106" value="Are there any violations?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="-3940" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-108" value="Notification Microservice&amp;nbsp;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="2370" y="-3910" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-109" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="-3860" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-110" value="Asynchronous Rabbit MQ Call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="-3920" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
