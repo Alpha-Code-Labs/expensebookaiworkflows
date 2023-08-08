@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T10:34:42.084Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="CbJ-TNhMIQKKF3TJYTRM" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-08T11:01:30.601Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="yXPr0cjh1Bdrs-99Rlfs" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1941,6 +1941,9 @@
         <mxCell id="JvOC3UN01sBmJl9JZQJc-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hCl-PulKubWXMmPzAu4B-15" target="JvOC3UN01sBmJl9JZQJc-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hCl-PulKubWXMmPzAu4B-15" target="quSBrwQ9e3XdaZ6jTVIu-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hCl-PulKubWXMmPzAu4B-15" value="Self or Someone Else?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-5680" y="-4160" width="140" height="140" as="geometry" />
         </mxCell>
@@ -1974,7 +1977,7 @@
         <mxCell id="hCl-PulKubWXMmPzAu4B-25" value="Extract employee record and return in dataset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5760" y="-4460" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="hCl-PulKubWXMmPzAu4B-26" value="If employee role is Employee Manager, select all employees reporting into employee and return in dataset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hCl-PulKubWXMmPzAu4B-26" value="If employee role is Employee Manager, select all employees reporting into employee and return in dataset. set Employee Manager flag as Y else return N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5910" y="-4460" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="hCl-PulKubWXMmPzAu4B-27" value="Travel and Expense Allocation Container&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
@@ -1986,7 +1989,7 @@
             <mxPoint x="-5550" y="-4440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JvOC3UN01sBmJl9JZQJc-2" value="Extract headers if available, if no data return empty dataset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="JvOC3UN01sBmJl9JZQJc-2" value="Extract headers if available, if no data return empty dataset. If data is present return Allocation Header as Y else N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5560" y="-4430" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="JvOC3UN01sBmJl9JZQJc-3" value="Policy Validation Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
@@ -2043,13 +2046,13 @@
         <mxCell id="quSBrwQ9e3XdaZ6jTVIu-8" value="Extract other employee record and return in dataset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5730" y="-3470" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-9" value="If employee role is Employee Manager, select all employees reporting into employee and return in dataset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-9" value="If employee role is Employee Manager, select all employees reporting into employee and return in dataset. set Employee Manager flag as Y else return N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5880" y="-3470" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="quSBrwQ9e3XdaZ6jTVIu-10" value="Travel and Expense Allocation Container&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="-5440" y="-3510" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-12" value="Extract headers if available, if no data return empty dataset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-12" value="Extract headers if available, if no data return empty dataset. If data is present return Allocation Header as Y else N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5560" y="-3470" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="quSBrwQ9e3XdaZ6jTVIu-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-10">
@@ -2072,6 +2075,82 @@
         </mxCell>
         <mxCell id="quSBrwQ9e3XdaZ6jTVIu-18" value="Some one Else&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5510" y="-4000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-19" target="quSBrwQ9e3XdaZ6jTVIu-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-19" target="quSBrwQ9e3XdaZ6jTVIu-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-5150" y="-4240" />
+              <mxPoint x="-4130" y="-4240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-19" value="Is Employee Manager flag Y" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5220" y="-4160" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-21" target="quSBrwQ9e3XdaZ6jTVIu-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-21" value="Do you want to add someone from your team" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4990" y="-4120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-23" value="Prompt User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5070" y="-4130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-24" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5070" y="-4070" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-25" target="quSBrwQ9e3XdaZ6jTVIu-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-25" target="quSBrwQ9e3XdaZ6jTVIu-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-4730" y="-4180" />
+              <mxPoint x="-4100" y="-4180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-25" value="Yes or No" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4800" y="-4160" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-27" value="User Selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4870" y="-4130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-28" target="quSBrwQ9e3XdaZ6jTVIu-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-28" value="Extracted employees reporting to employee manager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4570" y="-4120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-30" value="Display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4650" y="-4130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="quSBrwQ9e3XdaZ6jTVIu-31" target="quSBrwQ9e3XdaZ6jTVIu-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-31" value="User to select as many employees as he wants" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4360" y="-4120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-33" value="Allow" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4430" y="-4120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-34" value="Section 1 Travel Allocation Section" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4160" y="-4120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-36" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4230" y="-4120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-37" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4650" y="-4080" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-39" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4610" y="-4210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="quSBrwQ9e3XdaZ6jTVIu-41" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5080" y="-4265" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
