@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T01:42:29.592Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="jNbPGquyqGR5tOBKQGpI" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-09T01:47:41.973Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="WyWEwkzkRZM3IRTQOadi" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2748,9 +2748,6 @@
         </mxCell>
         <mxCell id="7-IA2zKgTeMJ1F_WPTiz-109" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2280" y="-3860" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7-IA2zKgTeMJ1F_WPTiz-110" value="Asynchronous Rabbit MQ Call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2270" y="-3920" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7-IA2zKgTeMJ1F_WPTiz-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7-IA2zKgTeMJ1F_WPTiz-112" target="7-IA2zKgTeMJ1F_WPTiz-115">
           <mxGeometry relative="1" as="geometry" />
