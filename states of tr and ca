@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T10:18:39.443Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="7js7vOBYkrEOpuP5I1x1" version="21.6.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-08-09T10:29:29.905Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="2DCmvR6LCe09LWXN7AhE" version="21.6.6" type="github" pages="6">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -4954,94 +4954,91 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="djRQBXLnRxycGNBZNhX--1" value="Discovery outside the system" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-5160" y="-4140" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="djRQBXLnRxycGNBZNhX--3" value="User Does" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-5190" y="-4220" width="60" height="30" as="geometry" />
+          <mxGeometry x="-5880" y="-4170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="17xggkYMjLuk-6s8XJSw-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="17xggkYMjLuk-6s8XJSw-1" target="17xggkYMjLuk-6s8XJSw-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="17xggkYMjLuk-6s8XJSw-1" value="With user to discuss options." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4960" y="-4140" width="120" height="60" as="geometry" />
+          <mxGeometry x="-5680" y="-4170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="17xggkYMjLuk-6s8XJSw-3" value="User Chats" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-5030" y="-4150" width="60" height="30" as="geometry" />
+          <mxGeometry x="-5750" y="-4180" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="17xggkYMjLuk-6s8XJSw-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="17xggkYMjLuk-6s8XJSw-4" target="17xggkYMjLuk-6s8XJSw-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="17xggkYMjLuk-6s8XJSw-4" value="Tickets." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4760" y="-4140" width="120" height="60" as="geometry" />
+          <mxGeometry x="-5480" y="-4170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="17xggkYMjLuk-6s8XJSw-6" value="User Books&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4840" y="-4150" width="60" height="30" as="geometry" />
+          <mxGeometry x="-5560" y="-4180" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="17xggkYMjLuk-6s8XJSw-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="17xggkYMjLuk-6s8XJSw-7" target="17xggkYMjLuk-6s8XJSw-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="17xggkYMjLuk-6s8XJSw-7" value="Upload Tickets Button next to the travel request object." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-4560" y="-4140" width="120" height="60" as="geometry" />
+          <mxGeometry x="-5280" y="-4170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="17xggkYMjLuk-6s8XJSw-9" value="User clicks on&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4630" y="-4150" width="60" height="30" as="geometry" />
+          <mxGeometry x="-5350" y="-4180" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="17xggkYMjLuk-6s8XJSw-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="17xggkYMjLuk-6s8XJSw-10" target="17xggkYMjLuk-6s8XJSw-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="17xggkYMjLuk-6s8XJSw-10" value="Tickets" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-4360" y="-4140" width="120" height="60" as="geometry" />
+          <mxGeometry x="-5080" y="-4170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="17xggkYMjLuk-6s8XJSw-12" value="User uploads" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4430" y="-4140" width="60" height="30" as="geometry" />
+          <mxGeometry x="-5150" y="-4170" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="17xggkYMjLuk-6s8XJSw-13" value="User Presses" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4230" y="-4150" width="60" height="30" as="geometry" />
+          <mxGeometry x="-4950" y="-4180" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="17xggkYMjLuk-6s8XJSw-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="17xggkYMjLuk-6s8XJSw-14" target="17xggkYMjLuk-6s8XJSw-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="17xggkYMjLuk-6s8XJSw-14" value="Scan" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-4160" y="-4140" width="120" height="60" as="geometry" />
+          <mxGeometry x="-4880" y="-4170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r2LvxU7FdnuFpRFWTVLN-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="17xggkYMjLuk-6s8XJSw-17" target="r2LvxU7FdnuFpRFWTVLN-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="17xggkYMjLuk-6s8XJSw-17" value="Scan all files for Amounts.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3960" y="-4140" width="120" height="60" as="geometry" />
+          <mxGeometry x="-4680" y="-4170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="17xggkYMjLuk-6s8XJSw-19" value="Tesseract will" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4030" y="-4150" width="60" height="30" as="geometry" />
+          <mxGeometry x="-4750" y="-4180" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r2LvxU7FdnuFpRFWTVLN-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r2LvxU7FdnuFpRFWTVLN-1" target="r2LvxU7FdnuFpRFWTVLN-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r2LvxU7FdnuFpRFWTVLN-1" value="If scan is successful?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3760" y="-4180" width="140" height="140" as="geometry" />
+          <mxGeometry x="-4480" y="-4210" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="r2LvxU7FdnuFpRFWTVLN-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r2LvxU7FdnuFpRFWTVLN-3" target="r2LvxU7FdnuFpRFWTVLN-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r2LvxU7FdnuFpRFWTVLN-3" value="Display all amounts on the screen" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-3750" y="-4340" width="120" height="60" as="geometry" />
+          <mxGeometry x="-4470" y="-4370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r2LvxU7FdnuFpRFWTVLN-5" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3750" y="-4230" width="60" height="30" as="geometry" />
+          <mxGeometry x="-4470" y="-4260" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vAJXD8RWgK0ebQoSMlG3-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r2LvxU7FdnuFpRFWTVLN-6" target="vAJXD8RWgK0ebQoSMlG3-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r2LvxU7FdnuFpRFWTVLN-6" value="Scan for Violations Button" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-3750" y="-4480" width="120" height="60" as="geometry" />
+          <mxGeometry x="-4470" y="-4510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r2LvxU7FdnuFpRFWTVLN-8" value="User Presses" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3750" y="-4390" width="60" height="30" as="geometry" />
+          <mxGeometry x="-4470" y="-4420" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vAJXD8RWgK0ebQoSMlG3-1" value="Policy Validations Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="-3750" y="-4660" width="120" height="80" as="geometry" />
+          <mxGeometry x="-4220" y="-4520" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vAJXD8RWgK0ebQoSMlG3-3" value="Controls Passed to&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3750" y="-4550" width="60" height="30" as="geometry" />
+          <mxGeometry x="-4310" y="-4520" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EDUvWzTbYs0daieeWcU5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="i3HVcOAEr3h9EW0-jKZT-1" target="EDUvWzTbYs0daieeWcU5-10">
           <mxGeometry relative="1" as="geometry">
@@ -5057,8 +5054,29 @@
         <mxCell id="2f-iNH6_-WpFXWqfGwUB-1" value="Display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-6460" y="-4125" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2f-iNH6_-WpFXWqfGwUB-2" value="Form with following additional buttons. Upload Tickets, Scan, Scan for Violations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="2f-iNH6_-WpFXWqfGwUB-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2f-iNH6_-WpFXWqfGwUB-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5880" y="-4140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2f-iNH6_-WpFXWqfGwUB-2" value="All booking requirements" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-6080" y="-4170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2f-iNH6_-WpFXWqfGwUB-5" value="User revies" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6150" y="-4170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2f-iNH6_-WpFXWqfGwUB-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="2f-iNH6_-WpFXWqfGwUB-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5760" y="-4140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2f-iNH6_-WpFXWqfGwUB-8" value="User does" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5950" y="-4180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2f-iNH6_-WpFXWqfGwUB-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="2f-iNH6_-WpFXWqfGwUB-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5560" y="-4140" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
