@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T12:50:10.055Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3F53iDJ8aBNp8FlfzHOR" version="21.6.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-08-09T12:51:46.687Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wPImp7huNt3WqNizE1DM" version="21.6.6" type="github" pages="6">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -5244,7 +5244,7 @@
         <mxCell id="UnbDZLR6uBijIQC-9yQn-6" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be changed back to Pending Approval" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2760" y="-4200" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="UnbDZLR6uBijIQC-9yQn-9" value="Asynchronous Rabbit MQ Call for Approval" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="UnbDZLR6uBijIQC-9yQn-9" value="Asynchronous Rabbit MQ Call for Notification to Employee" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2490" y="-4220" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
