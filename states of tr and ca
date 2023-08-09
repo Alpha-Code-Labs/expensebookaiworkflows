@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T09:18:17.287Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="mTrfN7FW1NUdTQpxAszV" version="21.6.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-08-09T09:20:01.222Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="r_kQmPqrsTFImxRsNMBI" version="21.6.6" type="github" pages="6">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -3962,20 +3962,11 @@
         <mxCell id="58QBwxCXShy7YpxQ-I2T-324" value="Is T&amp;amp;E Policy Setup flag Y?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="6010" y="-3080" width="140" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="3iPkxMcGz_OSyzcO6R5H-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="58QBwxCXShy7YpxQ-I2T-328" target="58QBwxCXShy7YpxQ-I2T-331">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="58QBwxCXShy7YpxQ-I2T-328" value="Cash Advance Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="6020" y="-3335" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="58QBwxCXShy7YpxQ-I2T-329" value="Send travel request and cash advance data to be saved in Cash Advance Container. Fire and Forget. Status will be Pending Settlement" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="6140" y="-3155" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="58QBwxCXShy7YpxQ-I2T-330" value="Asynchronous Rabbit MQ Call for Settlement" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="6160" y="-3235" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="58QBwxCXShy7YpxQ-I2T-331" value="Notification Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="6260" y="-3315" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VH-C1uq6Ls9zusHT-4St-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VH-C1uq6Ls9zusHT-4St-1" target="VH-C1uq6Ls9zusHT-4St-2">
           <mxGeometry relative="1" as="geometry" />
@@ -4138,20 +4129,11 @@
         <mxCell id="aahJxwgJkMcQsvIUlEK1-5" value="Notification Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
           <mxGeometry x="6720" y="-2845" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="apEbrXGTEvE7qKVAJ-jx-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aahJxwgJkMcQsvIUlEK1-6" target="aahJxwgJkMcQsvIUlEK1-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="aahJxwgJkMcQsvIUlEK1-6" value="Cash Advance Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="6790" y="-3105" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="aahJxwgJkMcQsvIUlEK1-7" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be Pending Settlement" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="aahJxwgJkMcQsvIUlEK1-7" value="Send travel request and cash advance data to be saved in Cash Advance Container. Fire and Forget. Status will be Pending Settlement" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="6670" y="-3005" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="aahJxwgJkMcQsvIUlEK1-8" value="Asynchronous Rabbit MQ Call for Settlement" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="6920" y="-3005" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="aahJxwgJkMcQsvIUlEK1-9" value="Notification Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="7020" y="-3085" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="aahJxwgJkMcQsvIUlEK1-11" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="6150" y="-2845" width="80" height="30" as="geometry" />
