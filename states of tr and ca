@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T23:01:53.430Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="RXtr8_BfRLafzPdP9KPg" version="21.6.6" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-08-09T23:03:21.653Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="GW8BHcc3aicOwAso_8_u" version="21.6.6" type="github" pages="7">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -5533,8 +5533,11 @@
         <mxCell id="IG9Nu3HWIMUjCv812YCY-1" value="Notification Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
           <mxGeometry x="-5480" y="-4160" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="W4zLM3drByMnXWbLTRyI-1" value="Control passed to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-5570" y="-4170" width="60" height="30" as="geometry" />
+        <mxCell id="W4zLM3drByMnXWbLTRyI-1" value="Asynchronous Rabbit MQ Call for Approval" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5580" y="-4195" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W4zLM3drByMnXWbLTRyI-2" value="Control passed to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5570" y="-4120" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
