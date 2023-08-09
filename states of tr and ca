@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T06:27:03.538Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="XpRDNMIS8PHOkw-uvJez" version="21.6.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-08-09T06:31:26.904Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="cZ5kylSW_cjh8eFBeHUu" version="21.6.6" type="github" pages="4">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -3430,7 +3430,7 @@
         <mxCell id="58QBwxCXShy7YpxQ-I2T-149" value="Save" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4370" y="-3800" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="58QBwxCXShy7YpxQ-I2T-150" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be Draft" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="58QBwxCXShy7YpxQ-I2T-150" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be Draft. Recorded state will be Section 0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4290" y="-3800" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="58QBwxCXShy7YpxQ-I2T-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="58QBwxCXShy7YpxQ-I2T-152" target="58QBwxCXShy7YpxQ-I2T-154">
@@ -3448,7 +3448,7 @@
         <mxCell id="58QBwxCXShy7YpxQ-I2T-155" value="Save" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2720" y="-4210" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="58QBwxCXShy7YpxQ-I2T-156" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be Draft" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="58QBwxCXShy7YpxQ-I2T-156" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be Draft. Recorded state will be Section 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2640" y="-4210" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="58QBwxCXShy7YpxQ-I2T-157" value="Next or Save&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
@@ -3465,7 +3465,7 @@
         <mxCell id="58QBwxCXShy7YpxQ-I2T-160" value="Save" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1880" y="-4210" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="58QBwxCXShy7YpxQ-I2T-161" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be Draft" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="58QBwxCXShy7YpxQ-I2T-161" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be Draft. Recorded state will be Section 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1800" y="-4210" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="58QBwxCXShy7YpxQ-I2T-162" value="Next" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -3486,7 +3486,7 @@
         <mxCell id="58QBwxCXShy7YpxQ-I2T-167" value="Save" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-680" y="-4010" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="58QBwxCXShy7YpxQ-I2T-168" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be Draft" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="58QBwxCXShy7YpxQ-I2T-168" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be Draft. Recorded state will be Section 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-600" y="-4010" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="58QBwxCXShy7YpxQ-I2T-169" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="58QBwxCXShy7YpxQ-I2T-171" target="58QBwxCXShy7YpxQ-I2T-174">
@@ -3576,7 +3576,7 @@
         <mxCell id="58QBwxCXShy7YpxQ-I2T-194" value="Save" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1000" y="-4010" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="58QBwxCXShy7YpxQ-I2T-195" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be Draft" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="58QBwxCXShy7YpxQ-I2T-195" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be Draft. Recorded state will be Section 4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1080" y="-4010" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="58QBwxCXShy7YpxQ-I2T-196" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -3692,7 +3692,7 @@
         <mxCell id="58QBwxCXShy7YpxQ-I2T-228" value="Save" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1840" y="-4010" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="58QBwxCXShy7YpxQ-I2T-229" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be Draft" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="58QBwxCXShy7YpxQ-I2T-229" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be Draft. Recorded state will be Section 5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1920" y="-4010" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="58QBwxCXShy7YpxQ-I2T-231" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="58QBwxCXShy7YpxQ-I2T-232" target="58QBwxCXShy7YpxQ-I2T-243">
@@ -3907,7 +3907,7 @@
         <mxCell id="58QBwxCXShy7YpxQ-I2T-309" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="58QBwxCXShy7YpxQ-I2T-304" target="58QBwxCXShy7YpxQ-I2T-308">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="58QBwxCXShy7YpxQ-I2T-304" value="Cash Advance Form with Travel Request Number" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="58QBwxCXShy7YpxQ-I2T-304" value="Section 1 - Cash Advance Form with Travel Request Number" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="2610" y="-3047.5" width="120" height="75" as="geometry" />
         </mxCell>
         <mxCell id="58QBwxCXShy7YpxQ-I2T-306" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -3947,7 +3947,7 @@
         <mxCell id="58QBwxCXShy7YpxQ-I2T-319" value="Cash Advance Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="3260" y="-3370" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="58QBwxCXShy7YpxQ-I2T-320" value="Send travel request and cash advance data to be saved in Cash Advance Container. Fire and Forget. Status will be Draft" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="58QBwxCXShy7YpxQ-I2T-320" value="Send travel request and cash advance data to be saved in Cash Advance Container. Fire and Forget. Status will be Draft. Recorded state will be Section 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3170" y="-3190" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="58QBwxCXShy7YpxQ-I2T-322" value="Save" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -3992,7 +3992,7 @@
         <mxCell id="VH-C1uq6Ls9zusHT-4St-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VH-C1uq6Ls9zusHT-4St-3" target="VH-C1uq6Ls9zusHT-4St-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VH-C1uq6Ls9zusHT-4St-3" value="Approval Form" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="VH-C1uq6Ls9zusHT-4St-3" value="Section 2 - Approval Form" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="3850" y="-3040" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VH-C1uq6Ls9zusHT-4St-4" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -4049,7 +4049,7 @@
         <mxCell id="VH-C1uq6Ls9zusHT-4St-15" value="Cash Advance Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="4890" y="-2855" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="VH-C1uq6Ls9zusHT-4St-16" value="Send travel request and cash advance data to be saved in Cash Advance Container. Fire and Forget. Status will be Draft" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="VH-C1uq6Ls9zusHT-4St-16" value="Send travel request and cash advance data to be saved in Cash Advance Container. Fire and Forget. Status will be Draft. Recorded state will be Section 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4990" y="-2930" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VH-C1uq6Ls9zusHT-4St-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VH-C1uq6Ls9zusHT-4St-17" target="VH-C1uq6Ls9zusHT-4St-1">
