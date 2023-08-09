@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T10:11:56.796Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hkxlNUGsxWwZ_H__ABU5" version="21.6.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-08-09T10:18:39.443Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="7js7vOBYkrEOpuP5I1x1" version="21.6.6" type="github" pages="6">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -4944,12 +4944,6 @@
         <mxCell id="woUtPB0_Y0bbeRdhqftL-1" value="&amp;nbsp;Dashboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-6960" y="-4170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vAJXD8RWgK0ebQoSMlG3-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i3HVcOAEr3h9EW0-jKZT-1" target="vAJXD8RWgK0ebQoSMlG3-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="EDUvWzTbYs0daieeWcU5-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i3HVcOAEr3h9EW0-jKZT-1" target="EDUvWzTbYs0daieeWcU5-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="i3HVcOAEr3h9EW0-jKZT-1" value="Travel object that needs booking." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-6760" y="-4170" width="120" height="60" as="geometry" />
         </mxCell>
@@ -5049,65 +5043,22 @@
         <mxCell id="vAJXD8RWgK0ebQoSMlG3-3" value="Controls Passed to&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-3750" y="-4550" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EDUvWzTbYs0daieeWcU5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vAJXD8RWgK0ebQoSMlG3-4" target="EDUvWzTbYs0daieeWcU5-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="vAJXD8RWgK0ebQoSMlG3-4" value="Onboarding Microservices" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="-6480" y="-4180" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="vAJXD8RWgK0ebQoSMlG3-6" value="Control Passed To" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-6595" y="-4125" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="j9bMjr1q4hwgyaDafYc0-1" value="HR &amp;amp; Company Structure Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-6480" y="-4570" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="j9bMjr1q4hwgyaDafYc0-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=50;exitDy=0;exitPerimeter=0;entryX=0.408;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vAJXD8RWgK0ebQoSMlG3-4" target="j9bMjr1q4hwgyaDafYc0-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-6410" y="-4340" as="sourcePoint" />
-            <mxPoint x="-6360" y="-4390" as="targetPoint" />
+        <mxCell id="EDUvWzTbYs0daieeWcU5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="i3HVcOAEr3h9EW0-jKZT-1" target="EDUvWzTbYs0daieeWcU5-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-6360" y="-4140" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EDUvWzTbYs0daieeWcU5-1" value="Synchronous Request/Response API Call. Send Employee Details. Retrieve all employee information and send back" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-6640" y="-4220" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EDUvWzTbYs0daieeWcU5-2" value="Groups Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-6760" y="-3770" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="EDUvWzTbYs0daieeWcU5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="EDUvWzTbYs0daieeWcU5-5" target="EDUvWzTbYs0daieeWcU5-10">
+        <mxCell id="2f-iNH6_-WpFXWqfGwUB-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EDUvWzTbYs0daieeWcU5-10" target="2f-iNH6_-WpFXWqfGwUB-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EDUvWzTbYs0daieeWcU5-5" value="Policy Validation Container" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="-6760" y="-3940" width="120" height="80" as="geometry" />
+        <mxCell id="EDUvWzTbYs0daieeWcU5-10" value="Form with following additional buttons. Upload Tickets, Scan, Scan for Violations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-6280" y="-4170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EDUvWzTbYs0daieeWcU5-7" value="Control Passed To" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-6770" y="-4070" width="60" height="30" as="geometry" />
+        <mxCell id="2f-iNH6_-WpFXWqfGwUB-1" value="Display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6460" y="-4125" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EDUvWzTbYs0daieeWcU5-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.45;exitY=-0.025;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.458;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EDUvWzTbYs0daieeWcU5-2" target="EDUvWzTbYs0daieeWcU5-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-6410" y="-3950" as="sourcePoint" />
-            <mxPoint x="-6360" y="-4000" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EDUvWzTbYs0daieeWcU5-9" value="Synchronous Request/Response API Call. Send Employee Details. Retrieve Groups and T&amp;amp;E Information is available. Else return blank" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-6700" y="-4040" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EDUvWzTbYs0daieeWcU5-10" value="Travel object that needs booking." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="2f-iNH6_-WpFXWqfGwUB-2" value="Form with following additional buttons. Upload Tickets, Scan, Scan for Violations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-6080" y="-4170" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EDUvWzTbYs0daieeWcU5-12" value="Pass Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-6300" y="-4180" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EDUvWzTbYs0daieeWcU5-14" value="Pass Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-6380" y="-3940" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zjyrfDESdW02Uqe0ZDDh-2" value="T&amp;amp;E Policy Engine Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-6570" y="-3770" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="zjyrfDESdW02Uqe0ZDDh-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.717;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zjyrfDESdW02Uqe0ZDDh-2" target="EDUvWzTbYs0daieeWcU5-5">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-6696" y="-3763" as="sourcePoint" />
-            <mxPoint x="-6695" y="-3851" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
