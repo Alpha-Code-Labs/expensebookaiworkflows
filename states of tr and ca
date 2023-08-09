@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T07:35:52.199Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="1QiLe-M2IV4Y-E-QfCC6" version="21.6.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-09T08:06:32.789Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ucuXpFhazOHLxZxF0J7b" version="21.6.6" type="github" pages="5">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -4619,17 +4619,16 @@
         <mxCell id="KSdNycQA4R6XbQd0nQLv-28" value="Send data back to travel microservice" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5925" y="-4090" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KSdNycQA4R6XbQd0nQLv-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KSdNycQA4R6XbQd0nQLv-31" target="KSdNycQA4R6XbQd0nQLv-32">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KSdNycQA4R6XbQd0nQLv-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5530" y="-4320" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="KSdNycQA4R6XbQd0nQLv-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KSdNycQA4R6XbQd0nQLv-31" target="KSdNycQA4R6XbQd0nQLv-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KSdNycQA4R6XbQd0nQLv-31" value="Is Cash Advance Available?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-5600" y="-4200" width="140" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="KSdNycQA4R6XbQd0nQLv-32" value="Go to Modify travel request with cash advance Flow" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-5590" y="-4400" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KSdNycQA4R6XbQd0nQLv-33" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5600" y="-4270" width="60" height="30" as="geometry" />
@@ -4776,6 +4775,9 @@
         <mxCell id="KSdNycQA4R6XbQd0nQLv-75" value="Anything Else" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5220" y="-4170" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KSdNycQA4R6XbQd0nQLv-76" target="KSdNycQA4R6XbQd0nQLv-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="KSdNycQA4R6XbQd0nQLv-76" value="Follow path of create Travel request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-3890" y="-4180" width="120" height="80" as="geometry" />
         </mxCell>
@@ -4784,6 +4786,155 @@
         </mxCell>
         <mxCell id="KSdNycQA4R6XbQd0nQLv-78" value="Follow path of create Travel request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-4360" y="-4180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KSdNycQA4R6XbQd0nQLv-79" target="KSdNycQA4R6XbQd0nQLv-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-79" value="We notice a Cash Advance Associated with this Travel Request, Would you like to modify that too" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-5600" y="-4390" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-80" value="Prompt User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5520" y="-4260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KSdNycQA4R6XbQd0nQLv-81" target="KSdNycQA4R6XbQd0nQLv-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KSdNycQA4R6XbQd0nQLv-81" target="KSdNycQA4R6XbQd0nQLv-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-5265" y="-4630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-81" value="Yes Or No" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5600" y="-4630" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-83" value="User Selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5600" y="-4450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-85" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5380" y="-4550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-86" value="Return cash advance modification required as Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5380" y="-4490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-88" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5260" y="-4640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-89" value="Return cash advance modification required as No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5260" y="-4580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KSdNycQA4R6XbQd0nQLv-90" target="KSdNycQA4R6XbQd0nQLv-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-90" value="Is Cash Advance Notification Required flag Y?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3680" y="-4210" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KSdNycQA4R6XbQd0nQLv-92" target="KSdNycQA4R6XbQd0nQLv-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="apgy4ixFQ2-bhebZsmvQ-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KSdNycQA4R6XbQd0nQLv-92" target="apgy4ixFQ2-bhebZsmvQ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-92" value="Check Cash Advance Status ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3480" y="-4210" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KSdNycQA4R6XbQd0nQLv-94" target="KSdNycQA4R6XbQd0nQLv-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-94" value="We detect that the Cash Advance for this travel request has already been Paid. Please check with your Finance team and create a fresh cash advance if required." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3520" y="-4450" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-96" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3550" y="-4185" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-97" value="Paid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3480" y="-4260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-98" value="Display message" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3400" y="-4260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-99" value="DashBoard Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-3470" y="-4610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-101" value="Control Passed to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3490" y="-4500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="apgy4ixFQ2-bhebZsmvQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="apgy4ixFQ2-bhebZsmvQ-1" target="apgy4ixFQ2-bhebZsmvQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="apgy4ixFQ2-bhebZsmvQ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="apgy4ixFQ2-bhebZsmvQ-1" target="apgy4ixFQ2-bhebZsmvQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="apgy4ixFQ2-bhebZsmvQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="apgy4ixFQ2-bhebZsmvQ-1" target="apgy4ixFQ2-bhebZsmvQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="apgy4ixFQ2-bhebZsmvQ-1" value="Check Recorded State value?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3480" y="-4000" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="apgy4ixFQ2-bhebZsmvQ-3" value="Anything Else" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3470" y="-4060" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LgK-6dcXwZKCavBGLcyy-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.042;entryY=0.638;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="apgy4ixFQ2-bhebZsmvQ-4" target="LgK-6dcXwZKCavBGLcyy-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-3580" y="-3559" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="apgy4ixFQ2-bhebZsmvQ-4" value="Open from Section 1 of the cash advance process, with whatever data has been entered so far." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3640" y="-3800" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LgK-6dcXwZKCavBGLcyy-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="apgy4ixFQ2-bhebZsmvQ-6" target="LgK-6dcXwZKCavBGLcyy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="apgy4ixFQ2-bhebZsmvQ-6" value="Open from Section 2 of the cash advance, with whatever data has been entered so far." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3470" y="-3790" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LgK-6dcXwZKCavBGLcyy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="apgy4ixFQ2-bhebZsmvQ-8" target="LgK-6dcXwZKCavBGLcyy-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-3220" y="-3570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="apgy4ixFQ2-bhebZsmvQ-8" value="Open from Section 3 of the cash advance process, with whatever data has been entered so far." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3280" y="-3800" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="apgy4ixFQ2-bhebZsmvQ-10" value="Section 1&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3650" y="-3950" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="apgy4ixFQ2-bhebZsmvQ-11" value="Section 2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3480" y="-3850" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="apgy4ixFQ2-bhebZsmvQ-12" value="Section 3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3300" y="-3880" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LgK-6dcXwZKCavBGLcyy-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LgK-6dcXwZKCavBGLcyy-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3410" y="-3470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LgK-6dcXwZKCavBGLcyy-1" value="Continue filling the cash advance form&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3470" y="-3610" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LgK-6dcXwZKCavBGLcyy-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LgK-6dcXwZKCavBGLcyy-2" target="LgK-6dcXwZKCavBGLcyy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LgK-6dcXwZKCavBGLcyy-2" value="Submit or Save" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3480" y="-3270" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LgK-6dcXwZKCavBGLcyy-3" value="User Clicks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3490" y="-3350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LgK-6dcXwZKCavBGLcyy-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LgK-6dcXwZKCavBGLcyy-4" target="LgK-6dcXwZKCavBGLcyy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LgK-6dcXwZKCavBGLcyy-4" value="Follow path of create Travel request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3470" y="-3470" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LgK-6dcXwZKCavBGLcyy-5" value="Follow path of create Travel request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3470" y="-3030" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
