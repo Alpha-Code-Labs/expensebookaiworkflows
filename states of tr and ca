@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T08:09:34.406Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="I3lbYG1JG90i7tCDOnNW" version="21.6.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-09T08:20:19.920Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="9nMIpuhgr7OI0hYKHddP" version="21.6.6" type="github" pages="6">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -4935,6 +4935,29 @@
         </mxCell>
         <mxCell id="LgK-6dcXwZKCavBGLcyy-5" value="Follow path of create Cash Advance request" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-3470" y="-3030" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nOH-4FUnGsxD8fRRSRCR" name="Travel Microservice - Booking Travel">
+    <mxGraphModel dx="10854" dy="5297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ShRjZ8-QeTdcvLgNEcD4-1" value="&lt;h1&gt;Booking Travel&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6930" y="-4640" width="830" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="woUtPB0_Y0bbeRdhqftL-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ShRjZ8-QeTdcvLgNEcD4-2" target="woUtPB0_Y0bbeRdhqftL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ShRjZ8-QeTdcvLgNEcD4-2" value="Biz Travel Admin Role" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-7010" y="-4160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ShRjZ8-QeTdcvLgNEcD4-3" value="User is on" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6960" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="woUtPB0_Y0bbeRdhqftL-1" value="&amp;nbsp;Dashboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-6880" y="-4160" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
