@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T05:57:22.510Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="zcfi9LtGSOIebpQHVcw6" version="21.6.6" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-08-10T06:52:16.284Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="pnCdzrBpjDcDENOxIHM4" version="21.6.6" type="github" pages="12">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -6142,8 +6142,10 @@
         <mxCell id="C4D3RwBakhYRNKdXFGTC-7" value="Trip that needs modification&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-6640" y="-4160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DAJLVpQ5GkRWXr_U4BuZ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nWE8BiUcNY9KAMjWoX5n-1" target="DAJLVpQ5GkRWXr_U4BuZ-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="DAJLVpQ5GkRWXr_U4BuZ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nWE8BiUcNY9KAMjWoX5n-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-6200" y="-4130" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="nWE8BiUcNY9KAMjWoX5n-1" value="Trip Microservices." style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
           <mxGeometry x="-6400" y="-4170" width="120" height="80" as="geometry" />
@@ -6163,20 +6165,96 @@
         <mxCell id="DAJLVpQ5GkRWXr_U4BuZ-3" value="Extracts all data&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-6415" y="-4260" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DAJLVpQ5GkRWXr_U4BuZ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DAJLVpQ5GkRWXr_U4BuZ-4" target="DAJLVpQ5GkRWXr_U4BuZ-7">
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D6kmUVUYa4ke9dg_ueQZ-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5875" y="-4320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D6kmUVUYa4ke9dg_ueQZ-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5680" y="-4130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-2" value="Status of Trip" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5960" y="-4200" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D6kmUVUYa4ke9dg_ueQZ-3" target="D6kmUVUYa4ke9dg_ueQZ-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DAJLVpQ5GkRWXr_U4BuZ-4" value="Data to user in the front end. Layout can be same as Travel request form" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-3" value="Status of Trip" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-6200" y="-4160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DAJLVpQ5GkRWXr_U4BuZ-6" value="Presents" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-7" value="In Transit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5950" y="-4270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-8" value="Check" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-6270" y="-4170" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DAJLVpQ5GkRWXr_U4BuZ-7" value="Modifications as required" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-6000" y="-4160" width="120" height="60" as="geometry" />
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-9" value="Display Message" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5860" y="-4270" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DAJLVpQ5GkRWXr_U4BuZ-8" value="User Makes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-6080" y="-4170" width="60" height="30" as="geometry" />
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D6kmUVUYa4ke9dg_ueQZ-10" target="D6kmUVUYa4ke9dg_ueQZ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-10" value="We detect that your first date of travel is less than 10. We recommend you talk to your business admin/travel person to make the alterations on prioirty" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-5960" y="-4430" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-13" value="Upcoming" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5770" y="-4170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-14" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5925" y="-4600" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="D6kmUVUYa4ke9dg_ueQZ-16" target="D6kmUVUYa4ke9dg_ueQZ-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D6kmUVUYa4ke9dg_ueQZ-16" target="D6kmUVUYa4ke9dg_ueQZ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-16" value="Is First Date of Travel&amp;lt; &lt;br&gt;10 days?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5440" y="-4200" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="D6kmUVUYa4ke9dg_ueQZ-17" target="D6kmUVUYa4ke9dg_ueQZ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-17" value="Date of Travel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5680" y="-4160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-18" value="Check" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5770" y="-4130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D6kmUVUYa4ke9dg_ueQZ-20" target="D6kmUVUYa4ke9dg_ueQZ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-20" value="We detect that your first date of travel is less than 10. We recommend you talk to your business admin/travel person to make the alterations on prioirty" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-5450" y="-4430" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-22" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5430" y="-4270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-23" value="Display Message" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5330" y="-4270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-24" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5415" y="-4620" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D6kmUVUYa4ke9dg_ueQZ-26" target="D6kmUVUYa4ke9dg_ueQZ-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-26" value="To User all the trip related details. The Layout can be similar to Travel request Form" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-5160" y="-4180" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-28" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5250" y="-4170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-29" value="Present" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5250" y="-4120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-30" value="Make Modifications as desired." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4960" y="-4160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-32" value="User can" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5030" y="-4160" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
