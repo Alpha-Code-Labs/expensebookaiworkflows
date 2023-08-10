@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T08:24:15.609Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="oL_XUotKgF2_5RL5nztI" version="21.6.6" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-08-10T08:39:42.735Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4rBa-ndGBFANu7GHlNSU" version="21.6.6" type="github" pages="13">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -5676,6 +5676,9 @@
         <mxCell id="bQf0hwQfBYLZuI8K91x8-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bQf0hwQfBYLZuI8K91x8-1" target="bQf0hwQfBYLZuI8K91x8-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="8sGT6PsdDS7OaVSjofBX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bQf0hwQfBYLZuI8K91x8-1" target="8sGT6PsdDS7OaVSjofBX-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bQf0hwQfBYLZuI8K91x8-1" value="Check status of corresponding travel &lt;br&gt;request?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-5160" y="-4180" width="160" height="120" as="geometry" />
         </mxCell>
@@ -5711,6 +5714,12 @@
         </mxCell>
         <mxCell id="bQf0hwQfBYLZuI8K91x8-15" value="Anything else but Approved and Booked" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4980" y="-4150" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8sGT6PsdDS7OaVSjofBX-1" value="Raising Priority Cash Advance Flow for Trip" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5140" y="-3960" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8sGT6PsdDS7OaVSjofBX-3" value="Approved and Booked" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5150" y="-4020" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
