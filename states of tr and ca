@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T01:32:35.710Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="x23hH9S0nx7rW7hVi87l" version="21.6.6" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-08-10T01:40:05.987Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="sb7KIY7XZw0cBZFFxEqH" version="21.6.6" type="github" pages="9">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -5757,8 +5757,10 @@
         <mxCell id="VTZwXm1i3XrIaJIyHLlX-7" value="Modify Cash Advance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-6640" y="-4160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IcZnMgkKLmthOwOZ5qwA-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rwzs01wPHufIXItByt38-1" target="IcZnMgkKLmthOwOZ5qwA-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="IcZnMgkKLmthOwOZ5qwA-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rwzs01wPHufIXItByt38-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-6160" y="-4130" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Rwzs01wPHufIXItByt38-1" value="Cash Microservices" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
           <mxGeometry x="-6440" y="-4170" width="120" height="80" as="geometry" />
@@ -5778,17 +5780,11 @@
         <mxCell id="QRfllJh83-VvVz1oldUR-1" value="Control Passed to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-6520" y="-4170" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IcZnMgkKLmthOwOZ5qwA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IcZnMgkKLmthOwOZ5qwA-1" target="IcZnMgkKLmthOwOZ5qwA-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="UGTsXTmqRZ8WXXIt7TgW-1" value="Modify data as required" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-6160" y="-4160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IcZnMgkKLmthOwOZ5qwA-1" value="Check status of corresponding travel &lt;br&gt;request?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-6160" y="-4190" width="160" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="IcZnMgkKLmthOwOZ5qwA-3" value="Modify cash advance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-6140" y="-4370" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IcZnMgkKLmthOwOZ5qwA-5" value="Allow user to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-6160" y="-4260" width="60" height="30" as="geometry" />
+        <mxCell id="UGTsXTmqRZ8WXXIt7TgW-2" value="Allow user to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6270" y="-4170" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
