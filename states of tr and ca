@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T23:35:58.917Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="leOeYbEjiKIzSU8igWMX" version="21.6.6" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-10T01:24:28.958Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="a-wESwlqQdL1R2pHYkg5" version="21.6.6" type="github" pages="9">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -4327,7 +4327,7 @@
         <mxCell id="foHZaGNXOlpwNF42nOhG-7" value="User selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5620" y="-3065" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="foHZaGNXOlpwNF42nOhG-8" value="Travel Request Container&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="foHZaGNXOlpwNF42nOhG-8" value="Cash Advance Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="5700" y="-2857.5" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="foHZaGNXOlpwNF42nOhG-9" value="Submit For Approval" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -5665,6 +5665,76 @@
         </mxCell>
         <mxCell id="vq61XcByKjfMg29eheH--23" value="Follow creating cash advance flow" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-5600" y="-4160" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8cA-J94diKTEjt0xXlj1" name="Cash Microservices - Modifying cash advance">
+    <mxGraphModel dx="10854" dy="5297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vhWvF4YQt4SzpxpEDZcL-1" value="&lt;h1&gt;Modifying Cash Advance&amp;nbsp;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6930" y="-4640" width="830" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VTZwXm1i3XrIaJIyHLlX-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VTZwXm1i3XrIaJIyHLlX-2" target="VTZwXm1i3XrIaJIyHLlX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VTZwXm1i3XrIaJIyHLlX-2" value="Any Role" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-7010" y="-4160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VTZwXm1i3XrIaJIyHLlX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VTZwXm1i3XrIaJIyHLlX-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-6640" y="-4130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VTZwXm1i3XrIaJIyHLlX-4" value="&amp;nbsp;Dashboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-6880" y="-4160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VTZwXm1i3XrIaJIyHLlX-5" value="User is on" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6970" y="-4160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VTZwXm1i3XrIaJIyHLlX-6" value="User selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6730" y="-4180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QRfllJh83-VvVz1oldUR-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VTZwXm1i3XrIaJIyHLlX-7" target="Rwzs01wPHufIXItByt38-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VTZwXm1i3XrIaJIyHLlX-7" value="Modify Cash Advance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-6640" y="-4160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IcZnMgkKLmthOwOZ5qwA-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Rwzs01wPHufIXItByt38-1" target="IcZnMgkKLmthOwOZ5qwA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rwzs01wPHufIXItByt38-1" value="Cash Microservices" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-6440" y="-4170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Rwzs01wPHufIXItByt38-2" value="Cash Advance Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-6455" y="-4390" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Rwzs01wPHufIXItByt38-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.492;exitY=-0.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Rwzs01wPHufIXItByt38-1" target="Rwzs01wPHufIXItByt38-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-6120" y="-4150" as="sourcePoint" />
+            <mxPoint x="-6070" y="-4200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Rwzs01wPHufIXItByt38-4" value="Extract all cash advance Not Paid and in the employees name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6520" y="-4240" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QRfllJh83-VvVz1oldUR-1" value="Control Passed to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6520" y="-4170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IcZnMgkKLmthOwOZ5qwA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IcZnMgkKLmthOwOZ5qwA-1" target="IcZnMgkKLmthOwOZ5qwA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IcZnMgkKLmthOwOZ5qwA-1" value="Check status of corresponding travel &lt;br&gt;request?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6160" y="-4190" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IcZnMgkKLmthOwOZ5qwA-3" value="Modify cash advance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-6140" y="-4370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IcZnMgkKLmthOwOZ5qwA-5" value="Allow user to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6160" y="-4260" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
