@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T05:55:12.408Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="IQKMC4FDsqHNjv4jd8VN" version="21.6.6" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-08-10T05:57:22.510Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="zcfi9LtGSOIebpQHVcw6" version="21.6.6" type="github" pages="12">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -6053,11 +6053,8 @@
         <mxCell id="qR9UK6YpKN35hNeRriDE-3" value="Pass relevant data to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5810" y="-4460" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jwGL0ZMYnLlVeRR-tqhB-1" value="Asynchronous Rabbit MQ Call for Notification to employee" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-5860" y="-4360" width="70" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="jwGL0ZMYnLlVeRR-tqhB-2" value="Asynchronous Rabbit MQ Call for Notification to Dashboard Microservice" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-5760" y="-4360" width="70" height="40" as="geometry" />
+          <mxGeometry x="-5810" y="-4370" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="l2EBMuWKeGroi-QCmx5c-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l2EBMuWKeGroi-QCmx5c-1" target="l2EBMuWKeGroi-QCmx5c-3">
           <mxGeometry relative="1" as="geometry" />
@@ -6077,7 +6074,7 @@
           <mxGeometry x="-5820" y="-4240" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l2EBMuWKeGroi-QCmx5c-8" value="Pass relevant data to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-5925" y="-3910" width="60" height="30" as="geometry" />
+          <mxGeometry x="-5920" y="-3850" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l2EBMuWKeGroi-QCmx5c-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l2EBMuWKeGroi-QCmx5c-9" target="l2EBMuWKeGroi-QCmx5c-14">
           <mxGeometry relative="1" as="geometry" />
@@ -6096,17 +6093,17 @@
         <mxCell id="l2EBMuWKeGroi-QCmx5c-12" value="Do Nothing" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-5730" y="-4020" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="l2EBMuWKeGroi-QCmx5c-13" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="l2EBMuWKeGroi-QCmx5c-13" value="Anything Else" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5820" y="-4020" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="l2EBMuWKeGroi-QCmx5c-14" value="Notification Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
           <mxGeometry x="-6000" y="-3750" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="l2EBMuWKeGroi-QCmx5c-16" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-6010" y="-3910" width="80" height="30" as="geometry" />
+        <mxCell id="l2EBMuWKeGroi-QCmx5c-16" value="Pending Settlement" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6030" y="-3900" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l2EBMuWKeGroi-QCmx5c-17" value="Asynchronous Rabbit MQ Call for Notification to Finance Employee- Cash Advance Microservice" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-6140" y="-3850" width="190" height="40" as="geometry" />
+        <mxCell id="l2EBMuWKeGroi-QCmx5c-17" value="Asynchronous Rabbit MQ Call for Notification to Finance Employee- Dashboard Microservice" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6155" y="-3840" width="190" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
