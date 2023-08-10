@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T07:16:04.220Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hWB_L65l9kxj5WZnaZ1W" version="21.6.6" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2023-08-10T07:18:50.502Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="m6LtTHQB348VAlI6ipHy" version="21.6.6" type="github" pages="12">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -5709,8 +5709,8 @@
         <mxCell id="bQf0hwQfBYLZuI8K91x8-13" value="Continue with approval flow for cash advance as depicted before" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-4880" y="-4150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bQf0hwQfBYLZuI8K91x8-15" value="Anything else" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4980" y="-4150" width="60" height="30" as="geometry" />
+        <mxCell id="bQf0hwQfBYLZuI8K91x8-15" value="Anything else but Approved and Booked" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4980" y="-4150" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
