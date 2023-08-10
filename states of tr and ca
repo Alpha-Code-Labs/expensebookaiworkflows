@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T08:39:42.735Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4rBa-ndGBFANu7GHlNSU" version="21.6.6" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2023-08-10T08:40:17.000Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="9iu2DzWJPMDH8r5nPZAY" version="21.6.6" type="github" pages="13">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -5846,8 +5846,19 @@
         <mxCell id="tMkOTp2XiTetm5zpwHVK-14" value="Continue with approval flow for cash advance as depicted before" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-5140" y="-4160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tMkOTp2XiTetm5zpwHVK-15" value="Anything else" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-5240" y="-4160" width="60" height="30" as="geometry" />
+        <mxCell id="tMkOTp2XiTetm5zpwHVK-15" value="Anything else but Approved and Booked" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5240" y="-4170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gP1JDJc8aUq51IcfcskX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="gP1JDJc8aUq51IcfcskX-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5340" y="-4070" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gP1JDJc8aUq51IcfcskX-2" value="Raising Priority Cash Advance Flow for Trip" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5400" y="-3970" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gP1JDJc8aUq51IcfcskX-3" value="Approved and Booked" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5410" y="-4030" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
