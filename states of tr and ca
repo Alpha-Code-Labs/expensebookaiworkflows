@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T06:17:14.595Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="mhylSyih_Lf2p92Y1tmM" version="21.6.6" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-08-11T06:21:39.434Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_PmfgMO5wLx5Cpn534jp" version="21.6.6" type="github" pages="15">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -4731,7 +4731,7 @@
             <mxPoint x="-5960" y="-4160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KSdNycQA4R6XbQd0nQLv-21" value="Fetch cash advance full details if available else pass empty string" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KSdNycQA4R6XbQd0nQLv-21" value="Fetch cash advance full details if available else pass empty string. If available return flag Cash Advance Available as Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-6090" y="-4240" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KSdNycQA4R6XbQd0nQLv-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KSdNycQA4R6XbQd0nQLv-23" target="KSdNycQA4R6XbQd0nQLv-25">
