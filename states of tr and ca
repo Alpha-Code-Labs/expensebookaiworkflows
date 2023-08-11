@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T05:29:43.758Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="WkKxy_zAq9UxYqJHg1LK" version="21.6.6" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-08-11T05:40:23.312Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YjqLO0hvQ_af5T4sAd-Y" version="21.6.6" type="github" pages="15">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -4085,7 +4085,7 @@
         <mxCell id="58QBwxCXShy7YpxQ-I2T-328" value="Cash Advance Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="6020" y="-3335" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="58QBwxCXShy7YpxQ-I2T-329" value="Send travel request and cash advance data to be saved in Cash Advance Container. Fire and Forget. Status will be Pending Settlement" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="58QBwxCXShy7YpxQ-I2T-329" value="Send travel request and cash advance data to be saved in Cash Advance Container. Fire and Forget. Status will be Awaiting Pending Settlement" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="5940" y="-3165" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VH-C1uq6Ls9zusHT-4St-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VH-C1uq6Ls9zusHT-4St-1" target="VH-C1uq6Ls9zusHT-4St-2">
