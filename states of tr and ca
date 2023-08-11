@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T06:57:50.734Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_u5vE--ktxTxdssWglMz" version="21.6.6" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-08-11T07:01:14.319Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Wnl_wiVJNiEd7OkRdWrK" version="21.6.6" type="github" pages="15">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -6635,8 +6635,10 @@
         <mxCell id="D6kmUVUYa4ke9dg_ueQZ-32" value="User can" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5130" y="-3920" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KyWEMDLymKMa5p6NITQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3KyWEMDLymKMa5p6NITQ-1" target="3KyWEMDLymKMa5p6NITQ-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="3KyWEMDLymKMa5p6NITQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3KyWEMDLymKMa5p6NITQ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4675" y="-4260" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Gsh4IxsZzqfSzzU2vul8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3KyWEMDLymKMa5p6NITQ-1" target="Gsh4IxsZzqfSzzU2vul8-1">
           <mxGeometry relative="1" as="geometry" />
@@ -6647,32 +6649,29 @@
         <mxCell id="3KyWEMDLymKMa5p6NITQ-3" value="User can Select" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4750" y="-4030" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3KyWEMDLymKMa5p6NITQ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3KyWEMDLymKMa5p6NITQ-4" target="3KyWEMDLymKMa5p6NITQ-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="RJx8JkgSPWeQ3oLBWSuC-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3KyWEMDLymKMa5p6NITQ-4" target="RJx8JkgSPWeQ3oLBWSuC-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3KyWEMDLymKMa5p6NITQ-4" target="3KyWEMDLymKMa5p6NITQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3KyWEMDLymKMa5p6NITQ-4" value="We detect that your first date of travel is less than 10. We have saved your record, but we recommend that you submit this quickly to move forward" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-4770" y="-4450" width="190" height="110" as="geometry" />
+          <mxGeometry x="-4770" y="-4630" width="190" height="110" as="geometry" />
         </mxCell>
         <mxCell id="3KyWEMDLymKMa5p6NITQ-6" value="Save" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4740" y="-4280" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="3KyWEMDLymKMa5p6NITQ-7" value="Display Message" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4660" y="-4280" width="60" height="30" as="geometry" />
+          <mxGeometry x="-4745" y="-4250" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3KyWEMDLymKMa5p6NITQ-8" value="Trip Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-4750" y="-4650" width="150" height="120" as="geometry" />
+          <mxGeometry x="-5130" y="-4635" width="150" height="120" as="geometry" />
         </mxCell>
         <mxCell id="8Bok9uWWWyLoa1mbAQ2W-1" value="Send data to be saved in Trip Container. Fire and Forget. Save both changed values and new values. ." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4840" y="-4510" width="150" height="30" as="geometry" />
+          <mxGeometry x="-4950" y="-4530" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RJx8JkgSPWeQ3oLBWSuC-1" value="Dash Board Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="-4450" y="-4435" width="120" height="80" as="geometry" />
+          <mxGeometry x="-4390" y="-4615" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="xX4UqVV9IougURjVy1YK-1" value="Asynchronous Rabbit MQ Call for Notification to Dashboard Microservice. Mark the Trip as &quot;Upcoming - Under Modification&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4610" y="-4490" width="200" height="40" as="geometry" />
+          <mxGeometry x="-4580" y="-4540" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Gsh4IxsZzqfSzzU2vul8-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Gsh4IxsZzqfSzzU2vul8-1" target="Gsh4IxsZzqfSzzU2vul8-3">
           <mxGeometry relative="1" as="geometry" />
@@ -7069,6 +7068,20 @@
         </mxCell>
         <mxCell id="m64DkpG48d9UVC-TWAqZ-9" value="User Can&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-3775" y="-3500" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9FQoml2XkMGQ9DGIQpo6-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4675" y="-4520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-5" value="Is First Date of Travel&amp;lt; &lt;br&gt;10 days?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4760" y="-4400" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-6" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4750" y="-4470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-7" value="Display Message" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4650" y="-4470" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
