@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T07:44:15.039Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5KqQVYFBNq13M7Kd7UTy" version="21.6.6" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-08-11T07:46:42.399Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="URjy9mQGylHy8QSvpJGs" version="21.6.6" type="github" pages="15">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -7397,7 +7397,7 @@
             <mxPoint x="-6570" y="-4380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nva8GcBa3-OdI0mVjFz7-8" value="Extract all Trips with status as In Transit and notification sent to dashboard flag as Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="nva8GcBa3-OdI0mVjFz7-8" value="Extract all Trips with status as In Transit and notification sent to dashboard flag as Y and cash advance status as Paid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-6760" y="-4290" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CK2MQkRNf0NQvTdzCi2A-1" value="All cash Advance amounts&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
