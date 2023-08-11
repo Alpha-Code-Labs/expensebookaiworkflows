@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T07:01:14.319Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Wnl_wiVJNiEd7OkRdWrK" version="21.6.6" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-08-11T07:11:49.142Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hU_pvByqg86I7ulRLvRF" version="21.6.6" type="github" pages="15">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -6655,6 +6655,9 @@
         <mxCell id="9FQoml2XkMGQ9DGIQpo6-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3KyWEMDLymKMa5p6NITQ-4" target="3KyWEMDLymKMa5p6NITQ-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3KyWEMDLymKMa5p6NITQ-4" target="9FQoml2XkMGQ9DGIQpo6-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3KyWEMDLymKMa5p6NITQ-4" value="We detect that your first date of travel is less than 10. We have saved your record, but we recommend that you submit this quickly to move forward" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-4770" y="-4630" width="190" height="110" as="geometry" />
         </mxCell>
@@ -7074,6 +7077,9 @@
             <mxPoint x="-4675" y="-4520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9FQoml2XkMGQ9DGIQpo6-5" target="Gsh4IxsZzqfSzzU2vul8-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9FQoml2XkMGQ9DGIQpo6-5" value="Is First Date of Travel&amp;lt; &lt;br&gt;10 days?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-4760" y="-4400" width="170" height="140" as="geometry" />
         </mxCell>
@@ -7082,6 +7088,74 @@
         </mxCell>
         <mxCell id="9FQoml2XkMGQ9DGIQpo6-7" value="Display Message" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4650" y="-4470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-10" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4490" y="-4365" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-11" value="Submit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4510" y="-4180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9FQoml2XkMGQ9DGIQpo6-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4675" y="-5000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.017;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9FQoml2XkMGQ9DGIQpo6-12" target="9FQoml2XkMGQ9DGIQpo6-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-12" value="Is Cash Advance available for this Trip?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4760" y="-4870" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-16" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4670" y="-4960" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-17" value="Asynchronous API call, fire and forget to Travel microservice with full data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4920" y="-4970" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-18" value="Travel Request Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4750" y="-5330" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9FQoml2XkMGQ9DGIQpo6-19" target="9FQoml2XkMGQ9DGIQpo6-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-19" value="Travel Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-4735" y="-5080" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-21" value="Send data to be updated in Travel&amp;nbsp; Container. Fire and Forget. No update in state only update new values ." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4660" y="-5160" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.6;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9FQoml2XkMGQ9DGIQpo6-22" target="9FQoml2XkMGQ9DGIQpo6-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9FQoml2XkMGQ9DGIQpo6-22" target="9FQoml2XkMGQ9DGIQpo6-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-22" value="Travel Microservice&amp;nbsp;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-4460" y="-4840" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-24" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4580" y="-4835" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-25" value="Asynchronous API call, fire and forget to Cash Advance microservice with full data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4640" y="-4755" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-26" value="Travel Request Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4490" y="-5110" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-28" value="Send data to be updated in Travel&amp;nbsp; Container. Fire and Forget. No update in state only update new values ." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4555" y="-4900" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9FQoml2XkMGQ9DGIQpo6-29" target="9FQoml2XkMGQ9DGIQpo6-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-29" value="Cash Advance Microservice&amp;nbsp;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-4280" y="-4840" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-31" value="Cash Advance Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4295" y="-5110" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9FQoml2XkMGQ9DGIQpo6-33" value="Send data to be updated in Cash Advance Container. Fire and Forget. No update in state only update new values ." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4380" y="-4915" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
