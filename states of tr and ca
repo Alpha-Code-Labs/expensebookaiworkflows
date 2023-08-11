@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T07:46:42.399Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="URjy9mQGylHy8QSvpJGs" version="21.6.6" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-08-11T07:48:08.649Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="vh_erJQg41bp0_R1uA2x" version="21.6.6" type="github" pages="15">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -7405,6 +7405,37 @@
         </mxCell>
         <mxCell id="CK2MQkRNf0NQvTdzCi2A-3" value="Extract" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-6550" y="-4390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VobMy2SzS09FmWgsAH0N-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.025;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="VobMy2SzS09FmWgsAH0N-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-6360" y="-4360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VobMy2SzS09FmWgsAH0N-2" value="Notification Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-6100" y="-4400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VobMy2SzS09FmWgsAH0N-3" value="Pass relevant data to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6230" y="-4420" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VobMy2SzS09FmWgsAH0N-4" value="Asynchronous Rabbit MQ Call for Notification to Dashboard Microservice to update the briefcase icon" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6290" y="-4330" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FmbVWFvIwsO9EKtFvDSl-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="FmbVWFvIwsO9EKtFvDSl-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-6030" y="-4320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FmbVWFvIwsO9EKtFvDSl-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FmbVWFvIwsO9EKtFvDSl-3" target="FmbVWFvIwsO9EKtFvDSl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FmbVWFvIwsO9EKtFvDSl-3" value="Dash Board Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-6090" y="-4210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FmbVWFvIwsO9EKtFvDSl-4" value="Cash Amount to the briefcase Icon for the relevant trip" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-5880" y="-4200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FmbVWFvIwsO9EKtFvDSl-5" value="Adds" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5970" y="-4210" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
