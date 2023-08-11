@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T06:30:16.925Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="UQUwM99HYYMNrtTSDnXX" version="21.6.6" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-08-11T06:44:27.937Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nenDrJeSCQc-HBjmkNOF" version="21.6.6" type="github" pages="15">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -6572,7 +6572,7 @@
         <mxCell id="D6kmUVUYa4ke9dg_ueQZ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="D6kmUVUYa4ke9dg_ueQZ-10" target="D6kmUVUYa4ke9dg_ueQZ-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-10" value="We detect that your first date of travel is less than 10. We recommend you talk to your business admin/travel person to make the alterations on prioirty" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="D6kmUVUYa4ke9dg_ueQZ-10" value="We detect that you are in Transit. We recommend you talk to your business admin/travel person to make the alterations on prioirty" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-5960" y="-4430" width="190" height="110" as="geometry" />
         </mxCell>
         <mxCell id="D6kmUVUYa4ke9dg_ueQZ-13" value="Upcoming" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
