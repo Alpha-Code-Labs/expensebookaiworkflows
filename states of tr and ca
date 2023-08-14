@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T12:17:33.346Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="mX19L9rjj5SCyv3e4rjX" version="21.6.8" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2023-08-14T12:28:34.436Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Di7_RjiPL4m67SvdyGG9" version="21.6.8" type="github" pages="22">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -10154,6 +10154,129 @@
         </mxCell>
         <mxCell id="Fd_5NEsGX_UFJQ6zYEEj-7" value="Update status to Paid for Expense" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4610" y="-4520" width="260" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2x6ZL34c7O9_3_nolZ9Q" name="Accounting Settlement Microservice - Settling accounting entries for all expenses">
+    <mxGraphModel dx="7554" dy="5297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ETHeOPByOQC7-9A4csYR-1" value="&lt;h1&gt;Accounting Settlement Microservice - Settling accounting entries for all expenses&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5920" y="-4620" width="830" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ETHeOPByOQC7-9A4csYR-3" target="ETHeOPByOQC7-9A4csYR-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-3" value="Finance Employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-5660" y="-4190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ETHeOPByOQC7-9A4csYR-5" target="ETHeOPByOQC7-9A4csYR-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-5" value="&amp;nbsp;Dashboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-5530" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-6" value="User is on" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5620" y="-4190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ETHeOPByOQC7-9A4csYR-8" target="ETHeOPByOQC7-9A4csYR-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-8" value="Create GL File icon" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-5320" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-9" value="Clicks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5400" y="-4190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ETHeOPByOQC7-9A4csYR-11" target="ETHeOPByOQC7-9A4csYR-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-11" value="Expense Booking Microservice&amp;nbsp;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-5080" y="-4200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-12" value="Control Passed To" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5170" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-13" value="Expenses Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-5080" y="-4540" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.483;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ETHeOPByOQC7-9A4csYR-13" target="ETHeOPByOQC7-9A4csYR-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5090" y="-4160" as="sourcePoint" />
+            <mxPoint x="-5040" y="-4210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-15" value="Extract all expenses, travel or non travel, having a status of Paid. Sorted by&amp;nbsp; date of raising. Ascending Order." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5290" y="-4400" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ETHeOPByOQC7-9A4csYR-17" target="ETHeOPByOQC7-9A4csYR-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-17" value="Data to user in proper format.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4840" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-18" value="Display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4930" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ETHeOPByOQC7-9A4csYR-20" target="ETHeOPByOQC7-9A4csYR-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-20" value="Can select date range" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4640" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-21" value="User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4710" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.642;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ETHeOPByOQC7-9A4csYR-34" target="ETHeOPByOQC7-9A4csYR-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4100" y="-4080" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.658;exitY=-0.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ETHeOPByOQC7-9A4csYR-34" target="ETHeOPByOQC7-9A4csYR-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4080" y="-4290" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ETHeOPByOQC7-9A4csYR-24" target="ETHeOPByOQC7-9A4csYR-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-24" value="Download excel file" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4400" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-25" value="User can" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4490" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-26" value="Expenses Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4143" y="-4010" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-27" value="Change status to Paid and Distributed in Expenses Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4390" y="-4120" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ETHeOPByOQC7-9A4csYR-29" target="ETHeOPByOQC7-9A4csYR-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-29" value="Trip Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-4140" y="-4410" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-30" value="Control Passed To" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4160" y="-4280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-31" value="Asynchronous Fire and Forget API Call. Pass all data." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4060" y="-4290" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-32" value="Trip Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4140" y="-4670" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-33" value="Change status to Paid and Distributed in Expenses Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4350" y="-4540" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-34" value="Click Save&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4160" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ETHeOPByOQC7-9A4csYR-36" value="User can" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4250" y="-4200" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
