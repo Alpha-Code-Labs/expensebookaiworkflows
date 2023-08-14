@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T08:05:54.810Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="lXg6z0eRCgV0vbOG1Fib" version="21.6.8" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2023-08-14T08:08:41.317Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="TqVcLS51ATrpALKI13jg" version="21.6.8" type="github" pages="18">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -9207,9 +9207,6 @@
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-202" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-204" target="qFhuQlO2czj8fL1Ukz4G-207">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-204" target="qFhuQlO2czj8fL1Ukz4G-223">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-204" value="Expenses Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="2980" y="-4930" width="120" height="120" as="geometry" />
         </mxCell>
@@ -9273,37 +9270,8 @@
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-222" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3480" y="-4600" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-223" value="Trip Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="2980" y="-5140" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-224" value="Send data to be updated in Trip Container for the Trip" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2890" y="-5000" width="120" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-225" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3060" y="-4280" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="qFhuQlO2czj8fL1Ukz4G-228">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3550" y="-4760" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-227" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-228" target="qFhuQlO2czj8fL1Ukz4G-230">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-228" value="Trip Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="3490" y="-4970" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-229" value="Send data to be updated in Trip Container for the Trip" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3400" y="-4830" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-230" value="Notification Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="3760" y="-4950" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-231" value="Asynchronous Rabbit MQ Call for cash advance adjustment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3630" y="-4960" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-233" target="qFhuQlO2czj8fL1Ukz4G-292">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-233" value="Expenses Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="3750" y="-4540" width="120" height="120" as="geometry" />
@@ -9375,9 +9343,6 @@
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-254" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-256" target="qFhuQlO2czj8fL1Ukz4G-259">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-255" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-256" target="qFhuQlO2czj8fL1Ukz4G-274">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-256" value="Expenses Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="3510" y="-3140" width="120" height="120" as="geometry" />
         </mxCell>
@@ -9438,32 +9403,6 @@
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-273" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4010" y="-2810" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-274" value="Trip Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="3510" y="-3350" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-275" value="Send data to be updated in Trip Container for the Trip" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3420" y="-3210" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-276" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="qFhuQlO2czj8fL1Ukz4G-278">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4080" y="-2970" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-277" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-278" target="qFhuQlO2czj8fL1Ukz4G-280">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-278" value="Trip Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="4020" y="-3180" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-279" value="Send data to be updated in Trip Container for the Trip" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3930" y="-3040" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-280" value="Notification Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="4290" y="-3160" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-281" value="Asynchronous Rabbit MQ Call for cash advance adjustment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="4160" y="-3170" width="100" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-282" value="Expenses Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="4280" y="-2750" width="120" height="120" as="geometry" />
         </mxCell>
@@ -9493,23 +9432,6 @@
         </mxCell>
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-291" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="4160" y="-2720" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-292" value="Trip Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="4000" y="-4540" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-293" value="Send data to be updated in Trip Container for the Trip" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3880" y="-4450" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-294" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="qFhuQlO2czj8fL1Ukz4G-295">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4400" y="-2685" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-295" value="Trip Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="4530" y="-2745" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-296" value="Send data to be updated in Trip Container for the Trip" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="4410" y="-2655" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jYYOX64PK1DlQbOZt6fa-8" value="Non Travel Expense Allocation Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="-4810" y="-3975" width="120" height="120" as="geometry" />
