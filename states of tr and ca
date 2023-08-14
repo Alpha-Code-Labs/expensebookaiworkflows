@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T08:02:46.016Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="gBQpbltdcGLR8KmDQ2XH" version="21.6.8" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2023-08-14T08:05:54.810Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="lXg6z0eRCgV0vbOG1Fib" version="21.6.8" type="github" pages="18">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -8724,10 +8724,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-67" value="Add an expense line button" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-2880" y="-4190" width="120" height="60" as="geometry" />
+          <mxGeometry x="-3270" y="-4190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-68" value="User clicks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-2970" y="-4200" width="60" height="30" as="geometry" />
+          <mxGeometry x="-3340" y="-4190" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-70">
           <mxGeometry relative="1" as="geometry">
@@ -9655,7 +9655,7 @@
         <mxCell id="IixFSUUjtpxNhy4H9-Nj-5" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-3900" y="-3590" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qu87R2PWWC75_lC7pRA3-1" value="What are the fields to be captured?&lt;br&gt;1) Expense Type - This will be a drop down with all the values from the expense categories container. User will select the right value.&amp;nbsp;&lt;br&gt;2) Transaction Date - This will be the bill date. User can manually enter or will be scanned through bill&lt;br&gt;3) Business Purpose - Free flowing text field for user to enter&lt;br&gt;4) Vendor Name - User can manually enter or will be scanned through bill&lt;br&gt;5) Bill # - User can manually enter or will be scanned through bill.&lt;br&gt;6) Gross Amount - TUser can manually enter or will be scanned through bill.&lt;br&gt;7) Taxes - User can manually enter or will be scanned through bill..&lt;br&gt;8) Total Amount - User can manually enter or will be scanned through bill.&lt;br&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="qu87R2PWWC75_lC7pRA3-1" value="What are the fields to be captured?&lt;br&gt;1) Expense Type - This will be a drop down with all the values from the expense categories container. User will select the right value.&amp;nbsp;&lt;br&gt;2) Transaction Date - This will be the bill date. User can manually enter or will be scanned through bill&lt;br&gt;3) Business Purpose - Free flowing text field for user to enter&lt;br&gt;4) Vendor Name - User can manually enter or will be scanned through bill&lt;br&gt;5) Bill # - User can manually enter or will be scanned through bill.&lt;br&gt;6) Gross Amount - TUser can manually enter or will be scanned through bill.&lt;br&gt;7) Taxes - User can manually enter or will be scanned through bill..&lt;br&gt;8) Total Amount - User can manually enter or will be scanned through bill.&lt;br&gt;&lt;br&gt;NOTE - The kinds of fields opened will be&amp;nbsp; basis the expense categories container and the values entered by the user.&lt;br&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-3160" y="-4585" width="440" height="310" as="geometry" />
         </mxCell>
         <mxCell id="qu87R2PWWC75_lC7pRA3-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.923;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.083;entryY=-0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qu87R2PWWC75_lC7pRA3-1" target="qFhuQlO2czj8fL1Ukz4G-70">
