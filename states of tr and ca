@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T10:21:32.432Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="PGea1IAQceFxLkDOdWP_" version="21.6.8" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2023-08-14T10:22:07.927Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="NSosVbFRAA8u3TjWq27u" version="21.6.8" type="github" pages="21">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -4606,19 +4606,10 @@
         <mxCell id="2ukn-ZDdEZBrWd2cYlr5-1" value="Cash Advance Options Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="-5260" y="-4630" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="2ukn-ZDdEZBrWd2cYlr5-2" value="Cash Expense Options Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-5110" y="-4580" width="120" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="2ukn-ZDdEZBrWd2cYlr5-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.417;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="2ukn-ZDdEZBrWd2cYlr5-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-5550" y="-4294" as="sourcePoint" />
             <mxPoint x="-5386" y="-4375" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2ukn-ZDdEZBrWd2cYlr5-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="2ukn-ZDdEZBrWd2cYlr5-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-5550" y="-4278" as="sourcePoint" />
-            <mxPoint x="-5210" y="-4490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2ukn-ZDdEZBrWd2cYlr5-5" value="Extract available values" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -4627,19 +4618,10 @@
         <mxCell id="2ukn-ZDdEZBrWd2cYlr5-6" value="Cash Advance Options Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="-5070" y="-3750" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="2ukn-ZDdEZBrWd2cYlr5-7" value="Cash Expense Options Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-4920" y="-3700" width="120" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="2ukn-ZDdEZBrWd2cYlr5-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.417;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=110;exitDy=10;exitPerimeter=0;" edge="1" parent="1" target="2ukn-ZDdEZBrWd2cYlr5-6" source="58QBwxCXShy7YpxQ-I2T-51">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-5360" y="-3414" as="sourcePoint" />
             <mxPoint x="-5196" y="-3495" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2ukn-ZDdEZBrWd2cYlr5-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.992;exitY=0.475;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="2ukn-ZDdEZBrWd2cYlr5-7" source="58QBwxCXShy7YpxQ-I2T-51">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-5360" y="-3398" as="sourcePoint" />
-            <mxPoint x="-5020" y="-3610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2ukn-ZDdEZBrWd2cYlr5-10" value="Extract available values" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
