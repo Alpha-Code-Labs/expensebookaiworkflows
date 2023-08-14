@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T08:34:18.168Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xVflwhvfBA9bExfNPgrD" version="21.6.8" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2023-08-14T08:38:40.494Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ZHPDhGAMmQr3e9AiWKyX" version="21.6.8" type="github" pages="19">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -9729,6 +9729,9 @@
         <mxCell id="We_RitX739DDoVCMJkKB-8" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4970" y="-4050" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="M1psfW_WiOxLSPb4CHeI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="We_RitX739DDoVCMJkKB-9" target="M1psfW_WiOxLSPb4CHeI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="We_RitX739DDoVCMJkKB-9" value="Makes Modifications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-4520" y="-4440" width="120" height="60" as="geometry" />
         </mxCell>
@@ -9745,6 +9748,23 @@
         </mxCell>
         <mxCell id="We_RitX739DDoVCMJkKB-14" value="User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4650" y="-4010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M1psfW_WiOxLSPb4CHeI-1" value="Submission flow for Travel expenses&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4280" y="-4450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M1psfW_WiOxLSPb4CHeI-3" value="Take through" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4370" y="-4440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Of8IFke6ykpMMAS0GB6V-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Of8IFke6ykpMMAS0GB6V-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4400" y="-3980" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Of8IFke6ykpMMAS0GB6V-2" value="Submission flow for Non - Travel expenses&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4280" y="-4020" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Of8IFke6ykpMMAS0GB6V-3" value="Take through" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4370" y="-4010" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
