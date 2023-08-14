@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T08:46:57.706Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="RKkjYkErQO3C0yX32YJF" version="21.6.8" type="github" pages="19">
+<mxfile host="app.diagrams.net" modified="2023-08-14T08:59:22.967Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="kqmwxfO_eZSR1JP9RxtL" version="21.6.8" type="github" pages="20">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -7787,7 +7787,7 @@
         <mxCell id="ARW-RWC8_CvIsCKypCsw-10" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-3600" y="-4190" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ARW-RWC8_CvIsCKypCsw-11" value="What are already&amp;nbsp; booked expense lines?&lt;br&gt;Since this is a travel expense, we are expecting flight, hotel and cabs as already booked expense lines. They will be displayed in lines below the header with the following values&lt;br&gt;1) Expense Type - This will be a drop down with all the values from the expense categories container. User will select the right value.&amp;nbsp;&lt;br&gt;2) Transaction Date - This will be the bill date, already captured earlier so automatically will populate.&lt;br&gt;3) Business Purpose - This value will come automatically from what the user has entered during raising travel request. Non editable.&lt;br&gt;4) Vendor Name - This will be already captured earlier so automatically will populate.&lt;br&gt;5) Bill # - This will be already captured earlier so automatically will populate.&lt;br&gt;6) Gross Amount - This will be already captured earlier so automatically will populate.&lt;br&gt;7) Taxes - This will be already captured earlier so automatically will populate.&lt;br&gt;8) Total Amount - This will be already captured earlier so automatically will populate.&lt;br&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="ARW-RWC8_CvIsCKypCsw-11" value="What are already&amp;nbsp; booked expense lines?&lt;br&gt;Since this is a travel expense, we are expecting flight, hotel and cabs as already booked expense lines. They will be displayed in lines below the header with the following values&lt;br&gt;1) Expense Type - This will be a drop down with all the values from the expense categories container. User will select the right value.&amp;nbsp;&lt;br&gt;2) Transaction Date - This will be the bill date, already captured earlier so automatically will populate.&lt;br&gt;3) Business Purpose - This value will come automatically from what the user has entered during raising travel request. Non editable.&lt;br&gt;4) Vendor Name - This will be already captured earlier so automatically will populate.&lt;br&gt;5) Bill # - This will be already captured earlier so automatically will populate.&lt;br&gt;6) Gross Amount - This will be already captured earlier so automatically will populate.&lt;br&gt;7) Taxes - This will be already captured earlier so automatically will populate.&lt;br&gt;8) Total Amount - This will be already captured earlier so automatically will populate.&lt;br&gt;9) Checkbox - Personal expense- Do not reimburse. For already booked expense lines this will not be enabled.&lt;br&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-3640" y="-4570" width="440" height="310" as="geometry" />
         </mxCell>
         <mxCell id="bsprntw8Ou3CfPS8mPLv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-1">
@@ -9795,6 +9795,17 @@
         </mxCell>
         <mxCell id="kLoeL8Pv1SH46hSb2rmd-9" value="Clicks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5250" y="-4420" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pmI04Ic6wpVOJQcIoB4f" name="Expense Booking - Adjusting Cash Advance amount in trip briefcase icon">
+    <mxGraphModel dx="7554" dy="5297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I2tVAj54NPXgGb_pWK_E-1" value="&lt;h1&gt;Expense Booking - Adjusting Cash Advance amount in trip briefcase icon&amp;nbsp;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5930" y="-4630" width="830" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
