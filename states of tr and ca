@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T10:10:06.229Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="XfUosZ2RfiB1i4v0QjnS" version="21.6.8" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2023-08-14T10:15:06.913Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nVrFoiz81ry-Zssc23K2" version="21.6.8" type="github" pages="21">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2188,7 +2188,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FRC775TvR3owQnubv1xu" name="Travel Microservices-standalone only travel request">
-    <mxGraphModel dx="10854" dy="5297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="10854" dy="9978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2310,7 +2310,7 @@
           <mxGeometry x="-5860" y="-4460" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="hCl-PulKubWXMmPzAu4B-27" value="Travel and Expense Allocation Container&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="-5440" y="-4530" width="120" height="120" as="geometry" />
+          <mxGeometry x="-5460" y="-4580" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="JvOC3UN01sBmJl9JZQJc-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.45;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="hCl-PulKubWXMmPzAu4B-27" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -2319,7 +2319,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JvOC3UN01sBmJl9JZQJc-2" value="Extract headers if available, if no data return empty dataset. If data is present return Allocation Header as Y else N. Based on headers extract vales from those containers and pass in a dataset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-5560" y="-4430" width="110" height="70" as="geometry" />
+          <mxGeometry x="-5470" y="-4840" width="110" height="350" as="geometry" />
         </mxCell>
         <mxCell id="JvOC3UN01sBmJl9JZQJc-3" value="Policy Validation Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
           <mxGeometry x="-5370" y="-4260" width="120" height="80" as="geometry" />
@@ -2331,7 +2331,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JvOC3UN01sBmJl9JZQJc-5" value="If data is available, enter T&amp;amp;E policy setup flag as Yes else No and extract Approval flow rule for travel requests if available. If available set approval flow available flag as y else N. If group available send back t&amp;amp;e rules for the group else full data . If cash advance approval flow is available extract it and set cash advance approval flow flag as Y else N&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-5310" y="-4380" width="190" height="70" as="geometry" />
+          <mxGeometry x="-5310" y="-4375" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="JvOC3UN01sBmJl9JZQJc-6" value="Self" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="-5570" y="-4150" width="60" height="30" as="geometry" />
@@ -3202,6 +3202,24 @@
         </mxCell>
         <mxCell id="FSLsn6R9KDMOQINFVUBH-7" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2560" y="-4180" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WpK9EzA8sHrfHcG0olY6-1" value="Cash Advance Options Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-5260" y="-4630" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WpK9EzA8sHrfHcG0olY6-2" value="Cash Expense Options Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-5110" y="-4580" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WpK9EzA8sHrfHcG0olY6-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.417;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="WpK9EzA8sHrfHcG0olY6-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5550" y="-4294" as="sourcePoint" />
+            <mxPoint x="-5386" y="-4375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpK9EzA8sHrfHcG0olY6-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="WpK9EzA8sHrfHcG0olY6-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5550" y="-4278" as="sourcePoint" />
+            <mxPoint x="-5210" y="-4490" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
