@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T04:29:35.594Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="UA3OBC7PmYiJmH5ZyKMk" version="21.6.8" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2023-08-14T04:49:15.301Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ci4RIM5rrY5MiKRJbh5V" version="21.6.8" type="github" pages="17">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -7782,8 +7782,8 @@
         <mxCell id="ARW-RWC8_CvIsCKypCsw-6" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4190" y="-4200" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ARW-RWC8_CvIsCKypCsw-7" value="What is an Expense Header?&lt;br&gt;An expense header will simply be the container for all expenses within this trip. It will have the following values.&lt;br&gt;1) A unique identifier&lt;br&gt;2) The date on which transaction is being raised.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-3980" y="-4350" width="290" height="90" as="geometry" />
+        <mxCell id="ARW-RWC8_CvIsCKypCsw-7" value="What is an Expense Header?&lt;br&gt;An expense header will simply be the container for all expenses within this trip. It will have the following values.&lt;br&gt;1) A unique identifier&lt;br&gt;2) The date on which transaction is being raised.&lt;br&gt;3) If T&amp;amp;E Policies flag is Yes - Validate and Submit Button&lt;br&gt;Else only Submit Button.&amp;nbsp;&lt;br&gt;4)If T&amp;amp;E Policies flag is Yes and&lt;br&gt;If Approval required flag is Yes then show&lt;br&gt;Approval rule setup at company level and button saying Select Approvers. Else Display nothing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4060" y="-4560" width="400" height="300" as="geometry" />
         </mxCell>
         <mxCell id="bsprntw8Ou3CfPS8mPLv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ARW-RWC8_CvIsCKypCsw-8" target="bsprntw8Ou3CfPS8mPLv-1">
           <mxGeometry relative="1" as="geometry" />
@@ -8045,7 +8045,13 @@
         <mxCell id="bsprntw8Ou3CfPS8mPLv-74" value="Display Message&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1295" y="-4270" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bsprntw8Ou3CfPS8mPLv-76" value="Add more expenses, Save or Submit." style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-76" target="bsprntw8Ou3CfPS8mPLv-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aigYYeNDEV5M7BJ4S511-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-76" target="aigYYeNDEV5M7BJ4S511-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-76" value="Add more expenses or Save&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="150" y="-4220" width="130" height="120" as="geometry" />
         </mxCell>
         <mxCell id="bsprntw8Ou3CfPS8mPLv-78" value="User selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -8083,6 +8089,51 @@
             <mxPoint x="-2580" y="-4570" as="sourcePoint" />
             <mxPoint x="-2220" y="-4350" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-87" value="Add More Expenses" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="-4580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-88" value="Expenses Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="155" y="-4000" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-90" value="Save&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-4080" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aigYYeNDEV5M7BJ4S511-1" value="Send data to be saved in Expenses Container. Fire and Forget. Status will be Draft.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-4070" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aigYYeNDEV5M7BJ4S511-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aigYYeNDEV5M7BJ4S511-2" target="aigYYeNDEV5M7BJ4S511-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aigYYeNDEV5M7BJ4S511-2" value="Enter as Many expense lines as he wants." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aigYYeNDEV5M7BJ4S511-4" value="User can" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-4190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aigYYeNDEV5M7BJ4S511-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aigYYeNDEV5M7BJ4S511-5" target="aigYYeNDEV5M7BJ4S511-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aigYYeNDEV5M7BJ4S511-5" value="Entering all expenses.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aigYYeNDEV5M7BJ4S511-7" value="User finishes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-4190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m_fmyitieNOi-5L_qlqQ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aigYYeNDEV5M7BJ4S511-8" target="m_fmyitieNOi-5L_qlqQ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aigYYeNDEV5M7BJ4S511-8" value="Is Select Approvers button available at Expense Header / IS approval required flag set to Y" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="-4310" width="240" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="m_fmyitieNOi-5L_qlqQ-1" value="Multiple Approvers on the Expense Header." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m_fmyitieNOi-5L_qlqQ-3" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="-4160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m_fmyitieNOi-5L_qlqQ-4" value="User can select" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="-4200" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
