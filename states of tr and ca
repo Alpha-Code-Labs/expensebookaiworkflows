@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T01:50:18.999Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="PlXQDq-zRoTtzqRodec-" version="21.6.8" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2023-08-14T02:27:18.515Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="TI0HlLGhylpc7wJygB97" version="21.6.8" type="github" pages="17">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2500,7 +2500,7 @@
             <mxPoint x="-1880" y="-4090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w_Hx4pwWh7QytvlZG9yg-1" value="Type of travel (Domestic/International), Source, Destination, Date of Travel, Approximate time of travel, Hotel Required(checkbox), Airport Transfers (Checkbox), If user clicks Internationa travel then Visa required checkbox becomes editable. Needs full day cab. User can select dates on which he needs full day cabs. Note - try and replicate all fields from a typical travel portal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
+        <mxCell id="w_Hx4pwWh7QytvlZG9yg-1" value="Type of travel (Domestic/International), Source, Destination, Date of Travel, Approximate time of travel, Hotel Required(checkbox), Airport Transfers (Checkbox), If user clicks Internationa travel then Visa required checkbox becomes editable. Needs full day cab. User can select dates on which he needs full day cabs. User also enters Purpose of business travel. Note - try and replicate all fields from a typical travel portal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="-2280" y="-4200" width="300" height="220" as="geometry" />
         </mxCell>
         <mxCell id="w_Hx4pwWh7QytvlZG9yg-3" value="User can Enter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -7718,6 +7718,9 @@
         <mxCell id="6dcjjnZrOEwZl_R3pklQ-8" value="Fetch all values in Expense Categories Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5090" y="-4280" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ARW-RWC8_CvIsCKypCsw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6dcjjnZrOEwZl_R3pklQ-10" target="ARW-RWC8_CvIsCKypCsw-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6dcjjnZrOEwZl_R3pklQ-10" value="Expense Booking Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
           <mxGeometry x="-4570" y="-4200" width="120" height="80" as="geometry" />
         </mxCell>
@@ -7769,6 +7772,27 @@
         </mxCell>
         <mxCell id="ARW-RWC8_CvIsCKypCsw-3" value="Fetch all Account Lines in Account Line Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4885" y="-4280" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ARW-RWC8_CvIsCKypCsw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ARW-RWC8_CvIsCKypCsw-4" target="ARW-RWC8_CvIsCKypCsw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ARW-RWC8_CvIsCKypCsw-4" value="Expense Header&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3880" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ARW-RWC8_CvIsCKypCsw-6" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4190" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ARW-RWC8_CvIsCKypCsw-7" value="What is an Expense Header?&lt;br&gt;An expense header will simply be the container for all expenses within this trip. It will have the following values.&lt;br&gt;1) A unique identifier&lt;br&gt;2) The date on which transaction is being raised.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3980" y="-4350" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ARW-RWC8_CvIsCKypCsw-8" value="Already booked expense lines will be displayed below the expense header" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3480" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ARW-RWC8_CvIsCKypCsw-10" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3600" y="-4190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ARW-RWC8_CvIsCKypCsw-11" value="What are booked expense lines?&lt;br&gt;Since this is a travel expense, we are expecting flight, hotel and cabs as already booked expense lines. They will be displayed in lines below the header with the following values&lt;br&gt;1) Expense Type - This will be a drop down with all the values from the expense categories container. User will select the right value.&amp;nbsp;&lt;br&gt;2) Transaction Date - This will be the bill date, already captured earlier so automatically will populate.&lt;br&gt;3) Business Purpose - This value will come automatically from what the user has entered" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3640" y="-4570" width="440" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
