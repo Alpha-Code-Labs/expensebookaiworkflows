@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T12:14:52.982Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YLVAdxdDWy4drxe8bbfy" version="21.6.8" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2023-08-14T12:17:33.346Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="mX19L9rjj5SCyv3e4rjX" version="21.6.8" type="github" pages="21">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -10122,6 +10122,9 @@
         <mxCell id="7RyI1bZasz7mGUX6KTx7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RQCTnlXmc85FIv_er5XK-1" target="7RyI1bZasz7mGUX6KTx7-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Fd_5NEsGX_UFJQ6zYEEj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RQCTnlXmc85FIv_er5XK-1" target="Fd_5NEsGX_UFJQ6zYEEj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RQCTnlXmc85FIv_er5XK-1" value="Changes expense header status to Paid." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-4400" y="-4190" width="120" height="60" as="geometry" />
         </mxCell>
@@ -10133,6 +10136,24 @@
         </mxCell>
         <mxCell id="7RyI1bZasz7mGUX6KTx7-5" value="Change status to Paid in Expenses Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4590" y="-4120" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_5NEsGX_UFJQ6zYEEj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fd_5NEsGX_UFJQ6zYEEj-1" target="Fd_5NEsGX_UFJQ6zYEEj-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_5NEsGX_UFJQ6zYEEj-1" value="Trip Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-4400" y="-4390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_5NEsGX_UFJQ6zYEEj-3" value="Control Passed To" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4420" y="-4260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_5NEsGX_UFJQ6zYEEj-4" value="Asynchronous Fire and Forget API Call. Pass all data." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4320" y="-4270" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_5NEsGX_UFJQ6zYEEj-5" value="Trip Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4400" y="-4650" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Fd_5NEsGX_UFJQ6zYEEj-7" value="Update status to Paid for Expense" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4610" y="-4520" width="260" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
