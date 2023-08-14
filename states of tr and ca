@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T10:15:06.913Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nVrFoiz81ry-Zssc23K2" version="21.6.8" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2023-08-14T10:17:08.581Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="eOMkZs0xnR8tpN1O4PSE" version="21.6.8" type="github" pages="21">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -3220,6 +3220,30 @@
             <mxPoint x="-5550" y="-4278" as="sourcePoint" />
             <mxPoint x="-5210" y="-4490" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Zmhv4IkEen8hl9sS_qky-1" value="Extract available values" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5455" y="-4540" width="110" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="Zmhv4IkEen8hl9sS_qky-2" value="Cash Advance Options Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-5030" y="-3732.5" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Zmhv4IkEen8hl9sS_qky-3" value="Cash Expense Options Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4880" y="-3682.5" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Zmhv4IkEen8hl9sS_qky-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.417;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=110;exitDy=10;exitPerimeter=0;" edge="1" parent="1" target="Zmhv4IkEen8hl9sS_qky-2" source="quSBrwQ9e3XdaZ6jTVIu-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5320" y="-3396.5" as="sourcePoint" />
+            <mxPoint x="-5156" y="-3477.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zmhv4IkEen8hl9sS_qky-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="Zmhv4IkEen8hl9sS_qky-3" source="quSBrwQ9e3XdaZ6jTVIu-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5320" y="-3380.5" as="sourcePoint" />
+            <mxPoint x="-4980" y="-3592.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zmhv4IkEen8hl9sS_qky-6" value="Extract available values" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5210" y="-3710" width="110" height="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
