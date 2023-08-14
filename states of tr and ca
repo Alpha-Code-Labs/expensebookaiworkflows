@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T04:25:03.544Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="9CRcQoy0X09DqAqVknFF" version="21.6.8" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2023-08-14T04:29:35.594Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="UA3OBC7PmYiJmH5ZyKMk" version="21.6.8" type="github" pages="17">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -7897,6 +7897,9 @@
         <mxCell id="bsprntw8Ou3CfPS8mPLv-28" value="User clicks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1690" y="-4500" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-29" target="bsprntw8Ou3CfPS8mPLv-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bsprntw8Ou3CfPS8mPLv-29" value="Bill" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-1360" y="-4500" width="120" height="60" as="geometry" />
         </mxCell>
@@ -7945,6 +7948,9 @@
         <mxCell id="bsprntw8Ou3CfPS8mPLv-42" value="Display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1000" y="-4200" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-43" target="bsprntw8Ou3CfPS8mPLv-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bsprntw8Ou3CfPS8mPLv-43" value="Only Expense Type field&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-660" y="-4190" width="120" height="60" as="geometry" />
         </mxCell>
@@ -7983,6 +7989,9 @@
         </mxCell>
         <mxCell id="bsprntw8Ou3CfPS8mPLv-57" value="User enters" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-510" y="-4390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-58" target="bsprntw8Ou3CfPS8mPLv-76">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bsprntw8Ou3CfPS8mPLv-58" value="&amp;nbsp;Expense Type field&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-180" y="-4375" width="120" height="60" as="geometry" />
@@ -8035,6 +8044,45 @@
         </mxCell>
         <mxCell id="bsprntw8Ou3CfPS8mPLv-74" value="Display Message&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1295" y="-4270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-76" value="Add more expenses, Save or Submit." style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-4220" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-78" value="User selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-80" value="User selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-4380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-82" value="User selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-4510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-83" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="-4210" as="sourcePoint" />
+            <mxPoint x="280" y="-4260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="-4240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-84" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="-4260" as="sourcePoint" />
+            <mxPoint x="280" y="-4600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-85" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="-4590" as="sourcePoint" />
+            <mxPoint x="-2586" y="-4570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-86" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="bsprntw8Ou3CfPS8mPLv-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2580" y="-4570" as="sourcePoint" />
+            <mxPoint x="-2220" y="-4350" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
