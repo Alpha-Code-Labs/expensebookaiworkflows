@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T04:10:59.134Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="TbyeYbKJjBN9sbp5zXp4" version="21.6.8" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2023-08-14T04:25:03.544Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="9CRcQoy0X09DqAqVknFF" version="21.6.8" type="github" pages="17">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -7867,17 +7867,174 @@
         <mxCell id="bsprntw8Ou3CfPS8mPLv-20" value="Manually enter fields as required (Both web and mobile)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-2090" y="-4500" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-21" target="bsprntw8Ou3CfPS8mPLv-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bsprntw8Ou3CfPS8mPLv-21" value="Click on Upload Bill and scan option (Both web and mobile)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-2090" y="-4190" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-22" target="bsprntw8Ou3CfPS8mPLv-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bsprntw8Ou3CfPS8mPLv-22" value="Click on Take Bill picture option(Only Mobile)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-2090" y="-3920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-23" target="bsprntw8Ou3CfPS8mPLv-26">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bsprntw8Ou3CfPS8mPLv-23" value="All values manually" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-1840" y="-4500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bsprntw8Ou3CfPS8mPLv-25" value="User enters" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1930" y="-4500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-26" target="bsprntw8Ou3CfPS8mPLv-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-26" value="Upload Bill Button" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-1600" y="-4500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-28" value="User clicks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1690" y="-4500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-29" value="Bill" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-1360" y="-4500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-31" value="User uploads" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1450" y="-4500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-32" target="bsprntw8Ou3CfPS8mPLv-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-32" value="Copy of bill" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1840" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-34" value="User uploads" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1930" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-35" target="bsprntw8Ou3CfPS8mPLv-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1430" y="-4160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-35" value="Scan the bill for the before mentioned fields" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1600" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-37" value="Tesseract will" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1690" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-38" target="bsprntw8Ou3CfPS8mPLv-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-38" target="bsprntw8Ou3CfPS8mPLv-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1075" y="-4345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-38" value="Have all fields been captured" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="-4220" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-40" target="bsprntw8Ou3CfPS8mPLv-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-40" value="Captured fields on correct places." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-900" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-42" value="Display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-43" value="Only Expense Type field&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-45" value="User enters" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-46" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="-4150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-47" target="bsprntw8Ou3CfPS8mPLv-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-47" value="We detect that the following fields have not been captured properly. Please enter the same manually" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-900" y="-4400" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-49" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="-4300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-50" value="Display Message&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1070" y="-4330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-52" target="bsprntw8Ou3CfPS8mPLv-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-52" value="Captured fields on correct places." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="-4375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-54" value="Display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="-4380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-55" target="bsprntw8Ou3CfPS8mPLv-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-55" value="Not captured fields." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="-4375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-57" value="User enters" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="-4390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-58" value="&amp;nbsp;Expense Type field&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="-4375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-60" value="User enters" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="-4390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-61" value="Mobile Camera" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1840" y="-3920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-63" value="Open" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1930" y="-3940" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="bsprntw8Ou3CfPS8mPLv-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1720" y="-3890" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-65" target="bsprntw8Ou3CfPS8mPLv-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1300" y="-4000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-65" value="Scan the bill for the before mentioned fields" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1600" y="-3920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-66" value="Tesseract will" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1690" y="-3930" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-68" target="bsprntw8Ou3CfPS8mPLv-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-68" target="bsprntw8Ou3CfPS8mPLv-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-68" value="Is Tesseract unable to scan even one field?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1365" y="-4220" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-70" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1220" y="-4190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-71" target="bsprntw8Ou3CfPS8mPLv-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-71" value="We detect that the bill quality is not allowing the bill to be captured at all. Please enter the expense manually" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-1375" y="-4400" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-73" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1365" y="-4260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsprntw8Ou3CfPS8mPLv-74" value="Display Message&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1295" y="-4270" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
