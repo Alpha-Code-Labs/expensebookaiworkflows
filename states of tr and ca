@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T07:50:29.530Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Yq1oeEm7tjrr3LvMh1iS" version="21.6.8" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2023-08-14T08:02:46.016Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="gBQpbltdcGLR8KmDQ2XH" version="21.6.8" type="github" pages="18">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -8709,28 +8709,16 @@
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-58" value="What is an Expense Header?&lt;br&gt;An expense header will simply be the container for all expenses within this expense report. It will have the following values.&lt;br&gt;1) A unique identifier&lt;br&gt;2) The date on which transaction is being raised.&lt;br&gt;3) If T&amp;amp;E Policies flag is Yes - Validate and Submit Button&lt;br&gt;Else only Submit Button.&amp;nbsp;&lt;br&gt;4)If T&amp;amp;E Policies flag is Yes and&lt;br&gt;If Approval required flag is Yes then show&lt;br&gt;Approval rule setup at company level and button saying Select Approvers. Else Display nothing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-4060" y="-4560" width="400" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-60" target="qFhuQlO2czj8fL1Ukz4G-64">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="qFhuQlO2czj8fL1Ukz4G-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-60" target="qFhuQlO2czj8fL1Ukz4G-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3120" y="-4160" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-60" value="Already booked expense lines will be displayed below the expense header" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-3480" y="-4190" width="120" height="60" as="geometry" />
+        <mxCell id="qFhuQlO2czj8fL1Ukz4G-60" value="Already booked expense lines will be displayed below the expense header. If this was in Draft stage and earlier expenses were booked." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3480" y="-4260" width="120" height="200" as="geometry" />
         </mxCell>
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-61" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-3600" y="-4190" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-62" value="What are already&amp;nbsp; booked expense lines?&lt;br&gt;Since this is a travel expense, we are expecting flight, hotel and cabs as already booked expense lines. They will be displayed in lines below the header with the following values&lt;br&gt;1) Expense Type - This will be a drop down with all the values from the expense categories container. User will select the right value.&amp;nbsp;&lt;br&gt;2) Transaction Date - This will be the bill date, already captured earlier so automatically will populate.&lt;br&gt;3) Business Purpose - This value will come automatically from what the user has entered during raising travel request. Non editable.&lt;br&gt;4) Vendor Name - This will be already captured earlier so automatically will populate.&lt;br&gt;5) Bill # - This will be already captured earlier so automatically will populate.&lt;br&gt;6) Gross Amount - This will be already captured earlier so automatically will populate.&lt;br&gt;7) Taxes - This will be already captured earlier so automatically will populate.&lt;br&gt;8) Total Amount - This will be already captured earlier so automatically will populate.&lt;br&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-3640" y="-4570" width="440" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-64">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2880" y="-4160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-64" value="Expense Type for already booked expense lines" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-3120" y="-4190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-65" value="User Selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3280" y="-4190" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-67" target="qFhuQlO2czj8fL1Ukz4G-70">
           <mxGeometry relative="1" as="geometry" />
@@ -9666,6 +9654,15 @@
         </mxCell>
         <mxCell id="IixFSUUjtpxNhy4H9-Nj-5" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-3900" y="-3590" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qu87R2PWWC75_lC7pRA3-1" value="What are the fields to be captured?&lt;br&gt;1) Expense Type - This will be a drop down with all the values from the expense categories container. User will select the right value.&amp;nbsp;&lt;br&gt;2) Transaction Date - This will be the bill date. User can manually enter or will be scanned through bill&lt;br&gt;3) Business Purpose - Free flowing text field for user to enter&lt;br&gt;4) Vendor Name - User can manually enter or will be scanned through bill&lt;br&gt;5) Bill # - User can manually enter or will be scanned through bill.&lt;br&gt;6) Gross Amount - TUser can manually enter or will be scanned through bill.&lt;br&gt;7) Taxes - User can manually enter or will be scanned through bill..&lt;br&gt;8) Total Amount - User can manually enter or will be scanned through bill.&lt;br&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3160" y="-4585" width="440" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="qu87R2PWWC75_lC7pRA3-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.923;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.083;entryY=-0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qu87R2PWWC75_lC7pRA3-1" target="qFhuQlO2czj8fL1Ukz4G-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2860" y="-4320" as="sourcePoint" />
+            <mxPoint x="-2810" y="-4370" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
