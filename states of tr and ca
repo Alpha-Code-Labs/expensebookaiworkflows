@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T01:30:34.530Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="9xTX5R0GnfhSlvWLcvCw" version="21.6.8" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2023-08-14T01:50:18.999Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="PlXQDq-zRoTtzqRodec-" version="21.6.8" type="github" pages="17">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -7703,7 +7703,7 @@
         <mxCell id="6dcjjnZrOEwZl_R3pklQ-5" value="Synchronous Request/Response&amp;nbsp; API call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5170" y="-4120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6dcjjnZrOEwZl_R3pklQ-6" value="HR &amp;amp; Company Structure Microservice" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="6dcjjnZrOEwZl_R3pklQ-6" value="Expense Categories Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="-5080" y="-4440" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="6dcjjnZrOEwZl_R3pklQ-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=50;exitDy=0;exitPerimeter=0;entryX=0.425;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
@@ -7715,122 +7715,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="6dcjjnZrOEwZl_R3pklQ-8" value="Fetch all employee names of the company in a dataset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="6dcjjnZrOEwZl_R3pklQ-8" value="Fetch all values in Expense Categories Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5090" y="-4280" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6dcjjnZrOEwZl_R3pklQ-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6dcjjnZrOEwZl_R3pklQ-10" target="6dcjjnZrOEwZl_R3pklQ-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="6dcjjnZrOEwZl_R3pklQ-10" value="Expense Booking Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="-4870" y="-4200" width="120" height="80" as="geometry" />
+          <mxGeometry x="-4570" y="-4200" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6dcjjnZrOEwZl_R3pklQ-11" value="Control passed to, along with data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4950" y="-4210" width="60" height="30" as="geometry" />
+          <mxGeometry x="-4660" y="-4210" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6dcjjnZrOEwZl_R3pklQ-12" value="Asynchronous Fire and Forget API call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4950" y="-4120" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="6dcjjnZrOEwZl_R3pklQ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6dcjjnZrOEwZl_R3pklQ-14" target="6dcjjnZrOEwZl_R3pklQ-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="6dcjjnZrOEwZl_R3pklQ-14" value="Are you raising expense for self or someone else?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-4640" y="-4190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="6dcjjnZrOEwZl_R3pklQ-15" value="Prompt User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4730" y="-4200" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="6dcjjnZrOEwZl_R3pklQ-16" value="Self or Someone Else?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-4440" y="-4230" width="140" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="6dcjjnZrOEwZl_R3pklQ-17" value="User Selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4520" y="-4200" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-1" value="Onboarding Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="-4430" y="-4430" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-2" value="Self" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4430" y="-4290" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-3" value="Synchronous Request/Response API Call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4450" y="-4330" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-4" value="HR &amp;amp; Company Structure Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-4430" y="-4660" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-4371" y="-4430" as="sourcePoint" />
-            <mxPoint x="-4371" y="-4542" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-6" value="Extract employee record and return in dataset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4520" y="-4540" width="110" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-8" value="Non Travel Expense Allocation Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-4200" y="-4610" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.45;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_tKdP6cSl4WILEomioYL-8">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-4310" y="-4408" as="sourcePoint" />
-            <mxPoint x="-4310" y="-4520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-10" value="Extract headers if available, if no data return empty dataset. If data is present return Allocation Header as Y else N. Based on headers extract vales from those containers and pass in a dataset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4320" y="-4510" width="110" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-11" value="Policy Validation Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="-4130" y="-4340" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=10;entryDy=70;entryPerimeter=0;" edge="1" parent="1" target="_tKdP6cSl4WILEomioYL-11">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-4320" y="-4189" as="sourcePoint" />
-            <mxPoint x="-4156" y="-4270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-13" value="If data is available, enter T&amp;amp;E policy setup flag as Yes else No and extract Approval flow rule for expenses if available. If available set approval flow available flag as y else N. If group available send back t&amp;amp;e rules for the group else full data .&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4070" y="-4460" width="190" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-14" value="Self" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="-4330" y="-4230" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-15" value="Self" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4220" y="-4200" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-16" value="Profile Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="-4680" y="-4380" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-17" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_tKdP6cSl4WILEomioYL-16">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-4500" y="-4240" as="sourcePoint" />
-            <mxPoint x="-4412" y="-4198" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-18" value="Synchronous Request/Response API Call. Send Employee Group if available" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4180" y="-4240" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-19" value="Synchronous Request/Response API Call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4590" y="-4270" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-20" value="Self" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4490" y="-4280" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-21" value="Profile Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-4850" y="-4550" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_tKdP6cSl4WILEomioYL-16">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-4780" y="-4324" as="sourcePoint" />
-            <mxPoint x="-4770" y="-4430" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-23" value="Extract employee data with profile and return data set" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4840" y="-4415" width="110" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="_tKdP6cSl4WILEomioYL-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="6dcjjnZrOEwZl_R3pklQ-16">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-4370" y="-4350" as="sourcePoint" />
-            <mxPoint x="-4222" y="-4248" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="-4660" y="-4120" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="iKcaj5x2-tRzik_MHyI8-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=70;entryDy=80;entryPerimeter=0;" edge="1" parent="1" source="iKcaj5x2-tRzik_MHyI8-1" target="6dcjjnZrOEwZl_R3pklQ-10">
           <mxGeometry relative="1" as="geometry" />
@@ -7844,7 +7739,7 @@
         <mxCell id="iKcaj5x2-tRzik_MHyI8-4" value="Control passed to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5250" y="-4060" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iKcaj5x2-tRzik_MHyI8-5" value="HR &amp;amp; Company Structure Microservice" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="iKcaj5x2-tRzik_MHyI8-5" value="Trip Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="-5320" y="-3780" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="iKcaj5x2-tRzik_MHyI8-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=70;exitDy=80;exitPerimeter=0;entryX=0.567;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
@@ -7861,6 +7756,19 @@
         </mxCell>
         <mxCell id="iKcaj5x2-tRzik_MHyI8-10" value="Asynchronous Fire and Forget API call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5020" y="-3920" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ARW-RWC8_CvIsCKypCsw-1" value="Account Line Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4890" y="-4440" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ARW-RWC8_CvIsCKypCsw-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=100;exitDy=0;exitPerimeter=0;entryX=0.442;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6dcjjnZrOEwZl_R3pklQ-3" target="ARW-RWC8_CvIsCKypCsw-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5010.5" y="-4190" as="sourcePoint" />
+            <mxPoint x="-5009.5" y="-4310" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ARW-RWC8_CvIsCKypCsw-3" value="Fetch all Account Lines in Account Line Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4885" y="-4280" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
