@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T10:24:44.273Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="QeIMBFo0RcrS58rWEzwC" version="21.6.8" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2023-08-14T10:27:40.176Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="1PhJs3scIPQFEl8s7xxr" version="21.6.8" type="github" pages="21">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -8952,12 +8952,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AXM8sETtgojchzHIFZ4A" name="Expense Booking Microservice- Booking a non-travel expense">
-    <mxGraphModel dx="10854" dy="9978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="7554" dy="9978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-21" value="&lt;h1&gt;Expense Booking - Booking Non Travel Expense&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-6930" y="-4640" width="830" height="70" as="geometry" />
+          <mxGeometry x="-5330" y="-4655" width="830" height="70" as="geometry" />
         </mxCell>
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-23" target="qFhuQlO2czj8fL1Ukz4G-25">
           <mxGeometry relative="1" as="geometry" />
@@ -9888,7 +9888,7 @@
         <mxCell id="IixFSUUjtpxNhy4H9-Nj-5" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-3900" y="-3590" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qu87R2PWWC75_lC7pRA3-1" value="What are the fields to be captured?&lt;br&gt;1) Expense Type - This will be a drop down with all the values from the expense categories container. User will select the right value.&amp;nbsp;&lt;br&gt;2) Transaction Date - This will be the bill date. User can manually enter or will be scanned through bill&lt;br&gt;3) Business Purpose - Free flowing text field for user to enter&lt;br&gt;4) Vendor Name - User can manually enter or will be scanned through bill&lt;br&gt;5) Bill # - User can manually enter or will be scanned through bill.&lt;br&gt;6) Gross Amount - TUser can manually enter or will be scanned through bill.&lt;br&gt;7) Taxes - User can manually enter or will be scanned through bill..&lt;br&gt;8) Total Amount - User can manually enter or will be scanned through bill.&lt;br&gt;&lt;br&gt;NOTE - The kinds of fields opened will be&amp;nbsp; basis the expense categories container and the values entered by the user.&lt;br&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="qu87R2PWWC75_lC7pRA3-1" value="What are the fields to be captured?&lt;br&gt;1) Expense Type - This will be a drop down with all the values from the expense categories container. User will select the right value.&amp;nbsp;&lt;br&gt;2) Transaction Date - This will be the bill date. User can manually enter or will be scanned through bill&lt;br&gt;3) Business Purpose - Free flowing text field for user to enter&lt;br&gt;4) Vendor Name - User can manually enter or will be scanned through bill&lt;br&gt;5) Bill # - User can manually enter or will be scanned through bill.&lt;br&gt;6) Gross Amount - TUser can manually enter or will be scanned through bill.&lt;br&gt;7) Taxes - User can manually enter or will be scanned through bill..&lt;br&gt;8) Total Amount - User can manually enter or will be scanned through bill.&lt;br&gt;9) Checkbox - Personal expense- Do not reimburse.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;10) Mode Of Payment - Values coming from Cash Expense Options Container.&amp;nbsp;&lt;br&gt;&lt;br&gt;NOTE - The kinds of fields opened will be&amp;nbsp; basis the expense categories container and the values entered by the user.&lt;br&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-3160" y="-4585" width="440" height="310" as="geometry" />
         </mxCell>
         <mxCell id="qu87R2PWWC75_lC7pRA3-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.923;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.083;entryY=-0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qu87R2PWWC75_lC7pRA3-1" target="qFhuQlO2czj8fL1Ukz4G-70">
@@ -9896,6 +9896,18 @@
             <mxPoint x="-2860" y="-4320" as="sourcePoint" />
             <mxPoint x="-2810" y="-4370" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jIKlcHDBGviEcJhFahQM-1" value="Cash Expense Options Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4620" y="-4415" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jIKlcHDBGviEcJhFahQM-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.417;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=120;exitDy=20;exitPerimeter=0;" edge="1" parent="1" target="jIKlcHDBGviEcJhFahQM-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4960" y="-4185" as="sourcePoint" />
+            <mxPoint x="-4746" y="-4160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jIKlcHDBGviEcJhFahQM-3" value="Extract Values" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4730" y="-4310" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
