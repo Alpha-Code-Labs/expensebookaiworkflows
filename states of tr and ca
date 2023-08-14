@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T10:27:40.176Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="1PhJs3scIPQFEl8s7xxr" version="21.6.8" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2023-08-14T12:14:52.982Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YLVAdxdDWy4drxe8bbfy" version="21.6.8" type="github" pages="21">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -10101,8 +10101,38 @@
         <mxCell id="vI24R7Z4PSfW6Ms9iWPs-3" value="Extract all expenses, travel or non travel, not having a status of Paid and status of Pending Payment. Sorted by&amp;nbsp; date of raising. Ascending Order." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5290" y="-4400" width="260" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="uszl6pMWLEAeVn_i2ruW-1" value="Settle Employee Cash Icon" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="B8QQiPzc0GpfWQL3t0p4-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uszl6pMWLEAeVn_i2ruW-1" target="B8QQiPzc0GpfWQL3t0p4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uszl6pMWLEAeVn_i2ruW-1" value="Data to user in proper format.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-4840" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B8QQiPzc0GpfWQL3t0p4-1" value="Display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4930" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RQCTnlXmc85FIv_er5XK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B8QQiPzc0GpfWQL3t0p4-2" target="RQCTnlXmc85FIv_er5XK-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B8QQiPzc0GpfWQL3t0p4-2" value="Settles out of pocket outside the system" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4640" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B8QQiPzc0GpfWQL3t0p4-4" value="User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4710" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7RyI1bZasz7mGUX6KTx7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RQCTnlXmc85FIv_er5XK-1" target="7RyI1bZasz7mGUX6KTx7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RQCTnlXmc85FIv_er5XK-1" value="Changes expense header status to Paid." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4400" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RQCTnlXmc85FIv_er5XK-3" value="User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4490" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7RyI1bZasz7mGUX6KTx7-3" value="Expenses Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4400" y="-4000" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7RyI1bZasz7mGUX6KTx7-5" value="Change status to Paid in Expenses Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4590" y="-4120" width="260" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
