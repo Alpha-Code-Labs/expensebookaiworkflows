@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T04:49:15.301Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ci4RIM5rrY5MiKRJbh5V" version="21.6.8" type="github" pages="17">
+<mxfile host="app.diagrams.net" modified="2023-08-14T04:51:49.043Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LadIhwvdOoV3qrbb2MJS" version="21.6.8" type="github" pages="17">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -8126,14 +8126,46 @@
         <mxCell id="aigYYeNDEV5M7BJ4S511-8" value="Is Select Approvers button available at Expense Header / IS approval required flag set to Y" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="-4310" width="240" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="m_fmyitieNOi-5L_qlqQ-1" value="Multiple Approvers on the Expense Header." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="m_fmyitieNOi-5L_qlqQ-1" value="Select Approvers button" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="1230" y="-4190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m_fmyitieNOi-5L_qlqQ-3" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1100" y="-4160" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="m_fmyitieNOi-5L_qlqQ-4" value="User can select" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="m_fmyitieNOi-5L_qlqQ-4" value="User clicks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1100" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cctM2igUugDBNPZemQ8K-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="cctM2igUugDBNPZemQ8K-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="-4160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cctM2igUugDBNPZemQ8K-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cctM2igUugDBNPZemQ8K-3" target="cctM2igUugDBNPZemQ8K-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cctM2igUugDBNPZemQ8K-3" value="Search employees who will approve.Searchable field. Real time fetching of employee names" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="1430" y="-4220" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cctM2igUugDBNPZemQ8K-4" value="User can&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cctM2igUugDBNPZemQ8K-5" value="Select as many approvers as he wants to.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cctM2igUugDBNPZemQ8K-6" value="User can&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cctM2igUugDBNPZemQ8K-7" value="HR &amp;amp; Company Structure Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-5290" y="-4445" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cctM2igUugDBNPZemQ8K-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.083;exitY=-0.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6dcjjnZrOEwZl_R3pklQ-3" target="cctM2igUugDBNPZemQ8K-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5020" y="-4190" as="sourcePoint" />
+            <mxPoint x="-4970" y="-4240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cctM2igUugDBNPZemQ8K-9" value="Fetch all employee names in the company with role as Employee Manager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5320" y="-4280" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
