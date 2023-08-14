@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T06:34:52.535Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="BaS3WOxPlJiHaHKOHRjo" version="21.6.8" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2023-08-14T06:55:08.610Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="IcYWeL1e1U3mDVk3OECp" version="21.6.8" type="github" pages="18">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -8645,71 +8645,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-2" target="qFhuQlO2czj8fL1Ukz4G-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-2" value="Trip Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="-6910" y="-4400" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-4" target="qFhuQlO2czj8fL1Ukz4G-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-4" value="A batch job at a pre defined time. Daily" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-6680" y="-4390" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-5" value="Runs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-6760" y="-4400" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-6" value="Trip Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-6695" y="-4220" width="150" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="qFhuQlO2czj8fL1Ukz4G-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-6620" y="-4330" as="sourcePoint" />
-            <mxPoint x="-6570" y="-4380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-8" value="Extract all trips with status as In Transit and notification sent to dashboard flag as Y and cash advance status as Paid" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-6760" y="-4290" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-10" target="qFhuQlO2czj8fL1Ukz4G-13">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-6240" y="-4360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-10" value="All cash advance amounts" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-6480" y="-4390" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-11" value="Extract" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-6550" y="-4390" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=50;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-13" target="qFhuQlO2czj8fL1Ukz4G-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-13" value="Notification Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="-6120" y="-4400" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-14" value="Pass relevant data to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-6280" y="-4410" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-15" value="Asynchronous rabbit mq call for Notifications to Dashboard Microservice to update the briefcase icon" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-6360" y="-4300" width="230" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-17" target="qFhuQlO2czj8fL1Ukz4G-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-17" value="Dash Board Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="-6110" y="-4200" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-19" target="qFhuQlO2czj8fL1Ukz4G-23">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-19" value="Add Book Expense Button to the relevant trip" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-5880" y="-4190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-20" value="Adds" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-5970" y="-4200" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-21" value="&lt;h1&gt;Expense Booking - Booking Non Travel Expense&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-6930" y="-4640" width="830" height="70" as="geometry" />
         </mxCell>
@@ -8727,14 +8662,6 @@
         </mxCell>
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-26" value="User is on" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5620" y="-4190" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-299" target="qFhuQlO2czj8fL1Ukz4G-44">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-5260" y="-3890" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-29" target="qFhuQlO2czj8fL1Ukz4G-299">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-29" value="Book Expense Button" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-5320" y="-4190" width="120" height="60" as="geometry" />
@@ -8786,29 +8713,10 @@
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-42" value="Asynchronous Fire and Forget API call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4660" y="-4120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=70;entryDy=80;entryPerimeter=0;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-44" target="qFhuQlO2czj8fL1Ukz4G-40">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-44" value="Trip Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="-5320" y="-3780" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-45" value="Synchronous Request/Response&amp;nbsp; API call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-5340" y="-3860" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-46" value="Control passed to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-5250" y="-3860" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-47" value="Trip Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-5320" y="-3580" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-48" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=70;exitDy=80;exitPerimeter=0;entryX=0.567;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-5259.02" y="-3700" as="sourcePoint" />
-            <mxPoint x="-5260.9800000000005" y="-3583" as="targetPoint" />
+        <mxCell id="qFhuQlO2czj8fL1Ukz4G-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=70;entryDy=80;entryPerimeter=0;" edge="1" parent="1" target="qFhuQlO2czj8fL1Ukz4G-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5200" y="-3740" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-49" value="Fetch all details of trip for employee booking and other employee to whom delegated" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-5440" y="-3650" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-50" value="Control passed to, along with data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4690" y="-3795" width="60" height="30" as="geometry" />
@@ -8838,7 +8746,7 @@
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-57" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4190" y="-4200" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-58" value="What is an Expense Header?&lt;br&gt;An expense header will simply be the container for all expenses within this trip. It will have the following values.&lt;br&gt;1) A unique identifier&lt;br&gt;2) The date on which transaction is being raised.&lt;br&gt;3) If T&amp;amp;E Policies flag is Yes - Validate and Submit Button&lt;br&gt;Else only Submit Button.&amp;nbsp;&lt;br&gt;4)If T&amp;amp;E Policies flag is Yes and&lt;br&gt;If Approval required flag is Yes then show&lt;br&gt;Approval rule setup at company level and button saying Select Approvers. Else Display nothing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="qFhuQlO2czj8fL1Ukz4G-58" value="What is an Expense Header?&lt;br&gt;An expense header will simply be the container for all expenses within this expense report. It will have the following values.&lt;br&gt;1) A unique identifier&lt;br&gt;2) The date on which transaction is being raised.&lt;br&gt;3) If T&amp;amp;E Policies flag is Yes - Validate and Submit Button&lt;br&gt;Else only Submit Button.&amp;nbsp;&lt;br&gt;4)If T&amp;amp;E Policies flag is Yes and&lt;br&gt;If Approval required flag is Yes then show&lt;br&gt;Approval rule setup at company level and button saying Select Approvers. Else Display nothing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-4060" y="-4560" width="400" height="300" as="geometry" />
         </mxCell>
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-60" target="qFhuQlO2czj8fL1Ukz4G-64">
@@ -9661,37 +9569,9 @@
             <mxPoint x="-5110" y="-4050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-298" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-299" target="qFhuQlO2czj8fL1Ukz4G-303">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-299" value="Is Expense Delegation Flag Y" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-5325" y="-4070" width="130" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-300" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-5340" y="-3940" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-301" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-5200" y="-4000" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-302" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.467;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-303" target="qFhuQlO2czj8fL1Ukz4G-40">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-303" value="Trip Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="-5040" y="-4040" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-304" value="Synchronous Request/Response&amp;nbsp; API call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-5120" y="-3970" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-305" value="Control passed to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-5130" y="-4060" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-306" value="Fetch all details of trip for employee booking&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-5130" y="-3640" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="qFhuQlO2czj8fL1Ukz4G-307" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=70;entryDy=80;entryPerimeter=0;" edge="1" parent="1" source="qFhuQlO2czj8fL1Ukz4G-47" target="qFhuQlO2czj8fL1Ukz4G-303">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-5040" y="-3710" as="sourcePoint" />
-            <mxPoint x="-4990" y="-3760" as="targetPoint" />
+        <mxCell id="qFhuQlO2czj8fL1Ukz4G-302" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.467;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="qFhuQlO2czj8fL1Ukz4G-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4920" y="-4000" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qFhuQlO2czj8fL1Ukz4G-308" value="Control passed to, along with data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
