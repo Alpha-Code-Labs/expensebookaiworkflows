@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T05:59:19.141Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="DXGqBXg2megWnlabTfwx" version="21.6.8" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2023-08-15T06:32:50.000Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="WhfgFNlE6eG1HKC10-NE" version="21.6.8" type="github" pages="25">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -10681,6 +10681,97 @@
         </mxCell>
         <mxCell id="TtXYrzzYWCbEF5ZfDX3S-32" value="Asynchronous fire and forget. Change status to Rejected" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-3315" y="-4230" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pzo3xXHh6Tj00EeUysYE" name="Approval Microservices - Approval Flow of Travel Request along with Cash advance">
+    <mxGraphModel dx="7554" dy="5291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xWu-n0y6qPf63BYysFqt-1" value="&lt;h1&gt;Approval Microservices - Approval Flow of Travel Request along with Cash Advance&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5920" y="-4620" width="830" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JiozZqISGrFIUZ9ylTyn-2" target="JiozZqISGrFIUZ9ylTyn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-2" value="Employee Manager Role" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-5660" y="-4190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JiozZqISGrFIUZ9ylTyn-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5320" y="-4160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-4" value="&amp;nbsp;Dashboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-5530" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-5" value="User is on" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5620" y="-4190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-6" value="Clicks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5400" y="-4190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JiozZqISGrFIUZ9ylTyn-8" target="JiozZqISGrFIUZ9ylTyn-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-8" value="Travel Request plus Cash Advance that needs approval - Notification" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-5320" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JiozZqISGrFIUZ9ylTyn-10" target="JiozZqISGrFIUZ9ylTyn-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-10" value="Cash Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-5080" y="-4200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-11" value="Control Passed To&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5170" y="-4210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-12" value="Synchronous Request/Response API call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5190" y="-4140" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-13" value="Cash Advance Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-5080" y="-4500" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="JiozZqISGrFIUZ9ylTyn-10" target="JiozZqISGrFIUZ9ylTyn-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4780" y="-4290" as="sourcePoint" />
+            <mxPoint x="-4730" y="-4340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-15" value="Fetch All details related to travel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5160" y="-4310" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JiozZqISGrFIUZ9ylTyn-17" target="JiozZqISGrFIUZ9ylTyn-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-17" value="Approval Miroservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-4840" y="-4200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-18" value="Pass Data To" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4930" y="-4210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-19" value="Control Passed To&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4930" y="-4140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="JiozZqISGrFIUZ9ylTyn-21" target="JiozZqISGrFIUZ9ylTyn-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-21" value="All Travel and cash advance related information to Approver along with exceptions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4600" y="-4220" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-22" value="Display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4700" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="JiozZqISGrFIUZ9ylTyn-60" target="JiozZqISGrFIUZ9ylTyn-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-60" value="But give user approve/reject button on both objects , Travel and Cash Advance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4330" y="-4220" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JiozZqISGrFIUZ9ylTyn-63" value="User can Approve or Reject&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4080" y="-4220" width="130" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
