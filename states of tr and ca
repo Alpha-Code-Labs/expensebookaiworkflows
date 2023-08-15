@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T05:58:35.106Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="xqZ8ANySMr41KIntPKI9" version="21.6.8" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2023-08-15T05:59:19.141Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="DXGqBXg2megWnlabTfwx" version="21.6.8" type="github" pages="24">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -10676,13 +10676,10 @@
         <mxCell id="TtXYrzzYWCbEF5ZfDX3S-29" value="Travel Request Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="-3190" y="-4220" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="TtXYrzzYWCbEF5ZfDX3S-30" value="User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3280" y="-4140" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="TtXYrzzYWCbEF5ZfDX3S-31" value="Pass Data To" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-3520" y="-4200" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TtXYrzzYWCbEF5ZfDX3S-32" value="Asynchronous fire and forget. Change status to Approved" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="TtXYrzzYWCbEF5ZfDX3S-32" value="Asynchronous fire and forget. Change status to Rejected" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-3315" y="-4230" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
