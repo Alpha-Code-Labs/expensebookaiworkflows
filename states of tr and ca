@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T10:21:32.432Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="PGea1IAQceFxLkDOdWP_" version="21.6.8" type="github" pages="21">
+<mxfile host="app.diagrams.net" modified="2023-08-14T10:17:08.581Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="eOMkZs0xnR8tpN1O4PSE" version="21.6.8" type="github" pages="21">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -3206,10 +3206,19 @@
         <mxCell id="WpK9EzA8sHrfHcG0olY6-1" value="Cash Advance Options Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="-5260" y="-4630" width="120" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="WpK9EzA8sHrfHcG0olY6-2" value="Cash Expense Options Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-5110" y="-4580" width="120" height="120" as="geometry" />
+        </mxCell>
         <mxCell id="WpK9EzA8sHrfHcG0olY6-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.417;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="WpK9EzA8sHrfHcG0olY6-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-5550" y="-4294" as="sourcePoint" />
             <mxPoint x="-5386" y="-4375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpK9EzA8sHrfHcG0olY6-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="WpK9EzA8sHrfHcG0olY6-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5550" y="-4278" as="sourcePoint" />
+            <mxPoint x="-5210" y="-4490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Zmhv4IkEen8hl9sS_qky-1" value="Extract available values" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -3218,10 +3227,19 @@
         <mxCell id="Zmhv4IkEen8hl9sS_qky-2" value="Cash Advance Options Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="-5030" y="-3732.5" width="120" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="Zmhv4IkEen8hl9sS_qky-3" value="Cash Expense Options Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4880" y="-3682.5" width="120" height="120" as="geometry" />
+        </mxCell>
         <mxCell id="Zmhv4IkEen8hl9sS_qky-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.417;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=110;exitDy=10;exitPerimeter=0;" edge="1" parent="1" target="Zmhv4IkEen8hl9sS_qky-2" source="quSBrwQ9e3XdaZ6jTVIu-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-5320" y="-3396.5" as="sourcePoint" />
             <mxPoint x="-5156" y="-3477.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zmhv4IkEen8hl9sS_qky-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="Zmhv4IkEen8hl9sS_qky-3" source="quSBrwQ9e3XdaZ6jTVIu-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5320" y="-3380.5" as="sourcePoint" />
+            <mxPoint x="-4980" y="-3592.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Zmhv4IkEen8hl9sS_qky-6" value="Extract available values" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -3231,7 +3249,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HXjSIG_r0KH7b3QcrOJd" name="Travel Microservices and cash advance microservice-travel request with cash advance">
-    <mxGraphModel dx="10854" dy="9978" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="10854" dy="5297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3356,7 +3374,7 @@
           <mxGeometry x="-5860" y="-4460" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="58QBwxCXShy7YpxQ-I2T-36" value="Travel and Expense Allocation Container&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="-5510" y="-4540" width="120" height="120" as="geometry" />
+          <mxGeometry x="-5440" y="-4530" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="58QBwxCXShy7YpxQ-I2T-37" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.45;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="58QBwxCXShy7YpxQ-I2T-36" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -3365,7 +3383,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="58QBwxCXShy7YpxQ-I2T-38" value="Extract headers if available, if no data return empty dataset. If data is present return Allocation Header as Y else N. Based on headers extract vales from those containers and pass in a dataset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-5530" y="-4670" width="110" height="70" as="geometry" />
+          <mxGeometry x="-5560" y="-4430" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="58QBwxCXShy7YpxQ-I2T-39" value="Policy Validation Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
           <mxGeometry x="-5370" y="-4260" width="120" height="80" as="geometry" />
@@ -3377,7 +3395,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="58QBwxCXShy7YpxQ-I2T-41" value="If data is available, enter T&amp;amp;E policy setup flag as Yes else No and extract Approval flow rule for travel requests if available. If available set approval flow available flag as y else N. If group available send back t&amp;amp;e rules for the group else full data . If cash advance approval flow is available extract it and set cash advance approval flow flag as Y else N&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-5300" y="-4360" width="190" height="70" as="geometry" />
+          <mxGeometry x="-5300" y="-4390" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="58QBwxCXShy7YpxQ-I2T-42" value="Self" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="-5570" y="-4150" width="60" height="30" as="geometry" />
@@ -4602,48 +4620,6 @@
         </mxCell>
         <mxCell id="N0CTNImBCNMPpOrJ6ED1-2" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="6220" y="-3215" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2ukn-ZDdEZBrWd2cYlr5-1" value="Cash Advance Options Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-5260" y="-4630" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="2ukn-ZDdEZBrWd2cYlr5-2" value="Cash Expense Options Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-5110" y="-4580" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="2ukn-ZDdEZBrWd2cYlr5-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.417;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="2ukn-ZDdEZBrWd2cYlr5-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-5550" y="-4294" as="sourcePoint" />
-            <mxPoint x="-5386" y="-4375" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2ukn-ZDdEZBrWd2cYlr5-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="2ukn-ZDdEZBrWd2cYlr5-2">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-5550" y="-4278" as="sourcePoint" />
-            <mxPoint x="-5210" y="-4490" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2ukn-ZDdEZBrWd2cYlr5-5" value="Extract available values" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-5455" y="-4540" width="110" height="350" as="geometry" />
-        </mxCell>
-        <mxCell id="2ukn-ZDdEZBrWd2cYlr5-6" value="Cash Advance Options Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-5070" y="-3750" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="2ukn-ZDdEZBrWd2cYlr5-7" value="Cash Expense Options Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-4920" y="-3700" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="2ukn-ZDdEZBrWd2cYlr5-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.417;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=110;exitDy=10;exitPerimeter=0;" edge="1" parent="1" target="2ukn-ZDdEZBrWd2cYlr5-6" source="58QBwxCXShy7YpxQ-I2T-51">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-5360" y="-3414" as="sourcePoint" />
-            <mxPoint x="-5196" y="-3495" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2ukn-ZDdEZBrWd2cYlr5-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.992;exitY=0.475;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="2ukn-ZDdEZBrWd2cYlr5-7" source="58QBwxCXShy7YpxQ-I2T-51">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-5360" y="-3398" as="sourcePoint" />
-            <mxPoint x="-5020" y="-3610" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="2ukn-ZDdEZBrWd2cYlr5-10" value="Extract available values" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-5270" y="-3705" width="110" height="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -8030,8 +8006,8 @@
         <mxCell id="ARW-RWC8_CvIsCKypCsw-10" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-3600" y="-4190" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ARW-RWC8_CvIsCKypCsw-11" value="What are already&amp;nbsp; booked expense lines?&lt;br&gt;Since this is a travel expense, we are expecting flight, hotel and cabs as already booked expense lines. They will be displayed in lines below the header with the following values&lt;br&gt;1) Expense Type - This will be a drop down with all the values from the expense categories container. User will select the right value.&amp;nbsp;&lt;br&gt;2) Transaction Date - This will be the bill date, already captured earlier so automatically will populate.&lt;br&gt;3) Business Purpose - This value will come automatically from what the user has entered during raising travel request. Non editable.&lt;br&gt;4) Vendor Name - This will be already captured earlier so automatically will populate.&lt;br&gt;5) Bill # - This will be already captured earlier so automatically will populate.&lt;br&gt;6) Gross Amount - This will be already captured earlier so automatically will populate.&lt;br&gt;7) Taxes - This will be already captured earlier so automatically will populate.&lt;br&gt;8) Total Amount - This will be already captured earlier so automatically will populate.&lt;br&gt;9) Checkbox - Personal expense- Do not reimburse. For already booked expense lines this will not be enabled.&lt;br&gt;10) Mode Of Payment -&amp;nbsp;&lt;br&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-3640" y="-4680" width="440" height="420" as="geometry" />
+        <mxCell id="ARW-RWC8_CvIsCKypCsw-11" value="What are already&amp;nbsp; booked expense lines?&lt;br&gt;Since this is a travel expense, we are expecting flight, hotel and cabs as already booked expense lines. They will be displayed in lines below the header with the following values&lt;br&gt;1) Expense Type - This will be a drop down with all the values from the expense categories container. User will select the right value.&amp;nbsp;&lt;br&gt;2) Transaction Date - This will be the bill date, already captured earlier so automatically will populate.&lt;br&gt;3) Business Purpose - This value will come automatically from what the user has entered during raising travel request. Non editable.&lt;br&gt;4) Vendor Name - This will be already captured earlier so automatically will populate.&lt;br&gt;5) Bill # - This will be already captured earlier so automatically will populate.&lt;br&gt;6) Gross Amount - This will be already captured earlier so automatically will populate.&lt;br&gt;7) Taxes - This will be already captured earlier so automatically will populate.&lt;br&gt;8) Total Amount - This will be already captured earlier so automatically will populate.&lt;br&gt;9) Checkbox - Personal expense- Do not reimburse. For already booked expense lines this will not be enabled.&lt;br&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3640" y="-4570" width="440" height="310" as="geometry" />
         </mxCell>
         <mxCell id="bsprntw8Ou3CfPS8mPLv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bsprntw8Ou3CfPS8mPLv-1">
           <mxGeometry relative="1" as="geometry">
