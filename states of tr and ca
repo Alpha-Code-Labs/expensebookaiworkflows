@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T07:50:29.530Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Yq1oeEm7tjrr3LvMh1iS" version="21.6.8" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2023-08-14T07:44:03.648Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ldPKJI75rxYtTEwCyktK" version="21.6.8" type="github" pages="18">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -9605,67 +9605,11 @@
         <mxCell id="G7NfnOrC4H4aGWvzmcFh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G7NfnOrC4H4aGWvzmcFh-2" target="qFhuQlO2czj8fL1Ukz4G-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rpRYXtlhx6qoBBjo-Ovu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G7NfnOrC4H4aGWvzmcFh-2" target="rpRYXtlhx6qoBBjo-Ovu-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="G7NfnOrC4H4aGWvzmcFh-2" value="Is Expense Delegation Flag Y" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-4320" y="-4220" width="130" height="120" as="geometry" />
         </mxCell>
         <mxCell id="G7NfnOrC4H4aGWvzmcFh-4" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4100" y="-4140" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rpRYXtlhx6qoBBjo-Ovu-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rpRYXtlhx6qoBBjo-Ovu-1" target="rpRYXtlhx6qoBBjo-Ovu-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rpRYXtlhx6qoBBjo-Ovu-1" value="Are you raising for yourself or these other employees" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-4315" y="-3980" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rpRYXtlhx6qoBBjo-Ovu-3" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4320" y="-4070" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rpRYXtlhx6qoBBjo-Ovu-4" value="Prompt User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4240" y="-4070" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rpRYXtlhx6qoBBjo-Ovu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpRYXtlhx6qoBBjo-Ovu-5" target="qFhuQlO2czj8fL1Ukz4G-56">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rpRYXtlhx6qoBBjo-Ovu-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpRYXtlhx6qoBBjo-Ovu-5" target="rpRYXtlhx6qoBBjo-Ovu-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rpRYXtlhx6qoBBjo-Ovu-5" value="Self or someone else ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4320" y="-3820" width="130" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="rpRYXtlhx6qoBBjo-Ovu-7" value="User Selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4315" y="-3885" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rpRYXtlhx6qoBBjo-Ovu-9" value="Self" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4140" y="-3795" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rpRYXtlhx6qoBBjo-Ovu-10" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3970" y="-3800" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IixFSUUjtpxNhy4H9-Nj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rpRYXtlhx6qoBBjo-Ovu-11" target="IixFSUUjtpxNhy4H9-Nj-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rpRYXtlhx6qoBBjo-Ovu-11" value="We have identified the following individuals for whom you can raise expenses" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-4315" y="-3600" width="120" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="rpRYXtlhx6qoBBjo-Ovu-14" value="Prompt User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4330" y="-3670" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IixFSUUjtpxNhy4H9-Nj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IixFSUUjtpxNhy4H9-Nj-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-3820" y="-3760" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IixFSUUjtpxNhy4H9-Nj-1" value="Name of person" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-4090" y="-3585" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IixFSUUjtpxNhy4H9-Nj-3" value="User Selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4180" y="-3600" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IixFSUUjtpxNhy4H9-Nj-5" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3900" y="-3590" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
