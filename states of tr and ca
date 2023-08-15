@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T01:50:08.536Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="m-eCISDSY_LG79beSH6o" version="21.6.8" type="github" pages="23">
+<mxfile host="app.diagrams.net" modified="2023-08-15T02:02:32.787Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Q-tm1fq5jU0zXThHy79n" version="21.6.8" type="github" pages="23">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -10378,11 +10378,92 @@
         <mxCell id="KMECjWS2sMXXnjQMW-ch-5" value="User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5400" y="-4190" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="X0Fn157cAaiGK5dvMvTk-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KMECjWS2sMXXnjQMW-ch-6" target="yU973kKmkKD_XOR8oP0x-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="KMECjWS2sMXXnjQMW-ch-6" value="Enters values , through manual entry, scanning or taking pictures" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-5320" y="-4190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yU973kKmkKD_XOR8oP0x-1" value="is Expense Header status Paid?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="X0Fn157cAaiGK5dvMvTk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yU973kKmkKD_XOR8oP0x-1" target="X0Fn157cAaiGK5dvMvTk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X0Fn157cAaiGK5dvMvTk-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yU973kKmkKD_XOR8oP0x-1" target="X0Fn157cAaiGK5dvMvTk-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yU973kKmkKD_XOR8oP0x-1" value="Is Multicurrency Enabled flag set to Y" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-5120" y="-4220" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="X0Fn157cAaiGK5dvMvTk-2" value="Do Nothing" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5115" y="-4010" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X0Fn157cAaiGK5dvMvTk-4" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5115" y="-4080" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0Fn157cAaiGK5dvMvTk-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X0Fn157cAaiGK5dvMvTk-5" target="X0Fn157cAaiGK5dvMvTk-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X0Fn157cAaiGK5dvMvTk-5" value="Display Convert button next to expense" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4880" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X0Fn157cAaiGK5dvMvTk-7" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4970" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0Fn157cAaiGK5dvMvTk-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="X0Fn157cAaiGK5dvMvTk-8" target="X0Fn157cAaiGK5dvMvTk-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X0Fn157cAaiGK5dvMvTk-8" value="Convert button" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4640" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X0Fn157cAaiGK5dvMvTk-10" value="User clicks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4730" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0Fn157cAaiGK5dvMvTk-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="X0Fn157cAaiGK5dvMvTk-11" target="X0Fn157cAaiGK5dvMvTk-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X0Fn157cAaiGK5dvMvTk-11" value="Values from table and display to user" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4400" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X0Fn157cAaiGK5dvMvTk-13" value="Fetch" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4490" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X0Fn157cAaiGK5dvMvTk-14" value="Selects currency and presses OK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4160" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X0Fn157cAaiGK5dvMvTk-17" value="User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4240" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="71uJNPUmntCsh36Qnabb-1" value="Multicurrency Microservices" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-3920" y="-4200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="71uJNPUmntCsh36Qnabb-3" value="Control Passed To" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4010" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="71uJNPUmntCsh36Qnabb-4" value="Synchronous Request/Response API Call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4010" y="-4150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TEjF0i7JyZjUSM8IDjTk-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="71uJNPUmntCsh36Qnabb-5" target="TEjF0i7JyZjUSM8IDjTk-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="71uJNPUmntCsh36Qnabb-5" value="Performs Conversion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3920" y="-4370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="71uJNPUmntCsh36Qnabb-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="71uJNPUmntCsh36Qnabb-5" target="71uJNPUmntCsh36Qnabb-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4130" y="-4120" as="sourcePoint" />
+            <mxPoint x="-4080" y="-4170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TEjF0i7JyZjUSM8IDjTk-1" value="Multicurrency Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-3920" y="-4590" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TEjF0i7JyZjUSM8IDjTk-3" value="Asynchronous fire and forget save to Multicurrency container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3970" y="-4430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TEjF0i7JyZjUSM8IDjTk-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.033;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X0Fn157cAaiGK5dvMvTk-14" target="71uJNPUmntCsh36Qnabb-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4080" y="-4270" as="sourcePoint" />
+            <mxPoint x="-4030" y="-4320" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
