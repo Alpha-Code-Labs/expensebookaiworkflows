@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T05:52:10.876Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="FlmGKMMm2TJDWHLCVs_7" version="21.6.8" type="github" pages="24">
+<mxfile host="app.diagrams.net" modified="2023-08-15T05:53:11.428Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="uFvzjWwNuQs-kjtUYkcJ" version="21.6.8" type="github" pages="24">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -10588,9 +10588,6 @@
         <mxCell id="P-tncQUgMwb0pZphWtk7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="P-tncQUgMwb0pZphWtk7-9" target="P-tncQUgMwb0pZphWtk7-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P-tncQUgMwb0pZphWtk7-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="P-tncQUgMwb0pZphWtk7-9" target="P-tncQUgMwb0pZphWtk7-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="P-tncQUgMwb0pZphWtk7-9" value="Travel Microservice&amp;nbsp;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
           <mxGeometry x="-4405" y="-4820" width="120" height="80" as="geometry" />
         </mxCell>
@@ -10609,12 +10606,6 @@
         <mxCell id="P-tncQUgMwb0pZphWtk7-16" value="Asynchronous fire and forget. Change status to Approved" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4340" y="-4910" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="P-tncQUgMwb0pZphWtk7-17" value="Notification Microservice&amp;nbsp;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="-4120" y="-4820" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="P-tncQUgMwb0pZphWtk7-19" value="Asynchronous Rabbit MQ notification to Employee" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4260" y="-4770" width="120" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="TtXYrzzYWCbEF5ZfDX3S-1" value="Rejects" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-4160" y="-4190" width="120" height="60" as="geometry" />
         </mxCell>
@@ -10629,6 +10620,17 @@
         </mxCell>
         <mxCell id="TtXYrzzYWCbEF5ZfDX3S-8" value="Asynchronous fire and forget. Save Data in Approval container. Status is Approved" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4465" y="-4460" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TtXYrzzYWCbEF5ZfDX3S-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TtXYrzzYWCbEF5ZfDX3S-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4275" y="-4350" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtXYrzzYWCbEF5ZfDX3S-11" value="Notification Microservice&amp;nbsp;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-4110" y="-4390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TtXYrzzYWCbEF5ZfDX3S-12" value="Asynchronous Rabbit MQ notification to Employee" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4250" y="-4340" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
