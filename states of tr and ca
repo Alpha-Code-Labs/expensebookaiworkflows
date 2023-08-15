@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T01:36:13.675Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nIK3hWUKIB3KDjUiOgP_" version="21.6.8" type="github" pages="23">
+<mxfile host="app.diagrams.net" modified="2023-08-15T01:50:08.536Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="m-eCISDSY_LG79beSH6o" version="21.6.8" type="github" pages="23">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -8032,7 +8032,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ARW-RWC8_CvIsCKypCsw-3" value="Fetch all Account Lines in Account Line Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4885" y="-4280" width="110" height="30" as="geometry" />
+          <mxGeometry x="-5000" y="-4315" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ARW-RWC8_CvIsCKypCsw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ARW-RWC8_CvIsCKypCsw-4" target="ARW-RWC8_CvIsCKypCsw-8">
           <mxGeometry relative="1" as="geometry" />
@@ -8989,7 +8989,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tb6Ib4kB3odsFanNhlVG-3" value="Extract Values" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4730" y="-4310" width="60" height="30" as="geometry" />
+          <mxGeometry x="-4730" y="-4230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-3Iz0c-eArtWxz5uiGGt-1" value="Multicurrency Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4690" y="-4545" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-3Iz0c-eArtWxz5uiGGt-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.433;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=120;exitDy=20;exitPerimeter=0;" edge="1" parent="1" target="-3Iz0c-eArtWxz5uiGGt-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4980" y="-4194" as="sourcePoint" />
+            <mxPoint x="-4590" y="-4300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-3Iz0c-eArtWxz5uiGGt-3" value="Fetch all values. If data available return flag&amp;nbsp; Multicurrency enabled as Y else No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4750" y="-4350" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -9952,6 +9964,18 @@
         <mxCell id="jIKlcHDBGviEcJhFahQM-3" value="Extract Values" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4730" y="-4310" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="6mtheLuNMcWkpJxjtBk_-1" value="Multicurrency Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4690" y="-4545" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6mtheLuNMcWkpJxjtBk_-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.433;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=120;exitDy=20;exitPerimeter=0;" edge="1" parent="1" target="6mtheLuNMcWkpJxjtBk_-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4980" y="-4194" as="sourcePoint" />
+            <mxPoint x="-4590" y="-4300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6mtheLuNMcWkpJxjtBk_-3" value="Fetch all values. If data available return flag&amp;nbsp; Multicurrency enabled as Y else No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4870" y="-4295" width="110" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -10324,13 +10348,41 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="N8rQwOnj_7eUtc_GI2Oa" name="Policy Validation Microservices">
+  <diagram id="N8rQwOnj_7eUtc_GI2Oa" name="Multicurrency Microservice">
     <mxGraphModel dx="7554" dy="5297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="BO1bTRRDuS20WggJGnJX-1" value="&lt;h1&gt;Policy Validation Microservice&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="BO1bTRRDuS20WggJGnJX-1" value="&lt;h1&gt;Multicurrency Microservice - For Advances&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5920" y="-4620" width="830" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="45jmwy52thnRuNozfelu-1" value="Any Role" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-5660" y="-4190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KMECjWS2sMXXnjQMW-ch-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="KMECjWS2sMXXnjQMW-ch-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5630" y="-4160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMECjWS2sMXXnjQMW-ch-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KMECjWS2sMXXnjQMW-ch-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5320" y="-4160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMECjWS2sMXXnjQMW-ch-3" value="Booking Expense Process" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-5530" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KMECjWS2sMXXnjQMW-ch-4" value="User is on" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5620" y="-4190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KMECjWS2sMXXnjQMW-ch-5" value="User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5400" y="-4190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KMECjWS2sMXXnjQMW-ch-6" value="Enters values , through manual entry, scanning or taking pictures" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-5320" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yU973kKmkKD_XOR8oP0x-1" value="is Expense Header status Paid?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5120" y="-4220" width="130" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
