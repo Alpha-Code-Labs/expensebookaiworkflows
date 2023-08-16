@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T02:22:56.902Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="UsUfLZTVjypM5HZEs74I" version="21.6.8" type="github" pages="27">
+<mxfile host="app.diagrams.net" modified="2023-08-16T02:44:06.762Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="sLuu1qVdWT6K-CVTS8sP" version="21.6.8" type="github" pages="28">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -5701,7 +5701,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BXnZ1JOw81Uoq1eWQBNh" name="Travel Microservices - Clearing Booking Violations">
-    <mxGraphModel dx="10854" dy="5297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="10854" dy="5291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5784,6 +5784,38 @@
         </mxCell>
         <mxCell id="W4zLM3drByMnXWbLTRyI-2" value="Control passed to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-5570" y="-4120" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Gk8vADG6GPmGaqqfVSCr" name="Travel Microservice - Clearing Rejected Travel Request">
+    <mxGraphModel dx="10854" dy="5291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="byryo5PgCiqYsAaf2CpW-1" value="&lt;h1&gt;Clearing Rejected Travel Request&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6930" y="-4640" width="830" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0vY6X3LfSG4LEYmQsr-H-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0vY6X3LfSG4LEYmQsr-H-2" target="0vY6X3LfSG4LEYmQsr-H-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0vY6X3LfSG4LEYmQsr-H-2" value="Any Role" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-7010" y="-4160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0vY6X3LfSG4LEYmQsr-H-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0vY6X3LfSG4LEYmQsr-H-4" target="0vY6X3LfSG4LEYmQsr-H-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0vY6X3LfSG4LEYmQsr-H-4" value="&amp;nbsp;Dashboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-6880" y="-4160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0vY6X3LfSG4LEYmQsr-H-5" value="User is on" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6970" y="-4160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0vY6X3LfSG4LEYmQsr-H-6" value="User selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6730" y="-4180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0vY6X3LfSG4LEYmQsr-H-7" value="Travel Request with violations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-6640" y="-4160" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
