@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T02:22:29.669Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="DpDpTvJggCjBbxSHQ83X" version="21.6.8" type="github" pages="27">
+<mxfile host="app.diagrams.net" modified="2023-08-16T02:22:56.902Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="UsUfLZTVjypM5HZEs74I" version="21.6.8" type="github" pages="27">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -11733,7 +11733,7 @@
             <mxPoint x="-2510" y="-4540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1ieAaa7dj5aQnSNIyuPo-49" value="Asynchronous fire and forget. Change status to Approved" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1ieAaa7dj5aQnSNIyuPo-49" value="Asynchronous fire and forget. Change status to Rejected" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2510" y="-4390" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
