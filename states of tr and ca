@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T14:13:00.786Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="6e7xPqHa6WQWcerCEktg" version="21.6.8" type="github" pages="36">
+<mxfile host="app.diagrams.net" modified="2023-08-16T14:13:58.730Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="6xOZucpNwH3alXxu6-ed" version="21.6.8" type="github" pages="36">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1122" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -4633,6 +4633,47 @@
         </mxCell>
         <mxCell id="g0EyEZoVOnMZZKiwvbBh-1" value="Fetch all employee names of the company in a dataset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5760" y="-4580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ojIx_cCR-hMWZP4M4bsS-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2060" y="-4280" as="sourcePoint" />
+            <mxPoint x="2030" y="-4335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ojIx_cCR-hMWZP4M4bsS-2" value="Do you want to submit a cash advance for the travel request" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="-4280" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="ojIx_cCR-hMWZP4M4bsS-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="ojIx_cCR-hMWZP4M4bsS-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2155" y="-4125" as="sourcePoint" />
+            <mxPoint x="2370" y="-4170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ojIx_cCR-hMWZP4M4bsS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ojIx_cCR-hMWZP4M4bsS-5" target="ojIx_cCR-hMWZP4M4bsS-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ojIx_cCR-hMWZP4M4bsS-5" value="Yes or No" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="-4475" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ojIx_cCR-hMWZP4M4bsS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ojIx_cCR-hMWZP4M4bsS-5" target="ojIx_cCR-hMWZP4M4bsS-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1850" y="-4615" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ojIx_cCR-hMWZP4M4bsS-7" value="Full flow given below in same page" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="-4655" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ojIx_cCR-hMWZP4M4bsS-8" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="-4570" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ojIx_cCR-hMWZP4M4bsS-9" value="Dash Board Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="-4445" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ojIx_cCR-hMWZP4M4bsS-10" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="-4445" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ojIx_cCR-hMWZP4M4bsS-11" value="Control Pass to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="-4365" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
