@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T08:03:04.810Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="y4DV3CUOEcU-NF--2PXu" version="21.6.8" type="github" pages="32">
+<mxfile host="app.diagrams.net" modified="2023-08-16T08:06:05.626Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="kT6AXfFOziv0viOtHiGg" version="21.6.8" type="github" pages="32">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1468" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -6738,10 +6738,77 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5KOolKi2nY-R8r1z_n9A" name="Cash Microservice - Moving Cash Advance  from Awaiting Pending Settlement to Next state.">
-    <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="10854" dy="5291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KDvmmjPWhzqDhOjuYgxQ-1" value="&lt;h1&gt;Moving Cash Advance from Awaiting Pending Settlement to Next state.&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6835" y="-4490" width="830" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KDvmmjPWhzqDhOjuYgxQ-2" value="Cash Advance Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-6710" y="-4280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KDvmmjPWhzqDhOjuYgxQ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="KDvmmjPWhzqDhOjuYgxQ-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-6590" y="-4230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDvmmjPWhzqDhOjuYgxQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KDvmmjPWhzqDhOjuYgxQ-5" target="KDvmmjPWhzqDhOjuYgxQ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KDvmmjPWhzqDhOjuYgxQ-5" value="A batch job at a pre defined time. Daily" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6480" y="-4260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KDvmmjPWhzqDhOjuYgxQ-6" value="Runs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6560" y="-4270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KDvmmjPWhzqDhOjuYgxQ-7" value="Cash Advance Container&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-6495" y="-4090" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KDvmmjPWhzqDhOjuYgxQ-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KDvmmjPWhzqDhOjuYgxQ-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-6470" y="-4150" as="sourcePoint" />
+            <mxPoint x="-6420" y="-4200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDvmmjPWhzqDhOjuYgxQ-9" value="Fetch all Cash Advances with state as Pending Awaiting Settlement" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6520" y="-4160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KDvmmjPWhzqDhOjuYgxQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KDvmmjPWhzqDhOjuYgxQ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-6180" y="-4080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KDvmmjPWhzqDhOjuYgxQ-11" value="The data&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6240" y="-4260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KDvmmjPWhzqDhOjuYgxQ-12" value="Transform" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6330" y="-4270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KDvmmjPWhzqDhOjuYgxQ-13" value="Update the cash advance with status as Pending Settlement" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6390" y="-3900" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KDvmmjPWhzqDhOjuYgxQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KDvmmjPWhzqDhOjuYgxQ-16" target="KDvmmjPWhzqDhOjuYgxQ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KDvmmjPWhzqDhOjuYgxQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KDvmmjPWhzqDhOjuYgxQ-16" target="KDvmmjPWhzqDhOjuYgxQ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KDvmmjPWhzqDhOjuYgxQ-16" value="Check status of corresponding Travel Request&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6260" y="-4080" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KDvmmjPWhzqDhOjuYgxQ-17" value="Cash Advance Container&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-6255" y="-3830" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KDvmmjPWhzqDhOjuYgxQ-18" value="Approved and booked" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6270" y="-3950" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KDvmmjPWhzqDhOjuYgxQ-19" value="Do Nothing&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5980" y="-4060" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KDvmmjPWhzqDhOjuYgxQ-20" value="Anything Else" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6080" y="-4070" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
