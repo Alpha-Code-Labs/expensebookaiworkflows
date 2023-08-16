@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T12:39:15.163Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="cSsNCGnVGU53BNlRRlkT" version="21.6.8" type="github" pages="36">
+<mxfile host="app.diagrams.net" modified="2023-08-16T12:40:08.433Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="uPfAtFl-Ghp-EHB66-z7" version="21.6.8" type="github" pages="36">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1122" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -3235,41 +3235,19 @@
         <mxCell id="58QBwxCXShy7YpxQ-I2T-6" value="User is on" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-6850" y="-4120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="58QBwxCXShy7YpxQ-I2T-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="58QBwxCXShy7YpxQ-I2T-8" target="58QBwxCXShy7YpxQ-I2T-11" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="58QBwxCXShy7YpxQ-I2T-8" value="Create Travel Request" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="-6560" y="-4120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="58QBwxCXShy7YpxQ-I2T-9" value="User clicks on" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-6630" y="-4120" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="58QBwxCXShy7YpxQ-I2T-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="58QBwxCXShy7YpxQ-I2T-11" target="58QBwxCXShy7YpxQ-I2T-18" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="58QBwxCXShy7YpxQ-I2T-11" value="Onboarding Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
-          <mxGeometry x="-6320" y="-4130" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="58QBwxCXShy7YpxQ-I2T-12" value="Control passed to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-6410" y="-4130" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="58QBwxCXShy7YpxQ-I2T-13" value="Asynchronous Fire and Forget API call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-6410" y="-4050" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="58QBwxCXShy7YpxQ-I2T-14" value="HR &amp;amp; Company Structure Microservice" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="-6320" y="-4370" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="58QBwxCXShy7YpxQ-I2T-15" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=50;exitDy=0;exitPerimeter=0;entryX=0.425;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-6260.5" y="-4130" as="sourcePoint" />
-            <mxPoint x="-6259.5" y="-4250" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-6259.5" y="-4190" />
-            </Array>
+        <mxCell id="58QBwxCXShy7YpxQ-I2T-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="58QBwxCXShy7YpxQ-I2T-8" target="58QBwxCXShy7YpxQ-I2T-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-6200" y="-4090" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="58QBwxCXShy7YpxQ-I2T-16" value="Fetch all employee names of the company in a dataset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-6330" y="-4210" width="60" height="30" as="geometry" />
+          <mxGeometry x="-5750" y="-3335" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="58QBwxCXShy7YpxQ-I2T-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="58QBwxCXShy7YpxQ-I2T-18" target="58QBwxCXShy7YpxQ-I2T-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -4608,6 +4586,9 @@
         </mxCell>
         <mxCell id="CtH0sSjQcFG0eHLhZejU-1" value="Note - No need for this since cash advance will club both objects and send together" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2740" y="-3825" width="180" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="g0EyEZoVOnMZZKiwvbBh-1" value="Fetch all employee names of the company in a dataset" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5760" y="-4580" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
