@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T08:46:26.590Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="sjheXtdCo_6u1-r4UXpY" version="21.6.8" type="github" pages="34">
+<mxfile host="app.diagrams.net" modified="2023-08-16T08:55:12.457Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="NlRKfb-iehADYXwCXn1T" version="21.6.8" type="github" pages="34">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1468" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -11255,7 +11255,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kKFHP7pIA_zk_vU5Ja5c" name="Expense Booking Microservice - Moving Expense from Approved to Next State">
-    <mxGraphModel dx="10854" dy="5291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="10854" dy="9972" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11307,6 +11307,9 @@
             <mxPoint x="-5880" y="-4000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-VzmtJigIxiaKUJDatCG-1" target="RI0Oc8stFRDck9TazLcW-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-VzmtJigIxiaKUJDatCG-1" value="Is it a travel related expense?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-5960" y="-4290" width="160" height="120" as="geometry" />
         </mxCell>
@@ -11341,6 +11344,87 @@
         </mxCell>
         <mxCell id="yFOjzMsjz-WDCEDjAKC6-5" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Send data to be saved in Expenses Container.&lt;br&gt;&amp;nbsp;Fire and Forget.&lt;br&gt;&amp;nbsp;Status will be Completed&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-5870" y="-3870" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RI0Oc8stFRDck9TazLcW-1" target="RI0Oc8stFRDck9TazLcW-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-1" value="Does Expense header contain cash expense line(reimbursement amount)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5960" y="-4515" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-3" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5940" y="-4350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5800" y="-4460" as="sourcePoint" />
+            <mxPoint x="-5680" y="-4460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.525;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RI0Oc8stFRDck9TazLcW-5" target="RI0Oc8stFRDck9TazLcW-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-5" value="Expenses Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-5680" y="-4510" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-6" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Send data to be saved in Expenses Container.&lt;br&gt;&amp;nbsp;Fire and Forget.&lt;br&gt;&amp;nbsp;Status will be Pending Payment&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5710" y="-4600" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-7" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5780" y="-4490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RI0Oc8stFRDck9TazLcW-9" target="RI0Oc8stFRDck9TazLcW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-9" value="Expenses Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-5955" y="-4720" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-10" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5840" y="-4570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-11" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Send data to be saved in Expenses Container.&lt;br&gt;&amp;nbsp;Fire and Forget.&lt;br&gt;&amp;nbsp;Status will be Completed&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6120" y="-4580" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RI0Oc8stFRDck9TazLcW-13" target="RI0Oc8stFRDck9TazLcW-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-13" value="Trip Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-5940" y="-4910" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-15" value="Control Passed To" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5960" y="-4800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-16" value="Data Passed To" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5880" y="-4790" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-17" value="Asynchronous Fire and Forget API Call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6035" y="-4760" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-18" value="Trip Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-5955" y="-5180" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-20" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Send data to be saved in Trips Container.&lt;br&gt;&amp;nbsp;Fire and Forget.&lt;br&gt;&amp;nbsp;Status will be Completed&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6100" y="-5020" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RI0Oc8stFRDck9TazLcW-21" target="RI0Oc8stFRDck9TazLcW-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-21" value="Trip Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-5400" y="-4492" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-23" value="Control Passed To" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5500" y="-4500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-24" value="Data Passed To" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5500" y="-4430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-25" value="Asynchronous Fire and Forget API Call" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5500" y="-4370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-27" value="Trip Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-5100" y="-4512" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RI0Oc8stFRDck9TazLcW-28" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Send data to be saved in Trips Container.&lt;br&gt;&amp;nbsp;Fire and Forget.&lt;br&gt;&amp;nbsp;Status will be&amp;nbsp;&lt;/span&gt;Pending Payment" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5290" y="-4370" width="230" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
