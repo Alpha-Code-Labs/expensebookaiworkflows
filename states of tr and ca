@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T04:40:30.700Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="0zknLIrPOyLG2t6PcmAV" version="21.6.8" type="github" pages="35">
+<mxfile host="app.diagrams.net" modified="2023-08-17T04:44:33.369Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="7aF6wPA9VINzVcKwYv9s" version="21.6.8" type="github" pages="35">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1122" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -13662,7 +13662,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LkvWjV9-1UezJEVmmHgI" name="Dashboard Microservice">
-    <mxGraphModel dx="7554" dy="5291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="10854" dy="5291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14226,7 +14226,7 @@
         <mxCell id="FKLpm7pm03dgBy6fGOMd-6" value="Control passed to Approval Microservice.. (Web and Mobile). Go to Approve Expenses" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-3820" y="-3435" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FKLpm7pm03dgBy6fGOMd-7" value="Will Include Employee Role + Additional Features&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-7" value="Will Include Employee Role + Additional Features + Can include Finance Role + Can include business travel/admin role + Can include Super Admin Role" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-4130" y="-4120" width="230" height="230" as="geometry" />
         </mxCell>
         <mxCell id="FKLpm7pm03dgBy6fGOMd-174" value="&lt;h1&gt;Dashboard for Finance Role&amp;nbsp;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
@@ -14520,7 +14520,7 @@
         <mxCell id="FKLpm7pm03dgBy6fGOMd-255" value="Control passed to Approval Microservice.. (Web and Mobile). Go to Approve Expenses" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1210" y="-3456" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FKLpm7pm03dgBy6fGOMd-256" value="Will Include Employee Role + Can Include Employee Manager Role + Additional Features&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-256" value="Will Include Employee Role + Can Include Employee Manager Role + Additional Features + Can include Business Travel/Admin Role + Can include Super Admin Role&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-1520" y="-4100" width="230" height="230" as="geometry" />
         </mxCell>
         <mxCell id="FKLpm7pm03dgBy6fGOMd-257" value="Settle Cash Advance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -14555,6 +14555,9 @@
         </mxCell>
         <mxCell id="75oKiw8-6IhUoh7EoO5a-3" value="Control passed to Accounting Settlement Microservice.. (Mobile Only). Go to&amp;nbsp; - Settling accounting entries for all expenses" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1210" y="-3205" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkooIgn99wKDI0h8Ndxu-1" value="Will Include Employee Role + Can Include Finance Role + Can Include Business Travel/Admin Role + Can Include Super Admin Role" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-6870" y="-4120" width="230" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
