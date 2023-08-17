@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T06:34:21.616Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="HP2IX_gBmP663xCqEAzO" version="21.6.8" type="github" pages="36">
+<mxfile host="app.diagrams.net" modified="2023-08-17T06:49:01.946Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ImzkvrISZGeUXKof61_y" version="21.6.8" type="github" pages="36">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -15317,8 +15317,59 @@
         <mxCell id="VtZGM1jKkye27UvmUQc9-6" value="Clicks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5400" y="-4190" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VtZGM1jKkye27UvmUQc9-7" value="Expense that needs Approval" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="3Qmmh1lb3VhZNIB_pgSy-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VtZGM1jKkye27UvmUQc9-7" target="3Qmmh1lb3VhZNIB_pgSy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VtZGM1jKkye27UvmUQc9-7" value="Configure Company Account&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-5320" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qmmh1lb3VhZNIB_pgSy-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-5160" y="-4560" width="800" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qmmh1lb3VhZNIB_pgSy-3" value="Configure Company General Information&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4820" y="-4429" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qmmh1lb3VhZNIB_pgSy-4" value="Configure Company Org Structure" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4820" y="-4309" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qmmh1lb3VhZNIB_pgSy-5" value="Configure Company Employee Information" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4820" y="-4189" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qmmh1lb3VhZNIB_pgSy-6" value="Configure Company Allocation Methods" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4820" y="-4059" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qmmh1lb3VhZNIB_pgSy-7" value="Configure Company Expense Categories" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4820" y="-3929" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qmmh1lb3VhZNIB_pgSy-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3Qmmh1lb3VhZNIB_pgSy-1" target="3Qmmh1lb3VhZNIB_pgSy-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4870" y="-4220" as="sourcePoint" />
+            <mxPoint x="-4820" y="-4270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Qmmh1lb3VhZNIB_pgSy-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="3Qmmh1lb3VhZNIB_pgSy-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5170" y="-4160" as="sourcePoint" />
+            <mxPoint x="-4370" y="-4150.476190476191" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Qmmh1lb3VhZNIB_pgSy-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="3Qmmh1lb3VhZNIB_pgSy-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5160" y="-4160" as="sourcePoint" />
+            <mxPoint x="-4820" y="-4270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Qmmh1lb3VhZNIB_pgSy-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="3Qmmh1lb3VhZNIB_pgSy-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5170" y="-4160" as="sourcePoint" />
+            <mxPoint x="-4820" y="-4110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Qmmh1lb3VhZNIB_pgSy-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5160" y="-4150" as="sourcePoint" />
+            <mxPoint x="-4820" y="-3900" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
