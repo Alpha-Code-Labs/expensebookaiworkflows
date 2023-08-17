@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T01:46:48.719Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="XB7egQzqRWJGNtv3Xay9" version="21.6.8" type="github" pages="36">
+<mxfile host="app.diagrams.net" modified="2023-08-17T01:51:35.175Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="a1fbb8a-Com6FnORjbq9" version="21.6.8" type="github" pages="36">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1122" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -13536,40 +13536,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gRGSLIuW2-ICjIO4FLI5-1" value="Modify a Travel Request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-5850" y="-4144" width="190" height="30" as="geometry" />
+          <mxGeometry x="-5850" y="-4169" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gRGSLIuW2-ICjIO4FLI5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gRGSLIuW2-ICjIO4FLI5-2" target="gRGSLIuW2-ICjIO4FLI5-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gRGSLIuW2-ICjIO4FLI5-2" value="Raise an Cash Advance&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-5850" y="-4031" width="190" height="30" as="geometry" />
+          <mxGeometry x="-5850" y="-4077" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gRGSLIuW2-ICjIO4FLI5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gRGSLIuW2-ICjIO4FLI5-3" target="gRGSLIuW2-ICjIO4FLI5-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gRGSLIuW2-ICjIO4FLI5-3" value="Modify a Cash Advance&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-5850" y="-3913" width="190" height="30" as="geometry" />
+          <mxGeometry x="-5850" y="-3981" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gRGSLIuW2-ICjIO4FLI5-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gRGSLIuW2-ICjIO4FLI5-4" target="gRGSLIuW2-ICjIO4FLI5-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gRGSLIuW2-ICjIO4FLI5-4" value="Book a Non Travel Expense&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-5850" y="-3788" width="190" height="30" as="geometry" />
+          <mxGeometry x="-5850" y="-3890" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gRGSLIuW2-ICjIO4FLI5-5" value="&amp;nbsp;Control passed to Travel Microservices. (Web and Mobile). Go to create Travel Request Flow." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-6450" y="-4265" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gRGSLIuW2-ICjIO4FLI5-7" value="Control passed to Travel Microservices. (Web and Mobile). Go to create Modify Travel Request Flow." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-6450" y="-4159" width="280" height="60" as="geometry" />
+          <mxGeometry x="-6450" y="-4184" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gRGSLIuW2-ICjIO4FLI5-9" value="Control passed to Cash Advance Microservices.. (Web and Mobile). Go to create Cash Advance Flow." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-6450" y="-4046" width="280" height="60" as="geometry" />
+          <mxGeometry x="-6450" y="-4092" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gRGSLIuW2-ICjIO4FLI5-11" value="Control passed to Cash Advance Microservices.. (Web and Mobile). Go to Modify Cash Advance Flow." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-6450" y="-3928" width="280" height="60" as="geometry" />
+          <mxGeometry x="-6450" y="-3996" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gRGSLIuW2-ICjIO4FLI5-13" value="Control passed to Expense Booking Microservice.. (Web and Mobile). Go to Book Non-Travel Expense Flow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-6450" y="-3803" width="280" height="60" as="geometry" />
+          <mxGeometry x="-6450" y="-3905" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Pqz7C5JNo5IWspoxMkGs-1" value="Briefcase Icon - Trips In Transit (Label and Icon - Web and Mobile)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-5610" y="-4270" width="420" height="60" as="geometry" />
@@ -13604,7 +13604,7 @@
           <mxGeometry x="-5560" y="-3970" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Pqz7C5JNo5IWspoxMkGs-11" value="Raise a Priority Cash Advance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-5575" y="-3895" width="120" height="40" as="geometry" />
+          <mxGeometry x="-5575" y="-3895" width="95" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Pqz7C5JNo5IWspoxMkGs-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pqz7C5JNo5IWspoxMkGs-12" target="Pqz7C5JNo5IWspoxMkGs-18">
           <mxGeometry relative="1" as="geometry">
@@ -13615,7 +13615,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Pqz7C5JNo5IWspoxMkGs-12" value="Book an Expense" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-5430" y="-3895" width="120" height="40" as="geometry" />
+          <mxGeometry x="-5460" y="-3895" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Pqz7C5JNo5IWspoxMkGs-13" value="Trip Card - Coming from Trip Microservice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-6190" y="-3620" width="190" height="30" as="geometry" />
@@ -13628,7 +13628,7 @@
             <mxPoint x="-6000" y="-3660" as="sourcePoint" />
             <mxPoint x="-5950" y="-3710" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-5495" y="-3520" />
+              <mxPoint x="-5510" y="-3520" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -13649,6 +13649,30 @@
         </mxCell>
         <mxCell id="Pqz7C5JNo5IWspoxMkGs-24" value="First Day Of Travel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5070" y="-4091" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pqz7C5JNo5IWspoxMkGs-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pqz7C5JNo5IWspoxMkGs-25" target="Pqz7C5JNo5IWspoxMkGs-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-5270" y="-3270" />
+              <mxPoint x="-5665" y="-3270" />
+              <mxPoint x="-5665" y="-3267" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pqz7C5JNo5IWspoxMkGs-25" value="Modify Trip" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5330" y="-3895" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pqz7C5JNo5IWspoxMkGs-26" value="Control passed to Trip Microservice (Web and Mobile). Go to Modify Trip Flow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6190" y="-3320" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AblncDvTDJvLBjfCo23K-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AblncDvTDJvLBjfCo23K-1" target="AblncDvTDJvLBjfCo23K-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AblncDvTDJvLBjfCo23K-1" value="Modify an Expense Report" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5850" y="-3800" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AblncDvTDJvLBjfCo23K-2" value="Control passed to Expense Booking Microservice.. (Web and Mobile). Go to Modify Expense Flow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6450" y="-3815" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
