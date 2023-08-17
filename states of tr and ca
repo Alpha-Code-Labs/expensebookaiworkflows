@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T05:01:13.320Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Jr21h6t71G1sbr24zz8g" version="21.6.8" type="github" pages="35">
+<mxfile host="app.diagrams.net" modified="2023-08-17T05:04:14.019Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="kgDocA7eBtMou93xk8qu" version="21.6.8" type="github" pages="35">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1122" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -13662,7 +13662,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="LkvWjV9-1UezJEVmmHgI" name="Dashboard Microservice">
-    <mxGraphModel dx="10854" dy="5291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="10854" dy="9972" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15234,6 +15234,18 @@
         </mxCell>
         <mxCell id="wkooIgn99wKDI0h8Ndxu-191" value="Control passed to Travel Microservice.. (Mobile Only). Go to&amp;nbsp; - Booking Tickets Flow&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4070" y="-3220" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkooIgn99wKDI0h8Ndxu-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wkooIgn99wKDI0h8Ndxu-192" target="wkooIgn99wKDI0h8Ndxu-193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wkooIgn99wKDI0h8Ndxu-192" value="Configure Company Account&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5320" y="-4325" width="112.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wkooIgn99wKDI0h8Ndxu-193" value="Configure Company Account" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5360" y="-4681" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wkooIgn99wKDI0h8Ndxu-194" value="&lt;h1&gt;Details&lt;/h1&gt;&lt;div&gt;1) On Mobile only display pic. Don&#39;t make the button clickable.&lt;/div&gt;&lt;div&gt;2) On Web, on click. Expand to show Configure your company Account . On Click, call to System Configuration Microservices.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5510" y="-4681" width="190" height="151" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
