@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T23:54:56.745Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="h5MUMm-KO3HKOYh8QoLH" version="21.6.8" type="github" pages="40">
+<mxfile host="app.diagrams.net" modified="2023-08-17T23:58:03.574Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="p1fTFOvrXbL54jJcoogy" version="21.6.8" type="github" pages="40">
   <diagram name="Onboarding Microservice v1" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -19078,6 +19078,12 @@
         </mxCell>
         <mxCell id="npPvjVguK0X6bFNaJ6sg-95" value="Asynchronous Fire and Forget API call. Pass data." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1375" y="-3083.98" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-97" value="User Selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2235" y="-3207.960000000001" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-100" value="&lt;h1&gt;Same Flow for all 9 objects.&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2550" y="-2939.9999999999995" width="830" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
