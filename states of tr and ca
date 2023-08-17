@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T01:44:20.419Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="Y4bwLpeBPkF140KcJx0q" version="21.6.8" type="github" pages="36">
+<mxfile host="app.diagrams.net" modified="2023-08-17T01:45:01.627Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="gFwaL9Gz32qgDYqV43Fy" version="21.6.8" type="github" pages="36">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1122" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -13605,6 +13605,14 @@
         </mxCell>
         <mxCell id="Pqz7C5JNo5IWspoxMkGs-11" value="Raise a Priority Cash Advance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-5575" y="-3895" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pqz7C5JNo5IWspoxMkGs-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pqz7C5JNo5IWspoxMkGs-12" target="Pqz7C5JNo5IWspoxMkGs-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-5370" y="-3387" />
+              <mxPoint x="-5715" y="-3387" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Pqz7C5JNo5IWspoxMkGs-12" value="Book an Expense" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-5430" y="-3895" width="120" height="40" as="geometry" />
