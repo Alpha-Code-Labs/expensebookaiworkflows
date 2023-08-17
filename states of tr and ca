@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T03:01:50.118Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="tpJR5OZxjz5iCZQZAPYm" version="21.6.8" type="github" pages="37">
+<mxfile host="app.diagrams.net" modified="2023-08-17T03:16:06.131Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="VF0TQ0_UDtfTTsetKie6" version="21.6.8" type="github" pages="36">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1122" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -6458,6 +6458,11 @@
         <mxCell id="QGnrGgl8UJsXU6zgt-pM-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QGnrGgl8UJsXU6zgt-pM-13" target="QGnrGgl8UJsXU6zgt-pM-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="QGnrGgl8UJsXU6zgt-pM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QGnrGgl8UJsXU6zgt-pM-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4600" y="-3600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="QGnrGgl8UJsXU6zgt-pM-13" value="If status is In Transit?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-4890" y="-3660" width="160" height="120" as="geometry" />
         </mxCell>
@@ -6467,16 +6472,34 @@
         <mxCell id="QGnrGgl8UJsXU6zgt-pM-17" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4890" y="-3520" width="60" height="30" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="MasKNRe3R00mZ2ZUCvkP" name="Cash Microservices - Raising Priority Cash Advance">
-    <mxGraphModel dx="10854" dy="5291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="X5_oKu5p8qPTEgbPRQQY-1" value="&lt;h1&gt;Raising Priority Cash Advance&amp;nbsp;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-6930" y="-4640" width="830" height="70" as="geometry" />
+        <mxCell id="QGnrGgl8UJsXU6zgt-pM-20" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4690" y="-3640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AVgCZeUXPEDzpxrrBNbP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QGnrGgl8UJsXU6zgt-pM-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4520" y="-3400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QGnrGgl8UJsXU6zgt-pM-21" value="Is T&amp;amp;E Policy Required Flag set to Y?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4600" y="-3660" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AVgCZeUXPEDzpxrrBNbP-1" value="Cash Advance Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4595" y="-3200" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AVgCZeUXPEDzpxrrBNbP-3" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4580" y="-3510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AVgCZeUXPEDzpxrrBNbP-4" value="Asynchronous Fire and Forget . Send data to be saved. Change status as Pending Settlement&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4470" y="-3310" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYEvLQdWQBejk-qlcDV4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fTMUGNtW6_CCz6rEoZdE-1" target="AVgCZeUXPEDzpxrrBNbP-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fTMUGNtW6_CCz6rEoZdE-1" value="Notification Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-4580" y="-3400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fTMUGNtW6_CCz6rEoZdE-2" value="Asynchronous Rabbit MQ Call for Notification to Settle cash Advance. Red and Bold" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4510" y="-3530" width="110" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
