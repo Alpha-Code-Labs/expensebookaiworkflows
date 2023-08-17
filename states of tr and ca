@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T06:49:01.946Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ImzkvrISZGeUXKof61_y" version="21.6.8" type="github" pages="36">
+<mxfile host="app.diagrams.net" modified="2023-08-17T07:04:30.460Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="DvEAGWGzBKo2JwlTPydB" version="21.6.8" type="github" pages="36">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -15290,7 +15290,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tACPfPmcNhlv2y4Km-Kt" name="System Configuration Microservice ">
-    <mxGraphModel dx="7554" dy="5291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="7554" dy="9972" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15325,6 +15325,11 @@
         </mxCell>
         <mxCell id="3Qmmh1lb3VhZNIB_pgSy-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-5160" y="-4560" width="800" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="3Qmmh1lb3VhZNIB_pgSy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.025;entryY=0.488;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3Qmmh1lb3VhZNIB_pgSy-3" target="GHu7Sgjv2kl8Rln3HEd0-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4160" y="-4399" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3Qmmh1lb3VhZNIB_pgSy-3" value="Configure Company General Information&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-4820" y="-4429" width="120" height="60" as="geometry" />
@@ -15370,6 +15375,66 @@
             <mxPoint x="-5160" y="-4150" as="sourcePoint" />
             <mxPoint x="-4820" y="-3900" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3Qmmh1lb3VhZNIB_pgSy-15" value="Clicks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5000" y="-4350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GHu7Sgjv2kl8Rln3HEd0-1" value="Onboarding Microservices" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-3960" y="-4439" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GHu7Sgjv2kl8Rln3HEd0-2" value="Pass Control To" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4590" y="-4440" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hZgnUMSxRoBmzDKVNkZ_-1" value="Company Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4280" y="-4730" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hZgnUMSxRoBmzDKVNkZ_-2" value="Cash Advance Options Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4080" y="-4730" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hZgnUMSxRoBmzDKVNkZ_-3" value="Cash Expense Options Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-3880" y="-4730" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hZgnUMSxRoBmzDKVNkZ_-4" value="Multicurrency Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-3680" y="-4730" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WLlZMVjo6_GzENA7twtF-1" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.45;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hZgnUMSxRoBmzDKVNkZ_-1" target="GHu7Sgjv2kl8Rln3HEd0-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4040" y="-4390" as="sourcePoint" />
+            <mxPoint x="-3990" y="-4440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLlZMVjo6_GzENA7twtF-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.45;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=50;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="GHu7Sgjv2kl8Rln3HEd0-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4020" y="-4610" as="sourcePoint" />
+            <mxPoint x="-3754" y="-4437" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLlZMVjo6_GzENA7twtF-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.45;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.65;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="GHu7Sgjv2kl8Rln3HEd0-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3820" y="-4610" as="sourcePoint" />
+            <mxPoint x="-3710" y="-4439" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLlZMVjo6_GzENA7twtF-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=110;entryDy=10;entryPerimeter=0;" edge="1" parent="1" source="hZgnUMSxRoBmzDKVNkZ_-4" target="GHu7Sgjv2kl8Rln3HEd0-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3810" y="-4600" as="sourcePoint" />
+            <mxPoint x="-3872" y="-4431" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WLlZMVjo6_GzENA7twtF-5" value="Fetch Company Details" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4250" y="-4510" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WLlZMVjo6_GzENA7twtF-6" value="Fetch Cash Advance Options" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4120" y="-4570" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WLlZMVjo6_GzENA7twtF-7" value="Fetch Cash Expense Options" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3970" y="-4590" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WLlZMVjo6_GzENA7twtF-8" value="Fetch Multicurrency options" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3810" y="-4580" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
