@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T04:26:47.904Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="dWNr9qmHNvplyAZZw1Gm" version="21.6.8" type="github" pages="35">
+<mxfile host="app.diagrams.net" modified="2023-08-17T04:40:30.700Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="0zknLIrPOyLG2t6PcmAV" version="21.6.8" type="github" pages="35">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1122" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -14491,10 +14491,10 @@
           <mxGeometry x="-610" y="-3580" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FKLpm7pm03dgBy6fGOMd-248" value="Approve Cash Advances" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-610" y="-3490" width="190" height="30" as="geometry" />
+          <mxGeometry x="-610" y="-3514" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FKLpm7pm03dgBy6fGOMd-249" value="Approve Expenses" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-610" y="-3400" width="190" height="30" as="geometry" />
+          <mxGeometry x="-610" y="-3441" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FKLpm7pm03dgBy6fGOMd-250" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="FKLpm7pm03dgBy6fGOMd-251">
           <mxGeometry relative="1" as="geometry">
@@ -14506,22 +14506,55 @@
         </mxCell>
         <mxCell id="FKLpm7pm03dgBy6fGOMd-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="FKLpm7pm03dgBy6fGOMd-253">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-610" y="-3475" as="sourcePoint" />
+            <mxPoint x="-610" y="-3499" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FKLpm7pm03dgBy6fGOMd-253" value="Control passed to Approval Microservice.. (Web and Mobile). Go to Approve Cash Advance&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1210" y="-3505" width="280" height="60" as="geometry" />
+          <mxGeometry x="-1210" y="-3529" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FKLpm7pm03dgBy6fGOMd-254" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="FKLpm7pm03dgBy6fGOMd-255">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-610" y="-3385" as="sourcePoint" />
+            <mxPoint x="-610" y="-3426" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FKLpm7pm03dgBy6fGOMd-255" value="Control passed to Approval Microservice.. (Web and Mobile). Go to Approve Expenses" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1210" y="-3415" width="280" height="60" as="geometry" />
+          <mxGeometry x="-1210" y="-3456" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FKLpm7pm03dgBy6fGOMd-256" value="Will Include Employee Role + Can Include Employee Manager Role + Additional Features&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-1520" y="-4100" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-257" value="Settle Cash Advance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="-3351" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-258" value="Settle Expenses" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="-3260" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-259" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="FKLpm7pm03dgBy6fGOMd-260">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-610" y="-3336" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-260" value="Control passed to Cash Advance Microservice.. (Web and Mobile). Go to Settling Cash Advance Flow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="-3366" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-261" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="FKLpm7pm03dgBy6fGOMd-262">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-610" y="-3245" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-262" value="Control passed to Expense Settlement Microservice.. (Mobile Only). Go to Settling out of pocket expenses Flow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="-3275" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="75oKiw8-6IhUoh7EoO5a-1" value="Create GL File" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="-3190" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="75oKiw8-6IhUoh7EoO5a-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="75oKiw8-6IhUoh7EoO5a-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-610" y="-3175" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="75oKiw8-6IhUoh7EoO5a-3" value="Control passed to Accounting Settlement Microservice.. (Mobile Only). Go to&amp;nbsp; - Settling accounting entries for all expenses" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="-3205" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
