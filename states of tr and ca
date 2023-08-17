@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T23:45:43.054Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="ZLXsE6c8a3x5LqhB5wKF" version="21.6.8" type="github" pages="40">
+<mxfile host="app.diagrams.net" modified="2023-08-17T23:51:05.975Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="utXAbOzsXWYKmHTExkGg" version="21.6.8" type="github" pages="40">
   <diagram name="Onboarding Microservice v1" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -18851,7 +18851,7 @@
           <mxGeometry x="-1750" y="-3730" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="npPvjVguK0X6bFNaJ6sg-19" value="Asynchronous Fire and Forget. Send data to be saved in Legal Entity Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1890" y="-3641.0200000000004" width="130" height="30" as="geometry" />
+          <mxGeometry x="-1895" y="-3720.0000000000005" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="npPvjVguK0X6bFNaJ6sg-20" value="Asynchronous Fire and Forget API call. Pass data." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2140" y="-3740" width="130" height="30" as="geometry" />
@@ -18884,10 +18884,103 @@
           <mxGeometry x="-2340" y="-3849.9999999999995" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="npPvjVguK0X6bFNaJ6sg-30" value="Asynchronous Fire and Forget API call. Pass data." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1960" y="-3790" width="130" height="30" as="geometry" />
+          <mxGeometry x="-2005" y="-3820" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="npPvjVguK0X6bFNaJ6sg-32" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2820" y="-3830" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="npPvjVguK0X6bFNaJ6sg-34" target="npPvjVguK0X6bFNaJ6sg-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-34" value="Add/Delete/Change Cost Centres" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-2560" y="-3480.0000000000005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="npPvjVguK0X6bFNaJ6sg-1" target="npPvjVguK0X6bFNaJ6sg-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-2480" y="-3400" as="sourcePoint" />
+            <mxPoint x="-2430" y="-3450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="npPvjVguK0X6bFNaJ6sg-36" target="npPvjVguK0X6bFNaJ6sg-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="npPvjVguK0X6bFNaJ6sg-36" target="npPvjVguK0X6bFNaJ6sg-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-36" value="Is&amp;nbsp;cost center data available flag Y" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-2360" y="-3510" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="npPvjVguK0X6bFNaJ6sg-39" target="npPvjVguK0X6bFNaJ6sg-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-39" value="Display information in form&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-2355" y="-3600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="npPvjVguK0X6bFNaJ6sg-41" target="npPvjVguK0X6bFNaJ6sg-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-41" value="Edit and Save or keep adding new lines or deleting entries" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-2130" y="-3600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-42" value="User can" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2240" y="-3610" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=50;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="npPvjVguK0X6bFNaJ6sg-43" target="npPvjVguK0X6bFNaJ6sg-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-43" value="Save" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-1930" y="-3600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-44" value="User Clicks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2040" y="-3620" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-46" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2350" y="-3540" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="npPvjVguK0X6bFNaJ6sg-47" target="npPvjVguK0X6bFNaJ6sg-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-47" value="Onboarding Microservice&amp;nbsp;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-1740" y="-3480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-49" value="Cost Center Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-1520" y="-3580" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-51" value="Asynchronous Fire and Forget. Send data to be saved in Cost Center Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1665" y="-3570.0000000000005" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="npPvjVguK0X6bFNaJ6sg-53" target="npPvjVguK0X6bFNaJ6sg-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-53" value="Display information in form&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-2355" y="-3370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="npPvjVguK0X6bFNaJ6sg-55" target="npPvjVguK0X6bFNaJ6sg-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-55" value="Edit and Save or keep adding new lines or deleting entries" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-2135" y="-3370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-56" value="User can" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2245" y="-3380" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.517;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="npPvjVguK0X6bFNaJ6sg-57" target="npPvjVguK0X6bFNaJ6sg-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-57" value="Save" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-1935" y="-3370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-58" value="User Clicks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2045" y="-3390" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-60" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-2360" y="-3405" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-63" value="Asynchronous Fire and Forget API call. Pass data." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1795" y="-3540" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-64" value="Asynchronous Fire and Forget API call. Pass data." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1815" y="-3380" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
