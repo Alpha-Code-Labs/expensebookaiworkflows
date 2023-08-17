@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T10:52:16.669Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="jzFmC8N4eZ8Lr4tvXgGM" version="21.6.8" type="github" pages="37">
+<mxfile host="app.diagrams.net" modified="2023-08-17T10:58:54.698Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="uFheW7OBMe9Rc-pfr8iW" version="21.6.8" type="github" pages="37">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -9339,10 +9339,8 @@
         <mxCell id="6dcjjnZrOEwZl_R3pklQ-8" value="Fetch all values in Expense Categories Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-5090" y="-4280" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ARW-RWC8_CvIsCKypCsw-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6dcjjnZrOEwZl_R3pklQ-10" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-4360" y="-4160" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="BfsoraY6RPfnXynkl_lx-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6dcjjnZrOEwZl_R3pklQ-10" target="HQcuF1cqy9uo7JAZHj1j-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6dcjjnZrOEwZl_R3pklQ-10" value="Expense Booking Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
           <mxGeometry x="-4570" y="-4200" width="120" height="80" as="geometry" />
@@ -9401,9 +9399,6 @@
         </mxCell>
         <mxCell id="ARW-RWC8_CvIsCKypCsw-4" value="Expense Header&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="-3880" y="-4190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ARW-RWC8_CvIsCKypCsw-6" value="Prompt User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-4450" y="-4200" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ARW-RWC8_CvIsCKypCsw-7" value="What is an Expense Header?&lt;br&gt;An expense header will simply be the container for all expenses within this trip. It will have the following values.&lt;br&gt;1) A unique identifier&lt;br&gt;2) The date on which transaction is being raised.&lt;br&gt;3) If T&amp;amp;E Policies flag is Yes - Validate and Submit Button&lt;br&gt;Else only Submit Button.&amp;nbsp;&lt;br&gt;4)If T&amp;amp;E Policies flag is Yes and&lt;br&gt;If Approval required flag is Yes then show&lt;br&gt;Approval rule setup at company level and button saying Select Approvers. Else Display nothing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="-4060" y="-4560" width="400" height="300" as="geometry" />
@@ -10368,47 +10363,78 @@
         <mxCell id="jWdCAQqEzQUgaXScNTqL-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jWdCAQqEzQUgaXScNTqL-1" target="jWdCAQqEzQUgaXScNTqL-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jWdCAQqEzQUgaXScNTqL-1" value="To select the right Trip&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-4360" y="-4190" width="120" height="60" as="geometry" />
+        <mxCell id="jWdCAQqEzQUgaXScNTqL-1" value="Trips" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4140" y="-3350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jWdCAQqEzQUgaXScNTqL-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jWdCAQqEzQUgaXScNTqL-2" target="ARW-RWC8_CvIsCKypCsw-4">
+        <mxCell id="BfsoraY6RPfnXynkl_lx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jWdCAQqEzQUgaXScNTqL-2" target="ARW-RWC8_CvIsCKypCsw-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HQcuF1cqy9uo7JAZHj1j-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jWdCAQqEzQUgaXScNTqL-2" target="HQcuF1cqy9uo7JAZHj1j-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="jWdCAQqEzQUgaXScNTqL-2" value="To select right trip" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3900" y="-3350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jWdCAQqEzQUgaXScNTqL-2" value="Right Trip" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-4160" y="-4190" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="jWdCAQqEzQUgaXScNTqL-3" value="User Selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4230" y="-4230" width="60" height="30" as="geometry" />
+        <mxCell id="jWdCAQqEzQUgaXScNTqL-3" value="Prompt User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3990" y="-3310" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jWdCAQqEzQUgaXScNTqL-6" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4000" y="-4210" width="60" height="30" as="geometry" />
+          <mxGeometry x="-3900" y="-3940" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HQcuF1cqy9uo7JAZHj1j-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HQcuF1cqy9uo7JAZHj1j-1" target="HQcuF1cqy9uo7JAZHj1j-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-4305" y="-3790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BfsoraY6RPfnXynkl_lx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HQcuF1cqy9uo7JAZHj1j-1" target="jWdCAQqEzQUgaXScNTqL-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HQcuF1cqy9uo7JAZHj1j-1" value="Is T&amp;amp;E Policy Available Flag set to Y?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4165" y="-4060" width="130" height="120" as="geometry" />
+          <mxGeometry x="-4370" y="-4220" width="130" height="120" as="geometry" />
         </mxCell>
         <mxCell id="BfsoraY6RPfnXynkl_lx-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HQcuF1cqy9uo7JAZHj1j-3" target="BfsoraY6RPfnXynkl_lx-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HQcuF1cqy9uo7JAZHj1j-3" value="Does Expense Report submission Deadline field have value" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4165" y="-3850" width="130" height="120" as="geometry" />
+          <mxGeometry x="-4370" y="-3840" width="130" height="120" as="geometry" />
         </mxCell>
         <mxCell id="HQcuF1cqy9uo7JAZHj1j-5" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4190" y="-3925" width="60" height="30" as="geometry" />
+          <mxGeometry x="-4360" y="-3940" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BfsoraY6RPfnXynkl_lx-1" value="Value" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-4160" y="-3650" width="120" height="60" as="geometry" />
+        <mxCell id="BfsoraY6RPfnXynkl_lx-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BfsoraY6RPfnXynkl_lx-1" target="BfsoraY6RPfnXynkl_lx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BfsoraY6RPfnXynkl_lx-1" value="Value" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4365" y="-3640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BfsoraY6RPfnXynkl_lx-3" value="Extract" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4180" y="-3710" width="60" height="30" as="geometry" />
+          <mxGeometry x="-4380" y="-3690" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BfsoraY6RPfnXynkl_lx-4" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4100" y="-3710" width="60" height="30" as="geometry" />
+          <mxGeometry x="-4305" y="-3690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BfsoraY6RPfnXynkl_lx-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BfsoraY6RPfnXynkl_lx-6" target="BfsoraY6RPfnXynkl_lx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BfsoraY6RPfnXynkl_lx-6" value="Difference of Trip Completion date and current date&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4365" y="-3510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BfsoraY6RPfnXynkl_lx-8" value="Calculate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4365" y="-3550" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BfsoraY6RPfnXynkl_lx-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BfsoraY6RPfnXynkl_lx-9" target="jWdCAQqEzQUgaXScNTqL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BfsoraY6RPfnXynkl_lx-9" value="If calculated value is less than extracted value&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-4370" y="-3380" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BfsoraY6RPfnXynkl_lx-12" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4240" y="-3360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BfsoraY6RPfnXynkl_lx-13" value="Only display those&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4240" y="-3310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BfsoraY6RPfnXynkl_lx-16" value="Display All" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4140" y="-3650" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
