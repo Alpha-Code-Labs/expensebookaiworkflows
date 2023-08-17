@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T13:25:03.678Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="TFf92xhpW3gE8RQLVzgJ" version="21.6.8" type="github" pages="40">
+<mxfile host="app.diagrams.net" modified="2023-08-17T23:19:45.722Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="bKuGJGgm5JKtNPvEk1um" version="21.6.8" type="github" pages="40">
   <diagram name="Onboarding Microservice v1" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -18452,7 +18452,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vL09cRQ-ma2SmazV3-TW-3" value="&lt;h1&gt;System Configuration Microservice - Configure Company Org Structure&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-6090" y="-3689.9999999999995" width="830" height="70" as="geometry" />
+          <mxGeometry x="-6140" y="-3699.9999999999995" width="830" height="70" as="geometry" />
         </mxCell>
         <mxCell id="vL09cRQ-ma2SmazV3-TW-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vL09cRQ-ma2SmazV3-TW-5" target="vL09cRQ-ma2SmazV3-TW-7">
           <mxGeometry relative="1" as="geometry" />
@@ -18622,37 +18622,145 @@
           <mxGeometry x="-2045" y="-4148.9800000000005" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P1jk8Ozv9o05hMiwwVRE-1" value="HR &amp;amp; Company Structure Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="-4760" y="-3620" width="120" height="120" as="geometry" />
+          <mxGeometry x="-5300" y="-3590" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="P1jk8Ozv9o05hMiwwVRE-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vL09cRQ-ma2SmazV3-TW-18" target="P1jk8Ozv9o05hMiwwVRE-1">
+        <mxCell id="P1jk8Ozv9o05hMiwwVRE-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="P1jk8Ozv9o05hMiwwVRE-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-4850" y="-3320" as="sourcePoint" />
+            <mxPoint x="-4710" y="-3340" as="sourcePoint" />
             <mxPoint x="-4800" y="-3370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="P1jk8Ozv9o05hMiwwVRE-3" value="Fetch DIY Flag&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4840" y="-3440.000000000001" width="130" height="30" as="geometry" />
+          <mxGeometry x="-5230" y="-3440.000000000001" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P1jk8Ozv9o05hMiwwVRE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P1jk8Ozv9o05hMiwwVRE-4" target="P1jk8Ozv9o05hMiwwVRE-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P1jk8Ozv9o05hMiwwVRE-4" value="Is DIY Flag Y" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3980" y="-3357.96" width="130" height="120" as="geometry" />
+          <mxGeometry x="-3740" y="-3357.96" width="130" height="120" as="geometry" />
         </mxCell>
         <mxCell id="P1jk8Ozv9o05hMiwwVRE-6" value="Your company org structure is coming from a feed file." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-3975" y="-3550.0000000000005" width="120" height="60" as="geometry" />
+          <mxGeometry x="-3735" y="-3550.0000000000005" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="P1jk8Ozv9o05hMiwwVRE-8" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4000" y="-3420.000000000001" width="130" height="30" as="geometry" />
+          <mxGeometry x="-3760" y="-3420.000000000001" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P1jk8Ozv9o05hMiwwVRE-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P1jk8Ozv9o05hMiwwVRE-9" target="P1jk8Ozv9o05hMiwwVRE-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="P1jk8Ozv9o05hMiwwVRE-9" value="System Configuration Microservices" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="-4240" y="-3337.96" width="120" height="80" as="geometry" />
+          <mxGeometry x="-4000" y="-3337.96" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="P1jk8Ozv9o05hMiwwVRE-11" value="Pass flag to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-4380" y="-3330" width="130" height="30" as="geometry" />
+        <mxCell id="P1jk8Ozv9o05hMiwwVRE-11" value="Pass all data to&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4200" y="-3337.96" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-1" value="Legal Entity Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-5270" y="-3790" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-2" value="Cost Center Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-5140" y="-3790" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-3" value="Profit Center Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-5010" y="-3790" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-4" value="Departments Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4880" y="-3790" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-5" value="Business Unit Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4750" y="-3790" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-6" value="Geography Locations Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4620" y="-3790" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-7" value="Divisions Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4490" y="-3790" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-8" value="Projects Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4360" y="-3790" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-9" value="Responsibility Center Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4230" y="-3790" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tQM_cquutkKjoy7ZxTb7-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4950" y="-3570" as="sourcePoint" />
+            <mxPoint x="-4720" y="-3340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-11" value="Fetch Legal entity data. If available legal entity data available is Y else N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5305" y="-3640.000000000001" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tQM_cquutkKjoy7ZxTb7-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4980" y="-3490" as="sourcePoint" />
+            <mxPoint x="-4720" y="-3340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-13" value="Fetch Cost center data. If available cost center data available is Y else N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5100" y="-3580.000000000001" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.333;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tQM_cquutkKjoy7ZxTb7-3" target="vL09cRQ-ma2SmazV3-TW-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4980" y="-3490" as="sourcePoint" />
+            <mxPoint x="-4930" y="-3540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-15" value="Fetch Profit Center data. If available profit center data available is Y else N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5050" y="-3650.000000000001" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.3;exitY=0.025;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vL09cRQ-ma2SmazV3-TW-18" target="tQM_cquutkKjoy7ZxTb7-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4980" y="-3490" as="sourcePoint" />
+            <mxPoint x="-4930" y="-3540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-17" value="Fetch Departments data. If available Department data available is Y else N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4920" y="-3600.000000000001" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-18" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="tQM_cquutkKjoy7ZxTb7-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4720" y="-3340" as="sourcePoint" />
+            <mxPoint x="-4930" y="-3540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-19" value="Fetch Business Unit data. If available Business Unit data available is Y else N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4820" y="-3650.000000000001" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-20" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="tQM_cquutkKjoy7ZxTb7-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4720" y="-3340" as="sourcePoint" />
+            <mxPoint x="-4670" y="-3540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-21" value="Fetch Geography Locations data. If available Geography Locations data available is Y else N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4700" y="-3590.000000000001" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="tQM_cquutkKjoy7ZxTb7-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4720" y="-3340" as="sourcePoint" />
+            <mxPoint x="-4670" y="-3540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-24" value="Fetch Divisions data. If available Divisions data available is Y else N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4560" y="-3640.000000000001" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-25" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.308;exitY=-0.063;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vL09cRQ-ma2SmazV3-TW-18" target="tQM_cquutkKjoy7ZxTb7-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4720" y="-3490" as="sourcePoint" />
+            <mxPoint x="-4670" y="-3540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-26" value="Fetch Projects data. If available Projects data available is Y else N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4420" y="-3650.000000000001" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="tQM_cquutkKjoy7ZxTb7-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4720" y="-3340" as="sourcePoint" />
+            <mxPoint x="-4530" y="-3540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-28" value="Fetch Responsibility Center data. If available Responsibility Center data available is Y else N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4240" y="-3630.000000000001" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
