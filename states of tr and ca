@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T01:59:33.686Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="wKSL92ppn5I2xbXgZfLd" version="21.6.8" type="github" pages="36">
+<mxfile host="app.diagrams.net" modified="2023-08-17T02:03:32.806Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="vHv82EsFDuonQW5Z0647" version="21.6.8" type="github" pages="36">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1122" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -11067,16 +11067,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bLrTawhb4nam-dNifeMq-2" value="Any Role" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="-5660" y="-4190" width="30" height="60" as="geometry" />
+          <mxGeometry x="-5820" y="-4190" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bLrTawhb4nam-dNifeMq-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bLrTawhb4nam-dNifeMq-4" target="bLrTawhb4nam-dNifeMq-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bLrTawhb4nam-dNifeMq-4" value="&amp;nbsp;Dashboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
-          <mxGeometry x="-5530" y="-4190" width="120" height="60" as="geometry" />
+          <mxGeometry x="-5690" y="-4190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bLrTawhb4nam-dNifeMq-5" value="User is on" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-5620" y="-4190" width="60" height="30" as="geometry" />
+          <mxGeometry x="-5780" y="-4190" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ggUeG312Hd7RKpEvOL_8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bLrTawhb4nam-dNifeMq-6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -11084,10 +11084,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bLrTawhb4nam-dNifeMq-6" value="Modify Expense&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
-          <mxGeometry x="-5320" y="-4190" width="120" height="60" as="geometry" />
+          <mxGeometry x="-5480" y="-4190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bLrTawhb4nam-dNifeMq-7" value="Clicks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-5400" y="-4190" width="60" height="30" as="geometry" />
+          <mxGeometry x="-5560" y="-4190" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="We_RitX739DDoVCMJkKB-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ggUeG312Hd7RKpEvOL_8-1" target="We_RitX739DDoVCMJkKB-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -13705,6 +13705,17 @@
         </mxCell>
         <mxCell id="AblncDvTDJvLBjfCo23K-2" value="Control passed to Expense Booking Microservice.. (Web and Mobile). Go to Modify Expense Flow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-6450" y="-3815" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4AmGUhxVH9k29QT1Ih8B-1" value="Book a Travel Expense" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5850" y="-3710" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4AmGUhxVH9k29QT1Ih8B-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="4AmGUhxVH9k29QT1Ih8B-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5850" y="-3695" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4AmGUhxVH9k29QT1Ih8B-4" value="Control passed to Expense Booking Microservice.. (Web and Mobile). Go to Book a Travel Expense Flow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-6450" y="-3725" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
