@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T10:13:47.975Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="dqQCVQ5Fm3qfZUIxUNFU" version="21.6.8" type="github" pages="37">
+<mxfile host="app.diagrams.net" modified="2023-08-17T10:19:21.558Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="GWHIymHXsQwggf3RQ3gF" version="21.6.8" type="github" pages="37">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -8156,7 +8156,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JAtPcuwKybut72n_WXlH" name="Trip Microservice - Change of State From In Transit to Completed">
-    <mxGraphModel dx="10854" dy="5291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="10854" dy="9972" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8193,25 +8193,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z0xop_wwEMojAAec-1YQ-10" value="Notification Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="-5210" y="-4120" width="120" height="80" as="geometry" />
+          <mxGeometry x="-5600" y="-4820" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="z0xop_wwEMojAAec-1YQ-11" value="Pass relevant data to" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-5370" y="-4130" width="60" height="30" as="geometry" />
+          <mxGeometry x="-5800" y="-4850" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z0xop_wwEMojAAec-1YQ-12" value="Asynchronous rabbit mq call for Notifications to Dashboard Microservice to update the briefcase icon" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-5450" y="-4020" width="230" height="30" as="geometry" />
+          <mxGeometry x="-6300" y="-4840" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z0xop_wwEMojAAec-1YQ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z0xop_wwEMojAAec-1YQ-14" target="z0xop_wwEMojAAec-1YQ-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z0xop_wwEMojAAec-1YQ-14" value="Dash Board Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="-5200" y="-3920" width="120" height="80" as="geometry" />
+          <mxGeometry x="-5590" y="-4620" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="z0xop_wwEMojAAec-1YQ-15" value="Deducts passed amount from total cash advance amount to reflect remaining cash advance amount. If cash advance amount is less, then make it negative" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4970" y="-3910" width="310" height="60" as="geometry" />
+        <mxCell id="z0xop_wwEMojAAec-1YQ-15" value="Trip from In Transit state in Dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5360" y="-4610" width="310" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z0xop_wwEMojAAec-1YQ-16" value="Adds" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-5060" y="-3920" width="60" height="30" as="geometry" />
+        <mxCell id="z0xop_wwEMojAAec-1YQ-16" value="Removes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5450" y="-4620" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hB28ravUoXfotyha1cws-1" value="&lt;h1&gt;Trip - Adjusting Cash Advance amount in trip briefcase icon&amp;nbsp;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-6990" y="-4600" width="830" height="70" as="geometry" />
@@ -8230,6 +8230,13 @@
         </mxCell>
         <mxCell id="pvZikaA-pvjT0qBwaCRH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oOyVqx1wrH74PHpRLPHc-2" target="pvZikaA-pvjT0qBwaCRH-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0RWgiZM9RUR1L7Mo25oh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" edge="1" parent="1" source="oOyVqx1wrH74PHpRLPHc-2" target="z0xop_wwEMojAAec-1YQ-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-6130" y="-4790" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="oOyVqx1wrH74PHpRLPHc-2" value="Is System Date greater than date of last line item of Trip" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-6220" y="-4460" width="180" height="200" as="geometry" />
@@ -8274,6 +8281,9 @@
         </mxCell>
         <mxCell id="Gy1z4ZzI7WYsFZ5iSqSu-1" value="Send data to be saved in Trip Container. Fire and Forget. Status will be Completed" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-5750" y="-4280" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0RWgiZM9RUR1L7Mo25oh-3" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6190" y="-4590" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
