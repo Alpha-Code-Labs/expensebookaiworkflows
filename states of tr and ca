@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T02:03:32.806Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="vHv82EsFDuonQW5Z0647" version="21.6.8" type="github" pages="36">
+<mxfile host="app.diagrams.net" modified="2023-08-17T02:09:48.319Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="mJ0L-0mlYYIyYTRyctEo" version="21.6.8" type="github" pages="36">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1122" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -11080,10 +11080,10 @@
         </mxCell>
         <mxCell id="ggUeG312Hd7RKpEvOL_8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bLrTawhb4nam-dNifeMq-6" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-5140" y="-4160" as="targetPoint" />
+            <mxPoint x="-5280" y="-4160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bLrTawhb4nam-dNifeMq-6" value="Modify Expense&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
+        <mxCell id="bLrTawhb4nam-dNifeMq-6" value="Modify Expense Report" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="-5480" y="-4190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bLrTawhb4nam-dNifeMq-7" value="Clicks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -11187,6 +11187,48 @@
         </mxCell>
         <mxCell id="kLoeL8Pv1SH46hSb2rmd-9" value="Clicks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-5250" y="-4420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OjnpTgFcvG6z70M28_iK-1" value="Expenses Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-5495" y="-4000" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OjnpTgFcvG6z70M28_iK-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="OjnpTgFcvG6z70M28_iK-1" target="bLrTawhb4nam-dNifeMq-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5670" y="-4080" as="sourcePoint" />
+            <mxPoint x="-5390" y="-4050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OjnpTgFcvG6z70M28_iK-3" value="Fetch all Draft, Pending Approval, Pending Payment Expenses&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5720" y="-4080" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OjnpTgFcvG6z70M28_iK-4" value="Display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5350" y="-4200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OjnpTgFcvG6z70M28_iK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OjnpTgFcvG6z70M28_iK-5" target="OjnpTgFcvG6z70M28_iK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OjnpTgFcvG6z70M28_iK-5" value="User" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-5280" y="-4190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OjnpTgFcvG6z70M28_iK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OjnpTgFcvG6z70M28_iK-6" target="kLoeL8Pv1SH46hSb2rmd-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OjnpTgFcvG6z70M28_iK-6" value="Right Expense Report&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-5280" y="-3980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OjnpTgFcvG6z70M28_iK-8" value="User selects&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5300" y="-4080" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d17hmC3Sfnv4DNZKZrJo-1" value="Expenses Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-5295" y="-3790" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="d17hmC3Sfnv4DNZKZrJo-2" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5220.5" y="-3790" as="sourcePoint" />
+            <mxPoint x="-5220.5" y="-3920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d17hmC3Sfnv4DNZKZrJo-3" value="Fetch full data of selected record" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5230" y="-3860" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
