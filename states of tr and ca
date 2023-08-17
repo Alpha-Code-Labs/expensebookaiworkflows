@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T23:19:45.722Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="bKuGJGgm5JKtNPvEk1um" version="21.6.8" type="github" pages="40">
+<mxfile host="app.diagrams.net" modified="2023-08-17T23:28:27.950Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="T45i7Hcn6iD3H8AfNy0-" version="21.6.8" type="github" pages="40">
   <diagram name="Onboarding Microservice v1" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -18636,6 +18636,9 @@
         <mxCell id="P1jk8Ozv9o05hMiwwVRE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="P1jk8Ozv9o05hMiwwVRE-4" target="P1jk8Ozv9o05hMiwwVRE-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="P1jk8Ozv9o05hMiwwVRE-4" target="tQM_cquutkKjoy7ZxTb7-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="P1jk8Ozv9o05hMiwwVRE-4" value="Is DIY Flag Y" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-3740" y="-3357.96" width="130" height="120" as="geometry" />
         </mxCell>
@@ -18761,6 +18764,24 @@
         </mxCell>
         <mxCell id="tQM_cquutkKjoy7ZxTb7-28" value="Fetch Responsibility Center data. If available Responsibility Center data available is Y else N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-4240" y="-3630.000000000001" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tQM_cquutkKjoy7ZxTb7-29" target="tQM_cquutkKjoy7ZxTb7-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-29" value="Form" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3490" y="-3327.9600000000005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-31" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3650" y="-3327.960000000001" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-32" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3650" y="-3287.960000000001" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-33" value="1) Add/Delete/Change Legal Entities 2) Add/Delete/Change Cost Centers 3) Add/Delete/Change Profit Centers 4) Add/Delete/Change Departments 5) Add/Delete/Change Business Units. 6) Add/Delete/Change Geography Locations. 7) Add/Delete/Change Divisions 8) Add/Delete/Change Projects 9) Add/Delete/Change Responsibility Centers." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3240" y="-3393" width="360" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="tQM_cquutkKjoy7ZxTb7-35" value="User can select" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3380" y="-3330.000000000001" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
