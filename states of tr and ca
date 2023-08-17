@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T04:22:49.248Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="6B9Hg8oLCBl2LSF7eunC" version="21.6.8" type="github" pages="35">
+<mxfile host="app.diagrams.net" modified="2023-08-17T04:26:47.904Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="dWNr9qmHNvplyAZZw1Gm" version="21.6.8" type="github" pages="35">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1122" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -13936,295 +13936,592 @@
           <mxGeometry x="-4520" y="-3640" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-5" value="&lt;h1&gt;Dashboard for Employee Manager Role&amp;nbsp;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3580" y="-4610" width="830" height="70" as="geometry" />
+          <mxGeometry x="-3280" y="-4590" width="830" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-3550" y="-4400" width="1210" height="1210" as="geometry" />
+          <mxGeometry x="-3250" y="-4380" width="1210" height="1210" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-7" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.002;exitY=0.101;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.001;entryY=0.097;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DrOKjKB6sFNa__2ignyB-6" target="DrOKjKB6sFNa__2ignyB-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-3120" y="-4260" as="sourcePoint" />
-            <mxPoint x="-3420" y="-4290" as="targetPoint" />
+            <mxPoint x="-2820" y="-4240" as="sourcePoint" />
+            <mxPoint x="-3120" y="-4270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.206;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="DrOKjKB6sFNa__2ignyB-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-3300" y="-4280" as="sourcePoint" />
-            <mxPoint x="-3160" y="-4220" as="targetPoint" />
+            <mxPoint x="-3000" y="-4260" as="sourcePoint" />
+            <mxPoint x="-2860" y="-4200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-9" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="DrOKjKB6sFNa__2ignyB-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-3300" y="-3650" as="sourcePoint" />
-            <mxPoint x="-3160" y="-4160" as="targetPoint" />
+            <mxPoint x="-3000" y="-3630" as="sourcePoint" />
+            <mxPoint x="-2860" y="-4140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-2820" y="-4280" as="sourcePoint" />
-            <mxPoint x="-2810" y="-3646" as="targetPoint" />
+            <mxPoint x="-2520" y="-4260" as="sourcePoint" />
+            <mxPoint x="-2510" y="-3626" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DrOKjKB6sFNa__2ignyB-12" target="DrOKjKB6sFNa__2ignyB-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-12" value="Employee Name&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3540" y="-4350" width="90" height="30" as="geometry" />
+          <mxGeometry x="-3240" y="-4330" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DrOKjKB6sFNa__2ignyB-14" target="DrOKjKB6sFNa__2ignyB-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-14" value="Company Name&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3420" y="-4350" width="90" height="30" as="geometry" />
+          <mxGeometry x="-3120" y="-4330" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DrOKjKB6sFNa__2ignyB-16" target="DrOKjKB6sFNa__2ignyB-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-16" value="Company Logo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3300" y="-4350" width="90" height="30" as="geometry" />
+          <mxGeometry x="-3000" y="-4330" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DrOKjKB6sFNa__2ignyB-18" target="DrOKjKB6sFNa__2ignyB-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-18" value="Notification Icon" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2665" y="-4360" width="90" height="30" as="geometry" />
+          <mxGeometry x="-2365" y="-4340" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="DrOKjKB6sFNa__2ignyB-20" target="DrOKjKB6sFNa__2ignyB-25">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-2455" y="-4505" />
+              <mxPoint x="-2155" y="-4485" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-20" value="Profile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2500" y="-4360" width="90" height="30" as="geometry" />
+          <mxGeometry x="-2200" y="-4340" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-21" value="Static Name Coming from HR &amp;amp; Company Structure Container. (Web and Mobile)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3720" y="-4490" width="120" height="60" as="geometry" />
+          <mxGeometry x="-3420" y="-4470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-22" value="Static Name Coming from Company Container. (Web and Mobile)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3540" y="-4520" width="120" height="60" as="geometry" />
+          <mxGeometry x="-3240" y="-4500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-23" value="Static Logo coming from Company Container (Web and Mobile)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3315" y="-4520" width="120" height="60" as="geometry" />
+          <mxGeometry x="-3015" y="-4500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-24" value="Bell Notification Logo. (Web and Mobile)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2680" y="-4520" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2380" y="-4500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-25" value="Profile Icon. Display user pic if available from Profile Container.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2260" y="-4520" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1960" y="-4500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-26" value="&lt;h1&gt;Details&lt;/h1&gt;&lt;div&gt;1) On Mobile only display pic. Don&#39;t make the button clickable.&lt;/div&gt;&lt;div&gt;2) On Web, on click. Expand to show Edit your Preferences. On Click, call to Profile Microservices flow.&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-2110" y="-4520" width="190" height="120" as="geometry" />
+          <mxGeometry x="-1810" y="-4500" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DrOKjKB6sFNa__2ignyB-28" target="DrOKjKB6sFNa__2ignyB-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-28" value="Raise a Travel Request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3520" y="-4250" width="190" height="30" as="geometry" />
+          <mxGeometry x="-3220" y="-4230" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DrOKjKB6sFNa__2ignyB-30" target="DrOKjKB6sFNa__2ignyB-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-30" value="Modify a Travel Request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3520" y="-4169" width="190" height="30" as="geometry" />
+          <mxGeometry x="-3220" y="-4149" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DrOKjKB6sFNa__2ignyB-32" target="DrOKjKB6sFNa__2ignyB-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-32" value="Raise an Cash Advance&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3520" y="-4077" width="190" height="30" as="geometry" />
+          <mxGeometry x="-3220" y="-4057" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DrOKjKB6sFNa__2ignyB-34" target="DrOKjKB6sFNa__2ignyB-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-34" value="Modify a Cash Advance&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3520" y="-3981" width="190" height="30" as="geometry" />
+          <mxGeometry x="-3220" y="-3961" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DrOKjKB6sFNa__2ignyB-36" target="DrOKjKB6sFNa__2ignyB-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-36" value="Book a Non Travel Expense&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3520" y="-3890" width="190" height="30" as="geometry" />
+          <mxGeometry x="-3220" y="-3870" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-37" value="&amp;nbsp;Control passed to Travel Microservices. (Web and Mobile). Go to create Travel Request Flow." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4120" y="-4265" width="280" height="60" as="geometry" />
+          <mxGeometry x="-3820" y="-4245" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-38" value="Control passed to Travel Microservices. (Web and Mobile). Go to create Modify Travel Request Flow." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4120" y="-4184" width="280" height="60" as="geometry" />
+          <mxGeometry x="-3820" y="-4164" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-39" value="Control passed to Cash Advance Microservices.. (Web and Mobile). Go to create Cash Advance Flow." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4120" y="-4092" width="280" height="60" as="geometry" />
+          <mxGeometry x="-3820" y="-4072" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-40" value="Control passed to Cash Advance Microservices.. (Web and Mobile). Go to Modify Cash Advance Flow." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4120" y="-3996" width="280" height="60" as="geometry" />
+          <mxGeometry x="-3820" y="-3976" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-41" value="Control passed to Expense Booking Microservice.. (Web and Mobile). Go to Book Non-Travel Expense Flow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4120" y="-3905" width="280" height="60" as="geometry" />
+          <mxGeometry x="-3820" y="-3885" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-42" value="Briefcase Icon - Trips In Transit (Label and Icon - Web and Mobile)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3280" y="-4270" width="420" height="60" as="geometry" />
+          <mxGeometry x="-2980" y="-4250" width="420" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.416;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DrOKjKB6sFNa__2ignyB-44" target="DrOKjKB6sFNa__2ignyB-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3260" y="-4170" width="390" height="350" as="geometry" />
+          <mxGeometry x="-2960" y="-4150" width="390" height="350" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-45" value="Trip Name&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3240" y="-4159" width="100" height="30" as="geometry" />
+          <mxGeometry x="-2940" y="-4139" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-46" value="Currently At" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3234" y="-4129" width="90" height="30" as="geometry" />
+          <mxGeometry x="-2934" y="-4109" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-47" value="Upcoming Itinerary" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3235" y="-4099" width="90" height="30" as="geometry" />
+          <mxGeometry x="-2935" y="-4079" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-48" value="Display all upcoming line items one below the other" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3180" y="-4061" width="250" height="30" as="geometry" />
+          <mxGeometry x="-2880" y="-4041" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-49" value="Total Cash Advance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3230" y="-4010" width="90" height="30" as="geometry" />
+          <mxGeometry x="-2930" y="-3990" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-50" value="Balance Remaining&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3230" y="-3970" width="90" height="30" as="geometry" />
+          <mxGeometry x="-2930" y="-3950" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DrOKjKB6sFNa__2ignyB-51" target="DrOKjKB6sFNa__2ignyB-55">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-3352.5" y="-3800" as="sourcePoint" />
-            <mxPoint x="-3177.5" y="-2990" as="targetPoint" />
+            <mxPoint x="-3052.5" y="-3780" as="sourcePoint" />
+            <mxPoint x="-2877.5" y="-2970" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-51" value="Raise a Priority Cash Advance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3245" y="-3895" width="95" height="40" as="geometry" />
+          <mxGeometry x="-2945" y="-3875" width="95" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="DrOKjKB6sFNa__2ignyB-53" target="DrOKjKB6sFNa__2ignyB-57">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-3302.5" y="-3790" as="sourcePoint" />
-            <mxPoint x="-3077.5" y="-2955" as="targetPoint" />
+            <mxPoint x="-3002.5" y="-3770" as="sourcePoint" />
+            <mxPoint x="-2777.5" y="-2935" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-53" value="Book an Expense" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3130" y="-3895" width="120" height="40" as="geometry" />
+          <mxGeometry x="-2830" y="-3875" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-54" value="Trip Card - Coming from Trip Microservice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3360" y="-3040" width="190" height="30" as="geometry" />
+          <mxGeometry x="-3060" y="-3020" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-55" value="Control passed to Cash Advance Microservice (Web and Mobile). Go to Raise Priority Cash Advance Flow." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3120" y="-3040" width="190" height="70" as="geometry" />
+          <mxGeometry x="-2820" y="-3020" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-57" value="Control passed to Book Expense Microservice (Web and Mobile). Go to Book a Travel Expense Flow." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2880" y="-3040" width="190" height="70" as="geometry" />
+          <mxGeometry x="-2580" y="-3020" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-58" value="Briefcase Icon - Upcoming Trips (Label and Icon - Web and Mobile)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2800" y="-4270" width="420" height="60" as="geometry" />
+          <mxGeometry x="-2500" y="-4250" width="420" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-59" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2770" y="-4170" width="390" height="350" as="geometry" />
+          <mxGeometry x="-2470" y="-4150" width="390" height="350" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-60" value="Trip Name&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-2740" y="-4159" width="100" height="30" as="geometry" />
+          <mxGeometry x="-2440" y="-4139" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-61" value="Starting In" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-2740" y="-4129" width="90" height="30" as="geometry" />
+          <mxGeometry x="-2440" y="-4109" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-62" value="First Day Of Travel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-2740" y="-4091" width="90" height="30" as="geometry" />
+          <mxGeometry x="-2440" y="-4071" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DrOKjKB6sFNa__2ignyB-64" target="DrOKjKB6sFNa__2ignyB-65">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-2940" y="-3140" />
-              <mxPoint x="-2545" y="-3140" />
+              <mxPoint x="-2640" y="-3120" />
+              <mxPoint x="-2245" y="-3120" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-64" value="Modify Trip" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3000" y="-3895" width="120" height="40" as="geometry" />
+          <mxGeometry x="-2700" y="-3875" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-65" value="Control passed to Trip Microservice (Web and Mobile). Go to Modify Trip Flow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2640" y="-3040" width="190" height="70" as="geometry" />
+          <mxGeometry x="-2340" y="-3020" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DrOKjKB6sFNa__2ignyB-67" target="DrOKjKB6sFNa__2ignyB-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-67" value="Modify an Expense Report" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3520" y="-3800" width="190" height="30" as="geometry" />
+          <mxGeometry x="-3220" y="-3780" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-68" value="Control passed to Expense Booking Microservice.. (Web and Mobile). Go to Modify Expense Flow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4120" y="-3815" width="280" height="60" as="geometry" />
+          <mxGeometry x="-3820" y="-3795" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-69" value="Book a Travel Expense" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3520" y="-3710" width="190" height="30" as="geometry" />
+          <mxGeometry x="-3220" y="-3690" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="DrOKjKB6sFNa__2ignyB-71">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-3520" y="-3695" as="sourcePoint" />
+            <mxPoint x="-3220" y="-3675" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-71" value="Control passed to Expense Booking Microservice.. (Web and Mobile). Go to Book a Travel Expense Flow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4120" y="-3725" width="280" height="60" as="geometry" />
+          <mxGeometry x="-3820" y="-3705" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DrOKjKB6sFNa__2ignyB-73" target="DrOKjKB6sFNa__2ignyB-76">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-2710" y="-3730" />
-              <mxPoint x="-2426" y="-3730" />
-              <mxPoint x="-2426" y="-3725" />
+              <mxPoint x="-2410" y="-3710" />
+              <mxPoint x="-2126" y="-3710" />
+              <mxPoint x="-2126" y="-3705" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-73" value="Raise a Cash Advance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2757.5" y="-3895" width="95" height="40" as="geometry" />
+          <mxGeometry x="-2457.5" y="-3875" width="95" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.629;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DrOKjKB6sFNa__2ignyB-75" target="DrOKjKB6sFNa__2ignyB-77">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-2530" y="-3596" />
+              <mxPoint x="-2230" y="-3576" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-75" value="Modify Trip" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2590" y="-3895" width="120" height="40" as="geometry" />
+          <mxGeometry x="-2290" y="-3875" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-76" value="Control passed to Cash Advance Microservice (Web and Mobile). Go to Raise Cash Advance Flow." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2190" y="-3760" width="190" height="70" as="geometry" />
+          <mxGeometry x="-1890" y="-3740" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-77" value="Control passed to Trip Microservice (Web and Mobile). Go to Modify Trip Flow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2190" y="-3640" width="190" height="70" as="geometry" />
+          <mxGeometry x="-1890" y="-3620" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-83" value="Approve Travel Requests" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3520" y="-3620" width="190" height="30" as="geometry" />
+          <mxGeometry x="-3220" y="-3600" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-84" value="Approve Cash Advances" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3520" y="-3530" width="190" height="30" as="geometry" />
+          <mxGeometry x="-3220" y="-3510" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DrOKjKB6sFNa__2ignyB-85" value="Approve Expenses" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-3520" y="-3440" width="190" height="30" as="geometry" />
+          <mxGeometry x="-3220" y="-3420" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FKLpm7pm03dgBy6fGOMd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="FKLpm7pm03dgBy6fGOMd-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-3520" y="-3605" as="sourcePoint" />
+            <mxPoint x="-3220" y="-3585" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FKLpm7pm03dgBy6fGOMd-2" value="Control passed to Approval Microservice.. (Web and Mobile). Go to Approve Travel Requests&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4120" y="-3635" width="280" height="60" as="geometry" />
+          <mxGeometry x="-3820" y="-3615" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FKLpm7pm03dgBy6fGOMd-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="FKLpm7pm03dgBy6fGOMd-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-3520" y="-3515" as="sourcePoint" />
+            <mxPoint x="-3220" y="-3495" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FKLpm7pm03dgBy6fGOMd-4" value="Control passed to Approval Microservice.. (Web and Mobile). Go to Approve Cash Advance&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4120" y="-3545" width="280" height="60" as="geometry" />
+          <mxGeometry x="-3820" y="-3525" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FKLpm7pm03dgBy6fGOMd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="FKLpm7pm03dgBy6fGOMd-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-3520" y="-3425" as="sourcePoint" />
+            <mxPoint x="-3220" y="-3405" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FKLpm7pm03dgBy6fGOMd-6" value="Control passed to Approval Microservice.. (Web and Mobile). Go to Approve Expenses" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-4120" y="-3455" width="280" height="60" as="geometry" />
+          <mxGeometry x="-3820" y="-3435" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-7" value="Will Include Employee Role + Additional Features&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-4130" y="-4120" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-174" value="&lt;h1&gt;Dashboard for Finance Role&amp;nbsp;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="-4570" width="830" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-175" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="-4360" width="1210" height="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-176" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.002;exitY=0.101;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.001;entryY=0.097;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FKLpm7pm03dgBy6fGOMd-175" target="FKLpm7pm03dgBy6fGOMd-175">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-210" y="-4220" as="sourcePoint" />
+            <mxPoint x="-510" y="-4250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-177" value="" style="endArrow=none;html=1;rounded=0;entryX=0.206;entryY=1.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="FKLpm7pm03dgBy6fGOMd-175">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-390" y="-4240" as="sourcePoint" />
+            <mxPoint x="-250" y="-4180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-178" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="FKLpm7pm03dgBy6fGOMd-175">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-390" y="-3610" as="sourcePoint" />
+            <mxPoint x="-250" y="-4120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-179" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="-4240" as="sourcePoint" />
+            <mxPoint x="100" y="-3606" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FKLpm7pm03dgBy6fGOMd-181" target="FKLpm7pm03dgBy6fGOMd-190">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-181" value="Employee Name&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="-4310" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FKLpm7pm03dgBy6fGOMd-183" target="FKLpm7pm03dgBy6fGOMd-191">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-183" value="Company Name&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="-4310" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FKLpm7pm03dgBy6fGOMd-185" target="FKLpm7pm03dgBy6fGOMd-192">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-185" value="Company Logo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="-4310" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="FKLpm7pm03dgBy6fGOMd-187" target="FKLpm7pm03dgBy6fGOMd-193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-187" value="Notification Icon" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="-4320" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="FKLpm7pm03dgBy6fGOMd-189" target="FKLpm7pm03dgBy6fGOMd-194">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="455" y="-4465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-189" value="Profile" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="-4320" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-190" value="Static Name Coming from HR &amp;amp; Company Structure Container. (Web and Mobile)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="-4450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-191" value="Static Name Coming from Company Container. (Web and Mobile)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="-4480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-192" value="Static Logo coming from Company Container (Web and Mobile)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-405" y="-4480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-193" value="Bell Notification Logo. (Web and Mobile)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-4480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-194" value="Profile Icon. Display user pic if available from Profile Container.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-4480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-195" value="&lt;h1&gt;Details&lt;/h1&gt;&lt;div&gt;1) On Mobile only display pic. Don&#39;t make the button clickable.&lt;/div&gt;&lt;div&gt;2) On Web, on click. Expand to show Edit your Preferences. On Click, call to Profile Microservices flow.&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="-4480" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FKLpm7pm03dgBy6fGOMd-197" target="FKLpm7pm03dgBy6fGOMd-206">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-197" value="Raise a Travel Request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="-4210" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FKLpm7pm03dgBy6fGOMd-199" target="FKLpm7pm03dgBy6fGOMd-207">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-199" value="Modify a Travel Request" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="-4129" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-200" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FKLpm7pm03dgBy6fGOMd-201" target="FKLpm7pm03dgBy6fGOMd-208">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-201" value="Raise an Cash Advance&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="-4037" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FKLpm7pm03dgBy6fGOMd-203" target="FKLpm7pm03dgBy6fGOMd-209">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-203" value="Modify a Cash Advance&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="-3941" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FKLpm7pm03dgBy6fGOMd-205" target="FKLpm7pm03dgBy6fGOMd-210">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-205" value="Book a Non Travel Expense&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="-3850" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-206" value="&amp;nbsp;Control passed to Travel Microservices. (Web and Mobile). Go to create Travel Request Flow." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="-4225" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-207" value="Control passed to Travel Microservices. (Web and Mobile). Go to create Modify Travel Request Flow." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="-4144" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-208" value="Control passed to Cash Advance Microservices.. (Web and Mobile). Go to create Cash Advance Flow." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="-4052" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-209" value="Control passed to Cash Advance Microservices.. (Web and Mobile). Go to Modify Cash Advance Flow." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="-3956" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-210" value="Control passed to Expense Booking Microservice.. (Web and Mobile). Go to Book Non-Travel Expense Flow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="-3865" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-211" value="Briefcase Icon - Trips In Transit (Label and Icon - Web and Mobile)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="-4230" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-212" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.416;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FKLpm7pm03dgBy6fGOMd-213" target="FKLpm7pm03dgBy6fGOMd-224">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-213" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="-4130" width="390" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-214" value="Trip Name&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="-4119" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-215" value="Currently At" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-324" y="-4089" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-216" value="Upcoming Itinerary" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-325" y="-4059" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-217" value="Display all upcoming line items one below the other" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="-4021" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-218" value="Total Cash Advance" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="-3970" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-219" value="Balance Remaining&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="-3930" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FKLpm7pm03dgBy6fGOMd-221" target="FKLpm7pm03dgBy6fGOMd-225">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-442.5" y="-3760" as="sourcePoint" />
+            <mxPoint x="-267.5" y="-2950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-221" value="Raise a Priority Cash Advance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-335" y="-3855" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FKLpm7pm03dgBy6fGOMd-223" target="FKLpm7pm03dgBy6fGOMd-226">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-392.5" y="-3750" as="sourcePoint" />
+            <mxPoint x="-167.5" y="-2915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-223" value="Book an Expense" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="-3855" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-224" value="Trip Card - Coming from Trip Microservice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="-3000" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-225" value="Control passed to Cash Advance Microservice (Web and Mobile). Go to Raise Priority Cash Advance Flow." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="-3000" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-226" value="Control passed to Book Expense Microservice (Web and Mobile). Go to Book a Travel Expense Flow." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-3000" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-227" value="Briefcase Icon - Upcoming Trips (Label and Icon - Web and Mobile)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-4230" width="420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-228" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-4130" width="390" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-229" value="Trip Name&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-4119" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-230" value="Starting In" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-4089" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-231" value="First Day Of Travel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-4051" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-232" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FKLpm7pm03dgBy6fGOMd-233" target="FKLpm7pm03dgBy6fGOMd-234">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-30" y="-3100" />
+              <mxPoint x="365" y="-3100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-233" value="Modify Trip" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="-3855" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-234" value="Control passed to Trip Microservice (Web and Mobile). Go to Modify Trip Flow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-3000" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-235" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FKLpm7pm03dgBy6fGOMd-236" target="FKLpm7pm03dgBy6fGOMd-237">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-236" value="Modify an Expense Report" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="-3760" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-237" value="Control passed to Expense Booking Microservice.. (Web and Mobile). Go to Modify Expense Flow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="-3775" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-238" value="Book a Travel Expense" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="-3670" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="FKLpm7pm03dgBy6fGOMd-240">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-610" y="-3655" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-240" value="Control passed to Expense Booking Microservice.. (Web and Mobile). Go to Book a Travel Expense Flow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="-3685" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-241" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FKLpm7pm03dgBy6fGOMd-242" target="FKLpm7pm03dgBy6fGOMd-245">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="-3690" />
+              <mxPoint x="484" y="-3690" />
+              <mxPoint x="484" y="-3685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-242" value="Raise a Cash Advance" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="152.5" y="-3855" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-243" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.629;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FKLpm7pm03dgBy6fGOMd-244" target="FKLpm7pm03dgBy6fGOMd-246">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="-3556" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-244" value="Modify Trip" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-3855" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-245" value="Control passed to Cash Advance Microservice (Web and Mobile). Go to Raise Cash Advance Flow." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-3720" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-246" value="Control passed to Trip Microservice (Web and Mobile). Go to Modify Trip Flow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="-3600" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-247" value="Approve Travel Requests" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="-3580" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-248" value="Approve Cash Advances" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="-3490" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-249" value="Approve Expenses" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="-3400" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-250" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="FKLpm7pm03dgBy6fGOMd-251">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-610" y="-3565" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-251" value="Control passed to Approval Microservice.. (Web and Mobile). Go to Approve Travel Requests&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="-3595" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-252" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="FKLpm7pm03dgBy6fGOMd-253">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-610" y="-3475" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-253" value="Control passed to Approval Microservice.. (Web and Mobile). Go to Approve Cash Advance&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="-3505" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-254" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="FKLpm7pm03dgBy6fGOMd-255">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-610" y="-3385" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-255" value="Control passed to Approval Microservice.. (Web and Mobile). Go to Approve Expenses" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="-3415" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FKLpm7pm03dgBy6fGOMd-256" value="Will Include Employee Role + Can Include Employee Manager Role + Additional Features&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-1520" y="-4100" width="230" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
