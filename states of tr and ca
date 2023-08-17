@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T11:36:34.568Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="H2sFAInPKqLjpui_nxjQ" version="21.6.8" type="github" pages="38">
+<mxfile host="app.diagrams.net" modified="2023-08-17T11:47:15.090Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="I0ro6GN3qjLxfAIhzK79" version="21.6.8" type="github" pages="38">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -16356,9 +16356,13 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1860" y="-4010" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="-1710" y="-4010" />
+              <mxPoint x="-1860" y="-3970" />
+              <mxPoint x="-1710" y="-3970" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Pp6-NL87JIbGmbRGJYeR-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3UDo0djI9QlZ0qO9OrrO-63" target="Pp6-NL87JIbGmbRGJYeR-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3UDo0djI9QlZ0qO9OrrO-63" value="Press Delete" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-1920" y="-4070.0000000000005" width="120" height="60" as="geometry" />
@@ -16411,14 +16415,58 @@
             <mxPoint x="-1691" y="-3713" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3UDo0djI9QlZ0qO9OrrO-81" value="Fetch if there is any non completed travel request in employees name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3UDo0djI9QlZ0qO9OrrO-81" value="Fetch if there is any non completed travel request in employees name return travel record available flag as Y else N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2130" y="-3765.0000000000005" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3UDo0djI9QlZ0qO9OrrO-82" value="Fetch if there is any non paid cash advance in employees name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3UDo0djI9QlZ0qO9OrrO-82" value="Fetch if there is any non paid cash advance in employees name return cash record available flag as Y else N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1970" y="-3760.0000000000005" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3UDo0djI9QlZ0qO9OrrO-83" value="Fetch if there is any non paid expenses in employees name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3UDo0djI9QlZ0qO9OrrO-83" value="Fetch if there is any non paid expenses in employees name return expense record available flag as Y else N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1820" y="-3760.0000000000005" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp6-NL87JIbGmbRGJYeR-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pp6-NL87JIbGmbRGJYeR-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1535" y="-3780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pp6-NL87JIbGmbRGJYeR-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pp6-NL87JIbGmbRGJYeR-3" target="Pp6-NL87JIbGmbRGJYeR-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp6-NL87JIbGmbRGJYeR-3" value="Is any Flag Y" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-1600" y="-3970" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp6-NL87JIbGmbRGJYeR-7" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1595" y="-3840" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp6-NL87JIbGmbRGJYeR-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pp6-NL87JIbGmbRGJYeR-8" target="Pp6-NL87JIbGmbRGJYeR-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp6-NL87JIbGmbRGJYeR-8" value="Onboarding Microservice&amp;nbsp;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-1590" y="-3780" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp6-NL87JIbGmbRGJYeR-9" value="HR &amp;amp; Company Structure Container&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-1590" y="-3640.0000000000005" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp6-NL87JIbGmbRGJYeR-11" value="Asynchronous Fire and Forget. Send data to be saved in HR &amp;amp; Company Structure Container&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1520" y="-3685" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp6-NL87JIbGmbRGJYeR-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pp6-NL87JIbGmbRGJYeR-12" target="Pp6-NL87JIbGmbRGJYeR-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp6-NL87JIbGmbRGJYeR-12" value="There are open records against this employee" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-1360" y="-3900.0000000000005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp6-NL87JIbGmbRGJYeR-14" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1470" y="-3950" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp6-NL87JIbGmbRGJYeR-15" value="Display Message" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1485" y="-3870" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp6-NL87JIbGmbRGJYeR-16" value="Records" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-1160" y="-3900.0000000000005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Pp6-NL87JIbGmbRGJYeR-17" value="Display" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1225" y="-3830" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
