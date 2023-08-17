@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T14:13:58.730Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="6xOZucpNwH3alXxu6-ed" version="21.6.8" type="github" pages="36">
+<mxfile host="app.diagrams.net" modified="2023-08-17T00:04:20.550Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="0rPTmvkyW-QGfju4N8tz" version="21.6.8" type="github" pages="36">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="1122" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -1861,6 +1861,9 @@
         <mxCell id="MITX6IXNQNtOwAt4PFcS-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MITX6IXNQNtOwAt4PFcS-12" target="MITX6IXNQNtOwAt4PFcS-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="otuFLFCtG8CBd5SB9teI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MITX6IXNQNtOwAt4PFcS-12" target="otuFLFCtG8CBd5SB9teI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MITX6IXNQNtOwAt4PFcS-12" value="Onboarding Finished Message" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="18450" y="1663.25" width="120" height="60" as="geometry" />
         </mxCell>
@@ -2183,6 +2186,9 @@
         </mxCell>
         <mxCell id="cSkNtpsCGTTAV4-uCk-J-33" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Send data to be saved in Cash Expense Options Container&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="18280" y="1284.75" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="otuFLFCtG8CBd5SB9teI-1" value="Send email to all employees of company" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="18450" y="1843.25" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
