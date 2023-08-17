@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T11:34:48.626Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="82e2o46lhXcKTb-_iZFX" version="21.6.8" type="github" pages="38">
+<mxfile host="app.diagrams.net" modified="2023-08-17T11:36:34.568Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="H2sFAInPKqLjpui_nxjQ" version="21.6.8" type="github" pages="38">
   <diagram name="Onboarding Microservice" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -16411,7 +16411,7 @@
             <mxPoint x="-1691" y="-3713" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3UDo0djI9QlZ0qO9OrrO-81" value="Fetch if there is any non closed travel request in employees name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3UDo0djI9QlZ0qO9OrrO-81" value="Fetch if there is any non completed travel request in employees name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2130" y="-3765.0000000000005" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3UDo0djI9QlZ0qO9OrrO-82" value="Fetch if there is any non paid cash advance in employees name" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
