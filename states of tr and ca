@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T06:31:42.432Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="e9Q2gd7qPUVhigPXDWDZ" version="21.6.8" type="github" pages="40">
+<mxfile host="app.diagrams.net" modified="2023-08-18T06:53:19.414Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="9_diYJOgM9atbi0lGGO4" version="21.6.8" type="github" pages="40">
   <diagram name="Onboarding Microservice v1" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -19498,7 +19498,7 @@
           <mxGeometry x="-2250" y="-2188.4300000000003" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-sUyZP7oEywKmvfgu4UV-6" value="Add/Delete/Change Employees Roles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3515" y="-2080.0000000000014" width="130" height="30" as="geometry" />
+          <mxGeometry x="-3510" y="-2081.0000000000014" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-sUyZP7oEywKmvfgu4UV-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-sUyZP7oEywKmvfgu4UV-9" target="-sUyZP7oEywKmvfgu4UV-11">
           <mxGeometry relative="1" as="geometry" />
@@ -19515,8 +19515,124 @@
         <mxCell id="-sUyZP7oEywKmvfgu4UV-12" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-3375" y="-2086.0000000000005" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-sUyZP7oEywKmvfgu4UV-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3615" y="-1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-sUyZP7oEywKmvfgu4UV-14" value="User Selection" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-3445" y="-1760" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-18" value="Add Employee Roles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3590" y="-1740.0000000000014" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-sUyZP7oEywKmvfgu4UV-20" target="-sUyZP7oEywKmvfgu4UV-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-sUyZP7oEywKmvfgu4UV-20" target="-sUyZP7oEywKmvfgu4UV-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-20" value="Is DIY flag set to Y?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3745" y="-1760" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-sUyZP7oEywKmvfgu4UV-21" target="-sUyZP7oEywKmvfgu4UV-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-21" value="Form&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3990" y="-1729.9999999999998" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-23" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3865" y="-1750.0000000000014" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-24" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3865" y="-1690.0000000000014" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-sUyZP7oEywKmvfgu4UV-25" target="-sUyZP7oEywKmvfgu4UV-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-25" value="1) Add Employee Role 2) Add Employee Manager Role 3) Add Finance Role 4) Add Business Travel/Admin Role 5) Add Super Admin Role" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4023.5" y="-1570" width="187" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-sUyZP7oEywKmvfgu4UV-27" target="-sUyZP7oEywKmvfgu4UV-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-27" value="Form&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3740" y="-1579.9999999999998" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-29" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3805" y="-1630.0000000000014" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-30" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3675" y="-1630.0000000000014" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-31" value="1) Add Finance Role 2) Add Business Travel/Admin Role 3) Add Super Admin Role" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3773.5" y="-1420" width="187" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-sUyZP7oEywKmvfgu4UV-33" target="-sUyZP7oEywKmvfgu4UV-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-33" value="User Selection" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4260" y="-1585" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-sUyZP7oEywKmvfgu4UV-35" target="-sUyZP7oEywKmvfgu4UV-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-35" value="&amp;nbsp;Form" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4470" y="-1554.9999999999998" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-37" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4365" y="-1510.0000000000014" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-38" value="Add Employee Role" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4365" y="-1585.0000000000014" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-sUyZP7oEywKmvfgu4UV-39" target="-sUyZP7oEywKmvfgu4UV-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-39" value="Searches employee name in search field&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4680" y="-1554.9999999999998" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-41" value="User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4790" y="-1510.0000000000014" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-sUyZP7oEywKmvfgu4UV-42" target="-sUyZP7oEywKmvfgu4UV-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-42" value="Selects Employee or Employees." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-4880" y="-1554.9999999999998" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-sUyZP7oEywKmvfgu4UV-44" target="-sUyZP7oEywKmvfgu4UV-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-44" value="Hits Save" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-5080" y="-1554.9999999999998" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-46" value="User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4580" y="-1510.0000000000014" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-47" value="User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4980" y="-1510.0000000000014" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-sUyZP7oEywKmvfgu4UV-48" target="-sUyZP7oEywKmvfgu4UV-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-48" value="Onboarding Microservice&amp;nbsp;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-5380" y="-1565" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-49" value="HR &amp;amp; Company Structure Container&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-5380" y="-1424.0000000000005" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-50" value="Asynchronous Fire and Forget. Send data to be saved in HR &amp;amp; Company Structure Container . Update role" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5542.5" y="-1454" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-53" value="Asynchronous Fire and Forget API call. Pass data." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5230" y="-1595.0000000000005" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-54" value="&lt;h1&gt;Same Flow for all other 4 options&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5085" y="-1354" width="405" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-55" value="&lt;h1&gt;Same Flow for 3 options as on the left&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3895" y="-1260" width="465" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
