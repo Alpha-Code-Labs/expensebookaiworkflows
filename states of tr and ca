@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T23:58:03.574Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="p1fTFOvrXbL54jJcoogy" version="21.6.8" type="github" pages="40">
+<mxfile host="app.diagrams.net" modified="2023-08-18T00:13:16.148Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="rsCaXZ9EmtfvT4777A4H" version="21.6.8" type="github" pages="40">
   <diagram name="Onboarding Microservice v1" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -18784,7 +18784,7 @@
           <mxGeometry x="-3240" y="-3263" width="360" height="190" as="geometry" />
         </mxCell>
         <mxCell id="tQM_cquutkKjoy7ZxTb7-35" value="User can select" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3380" y="-3200.000000000001" width="130" height="30" as="geometry" />
+          <mxGeometry x="-3380" y="-3217.960000000001" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="npPvjVguK0X6bFNaJ6sg-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="npPvjVguK0X6bFNaJ6sg-1" target="npPvjVguK0X6bFNaJ6sg-66">
           <mxGeometry relative="1" as="geometry" />
@@ -19084,6 +19084,122 @@
         </mxCell>
         <mxCell id="npPvjVguK0X6bFNaJ6sg-100" value="&lt;h1&gt;Same Flow for all 9 objects.&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2550" y="-2939.9999999999995" width="830" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-101" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#a20025;strokeColor=#6F0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-6060" y="-2800" as="sourcePoint" />
+            <mxPoint x="-138" y="-2800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-102" value="&lt;h1&gt;System Configuration Microservice - Configure Company Employee Information&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-6060" y="-2709.9999999999995" width="830" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="npPvjVguK0X6bFNaJ6sg-104" target="npPvjVguK0X6bFNaJ6sg-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-104" value="Super Admin Role" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-6020" y="-2238.98" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="npPvjVguK0X6bFNaJ6sg-106">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5680" y="-2208.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-106" value="&amp;nbsp;Dashboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-5890" y="-2238.98" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-107" value="User is on" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5980" y="-2238.98" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-108" value="Clicks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5760" y="-2238.98" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="npPvjVguK0X6bFNaJ6sg-110">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-5350" y="-2208.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-110" value="Configure Company Account&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-5680" y="-2238.98" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-111" value="Onboarding Microservices&amp;nbsp;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-5350" y="-2238.98" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-112" value="Pass Control To" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5520" y="-2260.0000000000005" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-113" value="Aynchronous Fire and Forget" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5520" y="-2187.9600000000005" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.475;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="npPvjVguK0X6bFNaJ6sg-115" target="npPvjVguK0X6bFNaJ6sg-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-115" value="Configure Company Employee Information" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-5070" y="-2230.51" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-116" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.475;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="npPvjVguK0X6bFNaJ6sg-115">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-5230" y="-2201.51" as="sourcePoint" />
+            <mxPoint x="-4570" y="-2327.45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-117" value="Clicks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-5190" y="-2248.4699999999993" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-118" value="Onboarding Microservices" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-4810" y="-2238.4700000000003" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-119" value="Pass Control To" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4940" y="-2239.49" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-120" value="Aynchronous Fire and Forget" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4940" y="-2179.4900000000007" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-121" value="HR &amp;amp; Company Structure Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-4820" y="-2510" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-122" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="npPvjVguK0X6bFNaJ6sg-121">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-4760" y="-2238.98" as="sourcePoint" />
+            <mxPoint x="-4850" y="-2268.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-123" value="Fetch DIY Flag&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4900" y="-2370.000000000001" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-124" value="Fetch full HR Data" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4900" y="-2330.000000000001" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.487;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="npPvjVguK0X6bFNaJ6sg-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4690" y="-2199.02" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-126" value="System Configuration Microservices" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="-4050" y="-2238.98" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-127" value="Pass all data to&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-4250" y="-2238.98" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="npPvjVguK0X6bFNaJ6sg-130">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3930" y="-2198.4700000000003" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="npPvjVguK0X6bFNaJ6sg-130" target="npPvjVguK0X6bFNaJ6sg-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-130" value="Form" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3810" y="-2228.4300000000003" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-131" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3970" y="-2188.430000000001" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-132" value="1) Add/Delete/Change Employees 2) Add/Delete/Change Employee Roles" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3560" y="-2293.4700000000003" width="360" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="npPvjVguK0X6bFNaJ6sg-133" value="User can select" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3700" y="-2248.430000000001" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
