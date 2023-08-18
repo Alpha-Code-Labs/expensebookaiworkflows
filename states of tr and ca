@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T05:44:33.168Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="FM9NJxizmBbEgycIedJi" version="21.6.8" type="github" pages="40">
+<mxfile host="app.diagrams.net" modified="2023-08-18T06:31:42.432Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="e9Q2gd7qPUVhigPXDWDZ" version="21.6.8" type="github" pages="40">
   <diagram name="Onboarding Microservice v1" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -19198,6 +19198,11 @@
         <mxCell id="npPvjVguK0X6bFNaJ6sg-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="npPvjVguK0X6bFNaJ6sg-132" target="npPvjVguK0X6bFNaJ6sg-135">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="npPvjVguK0X6bFNaJ6sg-132">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3380" y="-2031" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="npPvjVguK0X6bFNaJ6sg-132" value="1) Add/Delete/Change Employees 2) Add/Delete/Change Employee Roles" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-3560" y="-2293.4700000000003" width="360" height="190" as="geometry" />
         </mxCell>
@@ -19491,6 +19496,27 @@
         </mxCell>
         <mxCell id="-sUyZP7oEywKmvfgu4UV-3" value="Asynchronous Request/Response API call. Pass data." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-2250" y="-2188.4300000000003" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-6" value="Add/Delete/Change Employees Roles" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3515" y="-2080.0000000000014" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-sUyZP7oEywKmvfgu4UV-9" target="-sUyZP7oEywKmvfgu4UV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-9" value="Form&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3440" y="-2025.9999999999998" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-sUyZP7oEywKmvfgu4UV-11" target="-sUyZP7oEywKmvfgu4UV-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-11" value="1) Add Employees Roles 2) Delete Employees Roles 3) Change Employee Roles" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3473.5" y="-1906.0000000000002" width="187" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-12" value="Opens" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3375" y="-2086.0000000000005" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-sUyZP7oEywKmvfgu4UV-14" value="User Selection" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-3445" y="-1760" width="130" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
