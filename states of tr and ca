@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T07:57:42.626Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="0Lpxy5g1cdlIGJdq4rZF" version="21.6.8" type="github" pages="40">
+<mxfile host="app.diagrams.net" modified="2023-08-18T08:32:26.099Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="bIwgteLh0p8rGCpUgVkV" version="21.6.8" type="github" pages="40">
   <diagram name="Onboarding Microservice v1" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -8063,26 +8063,21 @@
         <mxCell id="DgkI71xOCu6wKdmxeLvg-2" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-3560" y="-4390" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yi1j0J02wkDS5IWA59zG-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Yi1j0J02wkDS5IWA59zG-1" target="Yi1j0J02wkDS5IWA59zG-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="u254Pz3wTCA9swJ8sEgk-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Yi1j0J02wkDS5IWA59zG-1" target="u254Pz3wTCA9swJ8sEgk-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-aNh6ySxuNbqHGPYekUf-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Yi1j0J02wkDS5IWA59zG-1" target="Yi1j0J02wkDS5IWA59zG-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-3070" y="-4480" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Yi1j0J02wkDS5IWA59zG-1" value="Are there any violations?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3140" y="-4320" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Yi1j0J02wkDS5IWA59zG-2" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-2980" y="-4230" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Yi1j0J02wkDS5IWA59zG-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Yi1j0J02wkDS5IWA59zG-3" target="Yi1j0J02wkDS5IWA59zG-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UnbDZLR6uBijIQC-9yQn-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Yi1j0J02wkDS5IWA59zG-3" target="UnbDZLR6uBijIQC-9yQn-1" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Yi1j0J02wkDS5IWA59zG-3" value="Is Approval Flow available Flag Y?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-2890" y="-4320" width="140" height="140" as="geometry" />
+          <mxGeometry x="-3070" y="-4420" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Yi1j0J02wkDS5IWA59zG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Yi1j0J02wkDS5IWA59zG-4" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -8092,35 +8087,11 @@
         <mxCell id="Yi1j0J02wkDS5IWA59zG-4" value="Travel Request Container&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="-2880" y="-4540" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Yi1j0J02wkDS5IWA59zG-5" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be Approved and Booked" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-2940" y="-4380" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Yi1j0J02wkDS5IWA59zG-8" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-2810" y="-4370" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="UnbDZLR6uBijIQC-9yQn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" parent="1" source="UnbDZLR6uBijIQC-9yQn-1" target="UnbDZLR6uBijIQC-9yQn-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UnbDZLR6uBijIQC-9yQn-1" value="Travel Request Container&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="-2640" y="-4310" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="UnbDZLR6uBijIQC-9yQn-2" value="Notification Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
-          <mxGeometry x="-2370" y="-4280" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="UnbDZLR6uBijIQC-9yQn-5" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-2740" y="-4290" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="UnbDZLR6uBijIQC-9yQn-6" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be changed back to Pending Approval" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-2760" y="-4200" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="UnbDZLR6uBijIQC-9yQn-9" value="Asynchronous Rabbit MQ Call for Notification to Approval" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-2490" y="-4220" width="100" height="30" as="geometry" />
+        <mxCell id="Yi1j0J02wkDS5IWA59zG-5" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be Approved and Booked along with violation messages" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-3200" y="-4440" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UnbDZLR6uBijIQC-9yQn-10" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-3640" y="-4140" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="u254Pz3wTCA9swJ8sEgk-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="u254Pz3wTCA9swJ8sEgk-1" target="u254Pz3wTCA9swJ8sEgk-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u254Pz3wTCA9swJ8sEgk-1" value="Travel Request Container&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="-3130" y="-4090" width="120" height="120" as="geometry" />
@@ -8128,20 +8099,8 @@
         <mxCell id="u254Pz3wTCA9swJ8sEgk-3" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-3170" y="-4155" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u254Pz3wTCA9swJ8sEgk-4" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be changed back to Draft" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="u254Pz3wTCA9swJ8sEgk-4" value="Send data to be saved in Travel Request Container. Fire and Forget. Status will be Approved and Booked along with violation messages" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-3050" y="-4155" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="u254Pz3wTCA9swJ8sEgk-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="u254Pz3wTCA9swJ8sEgk-6" target="u254Pz3wTCA9swJ8sEgk-10" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="u254Pz3wTCA9swJ8sEgk-6" value="Notification Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
-          <mxGeometry x="-3130" y="-3880" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="u254Pz3wTCA9swJ8sEgk-8" value="Asynchronous Rabbit MQ Call for Notification to Employee" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-3060" y="-3950" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="u254Pz3wTCA9swJ8sEgk-10" value="Go to Clearing Booking Exceptions Flow" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-3130" y="-3720" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="u254Pz3wTCA9swJ8sEgk-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="u254Pz3wTCA9swJ8sEgk-16" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -8163,6 +8122,9 @@
         <mxCell id="qKnm60vApaqkp8s8M80Y-2" value="Go to Create Trip Request Flow" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-2610" y="-4520" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="-aNh6ySxuNbqHGPYekUf-1" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3440" y="-4290" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -8171,7 +8133,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0XMV9IbvuMZgkfduPMn8-1" value="&lt;h1&gt;Clearing Booking Violations&amp;nbsp;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="0XMV9IbvuMZgkfduPMn8-1" value="&lt;h1&gt;Clearing Booking Violations (Not Required)&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-6940" y="-4660" width="830" height="70" as="geometry" />
         </mxCell>
         <mxCell id="qVvc2kQfjzPqf37SCTeH-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qVvc2kQfjzPqf37SCTeH-2" target="qVvc2kQfjzPqf37SCTeH-3" edge="1">
@@ -8303,7 +8265,7 @@
         <mxCell id="0vY6X3LfSG4LEYmQsr-H-6" value="User selects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-6730" y="-4180" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0vY6X3LfSG4LEYmQsr-H-7" value="Travel Request with violations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="0vY6X3LfSG4LEYmQsr-H-7" value="Travel Request with rejections and violations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="-6640" y="-4160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vb5NR727IZ4OO7gCkuTx-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vb5NR727IZ4OO7gCkuTx-3" target="vb5NR727IZ4OO7gCkuTx-5">
