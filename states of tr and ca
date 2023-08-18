@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T10:10:06.725Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="a6ZppauP8IApJwUWcwQ1" version="21.6.8" type="github" pages="40">
+<mxfile host="app.diagrams.net" modified="2023-08-18T10:25:33.080Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="UwBsGvE7wEppfoFkZQPX" version="21.6.8" type="github" pages="40">
   <diagram name="Onboarding Microservice v1" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2701,7 +2701,10 @@
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-160" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3L4tEdCpbzr3Ng0D3CLK-161" target="3L4tEdCpbzr3Ng0D3CLK-166">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3L4tEdCpbzr3Ng0D3CLK-161" value="Next" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="7D9vk9fWXIgGPHArWw4U-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3L4tEdCpbzr3Ng0D3CLK-161" target="7D9vk9fWXIgGPHArWw4U-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3L4tEdCpbzr3Ng0D3CLK-161" value="Next Or Skip" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="4014" y="-5785" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-162" value="Company Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
@@ -4540,6 +4543,18 @@
         </mxCell>
         <mxCell id="9st7e1ryamCekR4mY7P--6" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Fetch values for the entities selected&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="8487" y="-6430" width="114" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7D9vk9fWXIgGPHArWw4U-1" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Next&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4080" y="-5891.5" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7D9vk9fWXIgGPHArWw4U-2" value="Company Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="4034" y="-5609.5" width="80" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="7D9vk9fWXIgGPHArWw4U-4" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Send data to be saved in Company Container. Fire and Forget. Save only Company Name&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3950" y="-5691.75" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7D9vk9fWXIgGPHArWw4U-5" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Skip&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4074" y="-5685" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -20115,8 +20130,11 @@
         <mxCell id="RzCgPJRXalotBbcNX3NZ-20" value="Asynchronous Fire and Forget API Call. Send data to be saved in Company Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1000" y="-4595" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="RzCgPJRXalotBbcNX3NZ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RzCgPJRXalotBbcNX3NZ-21" target="RzCgPJRXalotBbcNX3NZ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RzCgPJRXalotBbcNX3NZ-21" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="-2120" y="-4161.02" width="80" height="80" as="geometry" />
+          <mxGeometry x="-2115" y="-3950.0000000000005" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="RzCgPJRXalotBbcNX3NZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RzCgPJRXalotBbcNX3NZ-22" target="RzCgPJRXalotBbcNX3NZ-9">
           <mxGeometry relative="1" as="geometry" />
@@ -20126,6 +20144,20 @@
         </mxCell>
         <mxCell id="RzCgPJRXalotBbcNX3NZ-25" value="User Clicks" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1490" y="-4450" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RzCgPJRXalotBbcNX3NZ-26" value="Is&amp;nbsp;Cash Expense data available flag&amp;nbsp;&amp;nbsp;Y?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-1930" y="-3970" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RzCgPJRXalotBbcNX3NZ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="RzCgPJRXalotBbcNX3NZ-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1865" y="-3970" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RzCgPJRXalotBbcNX3NZ-29" value="Display Form to enter values" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="-1925" y="-4135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RzCgPJRXalotBbcNX3NZ-30" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1910" y="-4035" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
