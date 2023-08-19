@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-19T01:27:14.001Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="cSUNAecX3dhQhK-Swan7" version="21.6.8" type="github" pages="40">
+<mxfile host="app.diagrams.net" modified="2023-08-19T01:33:20.012Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="FkLo5juPxu-pSAstXlh8" version="21.6.8" type="github" pages="40">
   <diagram name="Onboarding Microservice v1" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -4423,6 +4423,9 @@
         <mxCell id="ATftpESJrFmAT33TA_s6-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ATftpESJrFmAT33TA_s6-53" target="ATftpESJrFmAT33TA_s6-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ATftpESJrFmAT33TA_s6-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ATftpESJrFmAT33TA_s6-53" target="3L4tEdCpbzr3Ng0D3CLK-297">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ATftpESJrFmAT33TA_s6-53" value="Yes or No" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="8620" y="-6081" width="120" height="140" as="geometry" />
         </mxCell>
@@ -4460,7 +4463,7 @@
           <mxGeometry x="8730" y="-6390" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ATftpESJrFmAT33TA_s6-66" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Display Message&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="8740" y="-6315" width="70" height="30" as="geometry" />
+          <mxGeometry x="8740" y="-6337" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ATftpESJrFmAT33TA_s6-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ATftpESJrFmAT33TA_s6-67" target="3L4tEdCpbzr3Ng0D3CLK-297">
           <mxGeometry relative="1" as="geometry" />
@@ -4493,6 +4496,21 @@
             <mxPoint x="7900" y="-6480" as="sourcePoint" />
             <mxPoint x="7900" y="-6380" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ATftpESJrFmAT33TA_s6-75" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.692;exitY=0.136;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ATftpESJrFmAT33TA_s6-46" target="ATftpESJrFmAT33TA_s6-63">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="8460" y="-6120" as="sourcePoint" />
+            <mxPoint x="8510" y="-6170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ATftpESJrFmAT33TA_s6-76" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Display Message&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8450" y="-6195" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ATftpESJrFmAT33TA_s6-78" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8750" y="-6045" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ATftpESJrFmAT33TA_s6-79" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Skip&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8470" y="-6134" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
