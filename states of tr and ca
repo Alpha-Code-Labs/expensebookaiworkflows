@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-19T07:35:57.316Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="eofl0G1ziLkpDuxCOm8n" version="21.6.8" type="github" pages="41">
+<mxfile host="app.diagrams.net" modified="2023-08-19T08:22:55.929Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="hEeWEsujBerleauCQq64" version="21.6.8" type="github" pages="41">
   <diagram name="Onboarding Microservice v1" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -5633,7 +5633,7 @@
         <mxCell id="KJ6haI0UgKOXGZpSS-7B-229" value="System" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="8760" y="-4640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KJ6haI0UgKOXGZpSS-7B-232" value="Section 2 - Expense Categories" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-232" value="Section 2 - Allocation of Travel and Related Exoenses and Non Travel Expenses" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="10240" y="-6120" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KJ6haI0UgKOXGZpSS-7B-234" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJ6haI0UgKOXGZpSS-7B-233" target="KJ6haI0UgKOXGZpSS-7B-179">
