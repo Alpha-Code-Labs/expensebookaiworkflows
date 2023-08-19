@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-19T06:52:51.263Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="paN9Y-65WaBCDJjAsQJa" version="21.6.8" type="github" pages="41">
+<mxfile host="app.diagrams.net" modified="2023-08-19T07:12:01.418Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="3pwvTgXaH1GH3OMMaTwr" version="21.6.8" type="github" pages="41">
   <diagram name="Onboarding Microservice v1" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -5478,11 +5478,56 @@
         <mxCell id="KJ6haI0UgKOXGZpSS-7B-181" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Asynchronous Fire and Forget. send data to be saved in Expense Category Container&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="8690" y="-6060" width="90" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="KJ6haI0UgKOXGZpSS-7B-182" value="Would you like to upload your expense categories.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-187" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJ6haI0UgKOXGZpSS-7B-182" target="KJ6haI0UgKOXGZpSS-7B-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-182" value="Please upload your expense catgories" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="8760" y="-5565.87" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KJ6haI0UgKOXGZpSS-7B-184" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="8730" y="-5672" width="60" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-185" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;User Can&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8700" y="-5490" width="90" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-190" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJ6haI0UgKOXGZpSS-7B-186" target="KJ6haI0UgKOXGZpSS-7B-189">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-186" value="Download excel sheet" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="8760" y="-5440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-193" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJ6haI0UgKOXGZpSS-7B-189" target="KJ6haI0UgKOXGZpSS-7B-192">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-189" value="Excel Sheet Offline" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8760" y="-5320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-191" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;User Fills&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8700" y="-5368" width="90" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-196" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJ6haI0UgKOXGZpSS-7B-192" target="KJ6haI0UgKOXGZpSS-7B-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-192" value="Excel sheet to the system" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="8760" y="-5190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-194" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;User Uploads&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8710" y="-5230" width="90" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KJ6haI0UgKOXGZpSS-7B-195" target="KJ6haI0UgKOXGZpSS-7B-198">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-195" value="Click Skip or Save ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="8760" y="-5038" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-197" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;User Can&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8710" y="-5098" width="90" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-198" value="Excel sheet to the system" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="9030" y="-4998" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-200" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Skip&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8910" y="-5018" width="90" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
