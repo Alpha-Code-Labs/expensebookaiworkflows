@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-19T02:48:49.762Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="WKcna3Ohsa-rIs-38vu3" version="21.6.8" type="github" pages="41">
+<mxfile host="app.diagrams.net" modified="2023-08-19T03:42:08.320Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="TxfFZqGlEnuqLrKrc7fO" version="21.6.8" type="github" pages="41">
   <diagram name="Onboarding Microservice v1" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -4864,7 +4864,7 @@
         <mxCell id="ZNiJj_JIN6IGDWrBGprr-24" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Fetch full HR Master of the Company&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2579" y="-6060" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZNiJj_JIN6IGDWrBGprr-25" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Check if&amp;nbsp; DIY Flag is Yes. If blank Set it to No.&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ZNiJj_JIN6IGDWrBGprr-25" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Fetch value of DIY Flag&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2664" y="-6010" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6AHDSkg66PfjFDkAEg0A-1" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Fetch whatever available from Designation, Grade, Band , Job Role, Job Title,&amp;nbsp; Number of years of Service, Geographical location. Pass Data set. If dataset is blank set Grouping Available Flag to Yes else set to No&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -4891,25 +4891,14 @@
             <mxPoint x="2790" y="-6210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YRjkyh1iq-lmEV07k39m-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YRjkyh1iq-lmEV07k39m-6" target="YRjkyh1iq-lmEV07k39m-13">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="3239" y="-5963" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YRjkyh1iq-lmEV07k39m-6" value="&lt;p&gt;We detect that your Company data is already available&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="3040" y="-5993" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YRjkyh1iq-lmEV07k39m-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZNiJj_JIN6IGDWrBGprr-21" target="YRjkyh1iq-lmEV07k39m-6">
+        <mxCell id="YRjkyh1iq-lmEV07k39m-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZNiJj_JIN6IGDWrBGprr-21" target="YRjkyh1iq-lmEV07k39m-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2810" y="-5800" as="sourcePoint" />
-            <mxPoint x="2860" y="-5850" as="targetPoint" />
+            <mxPoint x="3040" y="-5963" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YRjkyh1iq-lmEV07k39m-9" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Prompt User&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2929" y="-6010" width="120" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="YRjkyh1iq-lmEV07k39m-12" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;User Clicks&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="3134" y="-6023" width="120" height="30" as="geometry" />
+          <mxGeometry x="3059" y="-5914" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YRjkyh1iq-lmEV07k39m-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YRjkyh1iq-lmEV07k39m-13" target="YRjkyh1iq-lmEV07k39m-17">
           <mxGeometry relative="1" as="geometry" />
@@ -4947,11 +4936,38 @@
         <mxCell id="KJ6haI0UgKOXGZpSS-7B-2" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Details Form&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3639" y="-5980" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KJ6haI0UgKOXGZpSS-7B-3" target="KJ6haI0UgKOXGZpSS-7B-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJ6haI0UgKOXGZpSS-7B-3" target="KJ6haI0UgKOXGZpSS-7B-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="KJ6haI0UgKOXGZpSS-7B-3" value="&lt;p&gt;Next&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="3840" y="-5772.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KJ6haI0UgKOXGZpSS-7B-5" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;User Clicks&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3739" y="-5801" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-6" value="Company Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="3860" y="-6043" width="80" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-8" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Asynchronous Fire and Forget. Send data to be saved in Company Container&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3790" y="-5914" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJ6haI0UgKOXGZpSS-7B-9" target="KJ6haI0UgKOXGZpSS-7B-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-9" value="Is DIY Flag set to Y or Blank?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4120" y="-5812" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-12" value="&lt;p&gt;We detect that your HR data is already integrated.&amp;nbsp;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="4120" y="-5990" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-14" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;No&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4050" y="-5914" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-15" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Prompt Message&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="4050" y="-5860" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
