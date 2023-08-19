@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-18T10:48:27.290Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="M1R26YTrEykBKsfHIODT" version="21.6.8" type="github" pages="40">
+<mxfile host="app.diagrams.net" modified="2023-08-19T00:42:08.594Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="nm-nkkfs508cqAf_1rhw" version="21.6.8" type="github" pages="40">
   <diagram name="Onboarding Microservice v1" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -2274,68 +2274,70 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-26" value="Customer&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="364" y="-5785" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="-5783" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3L4tEdCpbzr3Ng0D3CLK-28" target="3L4tEdCpbzr3Ng0D3CLK-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-28" value="Name of person onboarding the company details" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="564" y="-5785" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="-5783" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-29" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Sends&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="494" y="-5785" width="60" height="30" as="geometry" />
+          <mxGeometry x="270" y="-5783" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3L4tEdCpbzr3Ng0D3CLK-32">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="824" y="-5945" as="targetPoint" />
+            <mxPoint x="600" y="-5943" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3L4tEdCpbzr3Ng0D3CLK-32" target="3L4tEdCpbzr3Ng0D3CLK-39">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="964" y="-5755" as="targetPoint" />
+            <mxPoint x="740" y="-5753" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-32" value="Has company &lt;br&gt;HR data been onboarded?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="764" y="-5825" width="120" height="140" as="geometry" />
+          <mxGeometry x="540" y="-5823" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3L4tEdCpbzr3Ng0D3CLK-34" target="3L4tEdCpbzr3Ng0D3CLK-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-34" value="HR &amp;amp; Company structure Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="784" y="-6045" width="80" height="96" as="geometry" />
+          <mxGeometry x="560" y="-6043" width="80" height="96" as="geometry" />
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-35" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;No&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="774" y="-5905" width="60" height="30" as="geometry" />
+          <mxGeometry x="550" y="-5903" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-36" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Save employee manually in container and assign role of SuperAdmin&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="824" y="-5905" width="150" height="30" as="geometry" />
+          <mxGeometry x="600" y="-5903" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-37" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="884" y="-5795" width="60" height="30" as="geometry" />
+          <mxGeometry x="660" y="-5793" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3L4tEdCpbzr3Ng0D3CLK-39" target="3L4tEdCpbzr3Ng0D3CLK-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-39" value="HR &amp;amp; Company structure Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1044" y="-5803" width="80" height="96" as="geometry" />
+          <mxGeometry x="820" y="-5801" width="80" height="96" as="geometry" />
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-40" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Identify the person in the Container and give him role of Super Admin&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="894" y="-5737" width="120" height="30" as="geometry" />
+          <mxGeometry x="670" y="-5735" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3L4tEdCpbzr3Ng0D3CLK-42" target="3L4tEdCpbzr3Ng0D3CLK-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-42" value="Pass user the Onboarding microservice URL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1244" y="-5778" width="120" height="60" as="geometry" />
+          <mxGeometry x="1020" y="-5776" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3L4tEdCpbzr3Ng0D3CLK-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3L4tEdCpbzr3Ng0D3CLK-44" target="3L4tEdCpbzr3Ng0D3CLK-48">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="3L4tEdCpbzr3Ng0D3CLK-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3L4tEdCpbzr3Ng0D3CLK-44" target="3L4tEdCpbzr3Ng0D3CLK-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1590" y="-5748" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-44" value="Link" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1444" y="-5778" width="120" height="60" as="geometry" />
+          <mxGeometry x="1220" y="-5776" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-45" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;User clicks on&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1374" y="-5785" width="60" height="30" as="geometry" />
+          <mxGeometry x="1150" y="-5783" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3L4tEdCpbzr3Ng0D3CLK-48" target="3L4tEdCpbzr3Ng0D3CLK-51">
           <mxGeometry relative="1" as="geometry" />
@@ -2347,7 +2349,7 @@
           <mxGeometry x="1644" y="-5788" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-49" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Control Passed To&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1574" y="-5785" width="60" height="30" as="geometry" />
+          <mxGeometry x="1574" y="-5801" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3L4tEdCpbzr3Ng0D3CLK-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3L4tEdCpbzr3Ng0D3CLK-51" target="3L4tEdCpbzr3Ng0D3CLK-115">
           <mxGeometry relative="1" as="geometry" />
@@ -4585,6 +4587,43 @@
         </mxCell>
         <mxCell id="7D9vk9fWXIgGPHArWw4U-15" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Send data to be saved in Cash Advance Options Container with pre defined values&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="18697" y="-5878" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ATftpESJrFmAT33TA_s6-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ATftpESJrFmAT33TA_s6-1" target="ATftpESJrFmAT33TA_s6-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ATftpESJrFmAT33TA_s6-1" value="Customer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-5599" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ATftpESJrFmAT33TA_s6-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.559;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ATftpESJrFmAT33TA_s6-2" target="ATftpESJrFmAT33TA_s6-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="-5569" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ATftpESJrFmAT33TA_s6-2" value="Try For Free" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-5599" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ATftpESJrFmAT33TA_s6-4" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Clicks on&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-5609.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ATftpESJrFmAT33TA_s6-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="3L4tEdCpbzr3Ng0D3CLK-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="-5569" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ATftpESJrFmAT33TA_s6-7" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Control Passed to&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="474" y="-5611.75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ATftpESJrFmAT33TA_s6-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ATftpESJrFmAT33TA_s6-9" target="ATftpESJrFmAT33TA_s6-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ATftpESJrFmAT33TA_s6-9" value="Login/Logout/SSO Microservice" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="594" y="-5613.75" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ATftpESJrFmAT33TA_s6-10" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Synchronous Request/Response API Call&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-5543.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ATftpESJrFmAT33TA_s6-11" value="Go to Login/Logout/SSO Flow" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="594" y="-5434" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
