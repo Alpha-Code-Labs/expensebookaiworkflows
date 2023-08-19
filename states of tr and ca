@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-19T07:12:01.418Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="3pwvTgXaH1GH3OMMaTwr" version="21.6.8" type="github" pages="41">
+<mxfile host="app.diagrams.net" modified="2023-08-19T07:25:23.300Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="8DMeJagYk_5Vk90VF706" version="21.6.8" type="github" pages="41">
   <diagram name="Onboarding Microservice v1" id="rFkXG90PlkhB10zQ6A_P">
     <mxGraphModel dx="954" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -5052,7 +5052,7 @@
             <mxPoint x="4455" y="-4800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KJ6haI0UgKOXGZpSS-7B-38" value="Skip or Save&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-38" value="Click Skip or Save?Enable save button only when excel sheet has been uploaded" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="4395" y="-4990" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="KJ6haI0UgKOXGZpSS-7B-40" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;User Clicks&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -5436,7 +5436,7 @@
         <mxCell id="KJ6haI0UgKOXGZpSS-7B-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KJ6haI0UgKOXGZpSS-7B-163" target="KJ6haI0UgKOXGZpSS-7B-168">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KJ6haI0UgKOXGZpSS-7B-163" value="Has user uploaded excel sheet and it has values?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-163" value="Does excel sheet have values?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4395" y="-4804" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="KJ6haI0UgKOXGZpSS-7B-165" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -5475,7 +5475,7 @@
         <mxCell id="KJ6haI0UgKOXGZpSS-7B-179" value="Expense Category Container" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="8780" y="-6190" width="80" height="96" as="geometry" />
         </mxCell>
-        <mxCell id="KJ6haI0UgKOXGZpSS-7B-181" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Asynchronous Fire and Forget. send data to be saved in Expense Category Container&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-181" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Asynchronous Fire and Forget. send data to be saved in Expense Category Container. Save default expense categories&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="8690" y="-6060" width="90" height="28" as="geometry" />
         </mxCell>
         <mxCell id="KJ6haI0UgKOXGZpSS-7B-187" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJ6haI0UgKOXGZpSS-7B-182" target="KJ6haI0UgKOXGZpSS-7B-186">
@@ -5514,20 +5514,102 @@
         <mxCell id="KJ6haI0UgKOXGZpSS-7B-194" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;User Uploads&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="8710" y="-5230" width="90" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="KJ6haI0UgKOXGZpSS-7B-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KJ6haI0UgKOXGZpSS-7B-195" target="KJ6haI0UgKOXGZpSS-7B-198">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KJ6haI0UgKOXGZpSS-7B-195">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="9030" y="-4968" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="KJ6haI0UgKOXGZpSS-7B-195" value="Click Skip or Save ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-206" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJ6haI0UgKOXGZpSS-7B-195">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="8820" y="-4840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-195" value="Click Skip or Save?Enable save button only when excel sheet has been uploaded" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="8760" y="-5038" width="120" height="140" as="geometry" />
         </mxCell>
         <mxCell id="KJ6haI0UgKOXGZpSS-7B-197" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;User Can&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="8710" y="-5098" width="90" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="KJ6haI0UgKOXGZpSS-7B-198" value="Excel sheet to the system" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="9030" y="-4998" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="KJ6haI0UgKOXGZpSS-7B-200" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Skip&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="8910" y="-5018" width="90" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-201" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9020" y="-4970" as="sourcePoint" />
+            <mxPoint x="9010" y="-5960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-202" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="KJ6haI0UgKOXGZpSS-7B-175">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="9010" y="-5950" as="sourcePoint" />
+            <mxPoint x="8780" y="-5710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-203" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.855;exitY=1;exitDx=0;exitDy=-4.35;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KJ6haI0UgKOXGZpSS-7B-179" target="KJ6haI0UgKOXGZpSS-7B-175">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="8730" y="-5910" as="sourcePoint" />
+            <mxPoint x="8780" y="-5960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-204" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Return back User Expense Categories Available Flag as N&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8890" y="-6059" width="90" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-207" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Save&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8830" y="-4890" width="90" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-210" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJ6haI0UgKOXGZpSS-7B-208" target="KJ6haI0UgKOXGZpSS-7B-209">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-208" value="Does excel sheet have values?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="8760" y="-4842" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-214" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KJ6haI0UgKOXGZpSS-7B-209" target="KJ6haI0UgKOXGZpSS-7B-213">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-209" value="The excel sheet does not have any values" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="8970" y="-4802" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-211" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;No&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8870" y="-4814" width="90" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-212" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Prompt Message&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="8870" y="-4744" width="90" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KJ6haI0UgKOXGZpSS-7B-213" target="KJ6haI0UgKOXGZpSS-7B-216">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-213" value="Would you like to try again or Skip" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="9200" y="-4802" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-215" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Ask User&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="9100" y="-4827" width="90" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KJ6haI0UgKOXGZpSS-7B-216" target="KJ6haI0UgKOXGZpSS-7B-182">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="9480" y="-5536" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.008;entryY=0.421;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KJ6haI0UgKOXGZpSS-7B-216" target="KJ6haI0UgKOXGZpSS-7B-175">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="9600" y="-4772" />
+              <mxPoint x="9600" y="-5958" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-216" value="Try Again or Skip?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="9420" y="-4842" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-219" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;User Selection&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="9340" y="-4820" width="90" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-221" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Try Again&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="9380" y="-4950" width="90" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="KJ6haI0UgKOXGZpSS-7B-223" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Skip&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="9520" y="-4820" width="90" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
