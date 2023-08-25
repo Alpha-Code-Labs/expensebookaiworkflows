@@ -1,0 +1,46 @@
+Profile Microservcie
+
+1.Your Info  (Button)-  Name, Address, Phone No, Email Id 
+2.Travel settings  (Button)
+	-Travel preferences  
+		-Hotel 
+			-Hotel rating
+			-Food Preference
+			
+		-Flight 
+			
+			-Seat preference 
+			-Traveller cabin
+			-Food preference 
+		-Cabs
+			-Car Type 
+			-Wifi 
+			-A/c or Non A/c
+
+
+	-Travel contact number
+		-Travel contactnumber
+		
+3.Other  Settings
+	1. Change password
+	2.System settings:  Time zone, Work shift
+	3. T & E support(FAQs)
+4.  Delegate to manage T&E (Button)
+	-Add Delegate to manage T&E  (Button)
+		-Search & Select Employee flag Y(give access to create and submit expense behalf of you)
+	-Edit/Remove Delegate (Button)
+		-Edit (Button)
+			-Search & Select Employee flag Y(give access to create and submit expense behalf of you)
+		-Remove (Button)
+			
+This button is only for manager
+
+5.Travel vacation Reassessment : (Button)
+
+		-Enter Travel Period Date
+		-Search & Select Employee/Manager flag (Make him  Temporary approval manager tag Y)
+		-For assign one or more Temporary  Approval Manager click on Add TAM 
+	-Edit (Button)
+        -Remove  (Button)
+		
+
